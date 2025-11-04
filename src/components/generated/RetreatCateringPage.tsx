@@ -16,74 +16,74 @@ export default function RetreatCateringPage({
     icon: Users,
     title: "I Understand What Retreats Need",
     description: "I've catered retreats and worked as a professional chef. I know that your menu needs to nourish without being heavy, inspire without being complicated, and feel special without being fussy. I understand the rhythm of a retreat day and how food fits into that rhythm.",
-    mpid: "ccc7b734-948e-4421-a614-b3f36a04d3df"
+    mpid: "f579c504-de25-4fbf-8c24-b5ffb45fe52f"
   }, {
     icon: Leaf,
     title: "Wholesome Ingredients, Thoughtful Sourcing",
     description: "I don't use processed shortcuts or cheap substitutes. Every ingredient is chosen with care. Plant-based doesn't mean fake; it means real, whole foods prepared beautifully.",
-    mpid: "471f7b57-8491-4602-8455-aee0ebf4967a"
+    mpid: "26dbd435-d8da-48dd-8264-16649aab7274"
   }, {
     icon: Heart,
     title: "Fully Customizable",
     description: "Your retreat is unique. Your menu should be too. We work together to understand your guests, your values, your vision—and then I create something that feels authentic to your event.",
-    mpid: "c265dc5b-09d0-4ad0-a6f3-19ac661b7d73"
+    mpid: "87bb1fac-ad39-4a00-b529-84bc55f8eb2a"
   }, {
     icon: CheckCircle2,
     title: "Inclusive by Design",
     description: "Plant-based and gluten-free, always. But beyond that, I work with any additional dietary needs—nut allergies, soy sensitivities, raw food preferences. Everyone at your retreat deserves to feel included and cared for.",
-    mpid: "9c5f170f-9ac8-4b79-b68d-1eec5bcf57d4"
+    mpid: "e7d95357-b383-45d7-a350-90194bb2c970"
   }, {
     icon: MapPin,
     title: "Flexible Logistics",
     description: "Whether your retreat is in Cork, Dublin, Galway, or across the UK, we work together on logistics. I'm committed to making this work for your location and timeline.",
-    mpid: "2bfb4602-adcf-40b6-b0c8-ee6725c0dd9c"
+    mpid: "c7a93c66-10f6-4947-8fd6-0473b6e64f83"
   }] as any[];
   const whatICater = [{
     title: "Multi-Day Wellness Retreats",
     description: "Full catering: breakfast, lunch, dinner, snacks, and beverages. Designed to nourish and sustain over the course of your retreat.",
-    mpid: "64257080-04c1-4873-81db-9afc76a43dc8"
+    mpid: "df7c428a-66e6-4ded-afc1-f75a0dd67854"
   }, {
     title: "Yoga Retreats",
     description: "Light, energizing meals that support your practice and align with your retreat's energy.",
-    mpid: "e57fc905-33d3-4c15-aa37-c5e91be369ee"
+    mpid: "3a6dd0fd-941a-434f-8db5-2a8410444994"
   }, {
     title: "Creative Retreats",
     description: "Nourishing food designed to fuel creativity and inspiration without weighing you down.",
-    mpid: "6744ab9d-660a-4b1c-b014-aa22c7b49490"
+    mpid: "71f227a9-219e-4374-83f5-6a66b0fa68fc"
   }, {
     title: "Corporate Wellness Events",
     description: "Day events, half-day workshops, or evening gatherings where plant-based food becomes part of your wellness message.",
-    mpid: "c0b1a535-a389-430f-9edf-cad8abc8b263"
+    mpid: "181c5121-8e98-4cc5-a90b-ec4031d5aab9"
   }, {
     title: "Special Occasion Celebrations",
     description: "Birthdays, anniversaries, ceremonies—with food that feels meaningful and memorable.",
-    mpid: "87cb8a69-e491-40d5-901c-b81db99f7a84"
+    mpid: "d28e9d6d-5bca-42a9-8f6f-7c8b8eb6d87e"
   }] as any[];
   const howItWorks = [{
     step: "1",
     title: "Let's Talk",
     description: "Reach out with your dates, location, guest count, and vision. We schedule a call to discuss your retreat and what you're hoping to create.",
-    mpid: "f4676b7f-2e6d-49be-b4bf-f582c759fa97"
+    mpid: "ed6504e3-cc81-469a-b660-b91b08b23afc"
   }, {
     step: "2",
     title: "Understand & Explore",
     description: "I ask questions about your guests, your retreat's focus, any dietary preferences, and your values. This is where I really get to know your vision.",
-    mpid: "efb6d6fe-37fa-4fe9-8449-5fc0994500de"
+    mpid: "a7c536fb-7da0-4f97-b27a-d4d0a1844357"
   }, {
     step: "3",
     title: "Design the Menu",
     description: "Based on our conversation, I create 2-3 menu options for you to review. We refine together until it feels perfect.",
-    mpid: "44abbb28-579c-4209-b1a0-fd78ee0da97a"
+    mpid: "13b16777-0a52-4e7e-9fdb-46abe3707b15"
   }, {
     step: "4",
     title: "Confirm & Prepare",
     description: "Once we've finalized the menu and logistics, I prepare a detailed proposal. We confirm timing, delivery details, and any special setup needs.",
-    mpid: "d01f2962-5a0f-4739-b171-d5a8f0fc12ef"
+    mpid: "12b1d157-cff3-4941-b640-4b570b5f1acc"
   }, {
     step: "5",
     title: "Nourish & Delight",
     description: "I handle all the cooking. Your job is to focus on your guests. I'll ensure food is prepared, delivered, and served beautifully.",
-    mpid: "3e898eb4-bbc4-43aa-9ff0-b12d43d7ce0f"
+    mpid: "0a0d8903-0da2-4782-886f-6ce604973e87"
   }] as any[];
   const sampleMenu = {
     day1: {
@@ -108,47 +108,47 @@ export default function RetreatCateringPage({
   const faqs = [{
     question: "How far in advance should I book?",
     answer: "I recommend 4-6 weeks before your retreat. This gives us time to collaborate on your menu and for me to prepare properly. Shorter timelines sometimes work—reach out and we'll see what's possible.",
-    mpid: "f2846d5c-b94c-4e57-999b-7cf242bc3fc7"
+    mpid: "2f74a3d9-93cb-424e-b7ee-96a44b9724ea"
   }, {
     question: "What's included in catering?",
     answer: "Food preparation and delivery. For some retreats, I can also provide serving, setup, and cleanup. Let's discuss what works best for your needs.",
-    mpid: "cc8acff8-367e-483f-8502-ab5751593190"
+    mpid: "ad454390-4494-44bf-9ca4-77e99243ded1"
   }, {
     question: "Can you cater large groups?",
     answer: "Yes! I've catered groups of 20+ people. Group size doesn't change my commitment to quality and care—it just means thoughtful planning.",
-    mpid: "8fd7bc3f-b5a4-4317-ad86-abab0c9c5ab9"
+    mpid: "82f15664-d47a-41c0-8f1d-c62dd8fdb09a"
   }, {
     question: "What if someone has a serious allergy?",
     answer: "Allergies are taken very seriously. I work with you to understand every guest's needs and prepare safely. Communication is key—the more details you share, the better I can serve.",
-    mpid: "b9a32f26-7c88-4172-af1f-f1f03d75ae3b"
+    mpid: "30086eb2-3585-4f62-8f15-56451aa357b2"
   }, {
     question: "Do you offer tasting sessions?",
     answer: "For larger events, I can often arrange a tasting. Let's discuss what works for your situation.",
-    mpid: "2748312c-a4d1-49c4-8249-b6e96705cf91"
+    mpid: "a278d06e-f493-4b8e-b61d-b591ce742635"
   }, {
     question: "What's your cancellation policy?",
     answer: "I'm flexible and fair. Let's talk about your specific situation if plans change.",
-    mpid: "86e0efb5-0c70-4026-b56c-530b65a0dfc4"
+    mpid: "0c2131e3-def1-4675-8704-6f2da2d42a10"
   }, {
     question: "Do you provide equipment like tables, chairs, or linens?",
     answer: "Food only—I don't provide equipment rentals. But I can recommend trusted vendors in your area if you need them.",
-    mpid: "250440b8-e367-41c6-978b-f18f1112cb4c"
+    mpid: "4bdefbf3-a2b2-4040-834a-8e38607ea7d9"
   }, {
     question: "What if weather affects my outdoor retreat?",
     answer: "I'm prepared for this. We'll plan logistics together so that weather doesn't compromise your event.",
-    mpid: "f03d7bab-906a-42ae-aa1b-1fa1fb1a6001"
+    mpid: "07d91282-9ced-436f-a9f4-873a23cba7e9"
   }] as any[];
   const toggleFaq = (index: number) => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
-  return <SortableContainer dndKitId="832c00f6-05f2-4f4c-b895-40a1f771e705" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8]" data-magicpath-id="0" data-magicpath-path="RetreatCateringPage.tsx">
+  return <SortableContainer dndKitId="fce39291-1ace-470f-bfe9-f99904e67628" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8]" data-magicpath-id="0" data-magicpath-path="RetreatCateringPage.tsx">
       {/* Hero Section */}
-      <SortableContainer dndKitId="bdc68b0a-239d-4ec6-ab69-e4e49939ed20" containerType="regular" prevTag="section" className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden" data-magicpath-id="1" data-magicpath-path="RetreatCateringPage.tsx">
+      <SortableContainer dndKitId="7ef8ecfb-0ffb-458b-a5d0-8b431d3cdf47" containerType="regular" prevTag="section" className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden" data-magicpath-id="1" data-magicpath-path="RetreatCateringPage.tsx">
         <div className="absolute inset-0 bg-cover bg-center" style={{
         backgroundImage: 'url(https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=80)',
         filter: 'brightness(0.6)'
       }} data-magicpath-id="2" data-magicpath-path="RetreatCateringPage.tsx" />
-        <SortableContainer dndKitId="6da97ec7-b4e8-4d6a-9304-3d274748da0f" containerType="regular" prevTag="div" className="relative z-10 text-center text-white px-4 sm:px-6 max-w-5xl" data-magicpath-id="3" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="72b7a5cc-e465-45fc-b580-ce9e1c383bd6" containerType="regular" prevTag="div" className="relative z-10 text-center text-white px-4 sm:px-6 max-w-5xl" data-magicpath-id="3" data-magicpath-path="RetreatCateringPage.tsx">
           <motion.h1 data-magicpath-motion-tag="motion.h1" initial={{
           opacity: 0,
           y: 30
@@ -188,9 +188,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* Introduction */}
-      <SortableContainer dndKitId="58894a77-9585-4a4a-859d-74268dc64d9a" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="7" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="a3564d7b-454d-4d3b-b562-9a7119058c96" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="8" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="02ef4036-825f-472c-b13d-de74403ae7e1" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="65f2fcdb-3a8f-41f3-99ce-74f557d011cb" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="7" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="b7742d28-0d6b-4d41-9484-f554836d45e2" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="8" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="f1bc6a5b-61ec-4542-91b8-a68ad42c0241" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -215,9 +215,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* Previous Retreats Images */}
-      <SortableContainer dndKitId="93bc325a-0f11-48a5-a851-a303b711e29a" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="13" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="5c4cfb52-fe82-4fa8-9273-a7c081ff0792" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="14" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="54aadbb2-f3ea-4be4-97bf-6167f4b1015c" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="ed9aa55d-3831-4d3e-aff3-14d4fe90bb58" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="13" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="97acec44-4436-468a-884a-b5307b4b980d" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="14" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="f464133b-55a2-490a-8945-9382eedb9d05" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -236,8 +236,8 @@ export default function RetreatCateringPage({
             </p>
           </SortableContainer>
 
-          <SortableContainer dndKitId="03acbb99-3af8-4945-bb80-79b6ef2f2370" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8" data-magicpath-id="18" data-magicpath-path="RetreatCateringPage.tsx">
-            <SortableContainer dndKitId="3e3f00ba-9f53-47c7-a2b3-3ae8c3c720ec" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="0db52802-fb1a-4a03-97ab-8d9fdfd53a9a" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8" data-magicpath-id="18" data-magicpath-path="RetreatCateringPage.tsx">
+            <SortableContainer dndKitId="e33f0c43-e8f1-47f3-9f18-932479876195" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             scale: 0.95
           }} whileInView={{
@@ -249,13 +249,13 @@ export default function RetreatCateringPage({
             duration: 0.6
           }} className="relative overflow-hidden rounded-lg shadow-lg group" data-magicpath-id="19" data-magicpath-path="RetreatCateringPage.tsx">
               <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80" alt="Wellness retreat group dining" className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" data-magicpath-id="20" data-magicpath-path="RetreatCateringPage.tsx" />
-              <SortableContainer dndKitId="8cb74273-c9f7-43a6-8a6f-3a2a2f9924db" containerType="regular" prevTag="div" className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6" data-magicpath-id="21" data-magicpath-path="RetreatCateringPage.tsx">
+              <SortableContainer dndKitId="dec65893-d3d2-43f4-80be-b76925567d51" containerType="regular" prevTag="div" className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6" data-magicpath-id="21" data-magicpath-path="RetreatCateringPage.tsx">
                 <p className="text-white text-lg font-semibold" data-magicpath-id="22" data-magicpath-path="RetreatCateringPage.tsx">Wicklow Wellness Retreat 2024</p>
                 <p className="text-white/80 text-sm" data-magicpath-id="23" data-magicpath-path="RetreatCateringPage.tsx">3-day transformational experience</p>
               </SortableContainer>
             </SortableContainer>
 
-            <SortableContainer dndKitId="e759c834-c397-46c9-ac9b-1def23dc3d66" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="85ab5219-56e9-41b6-87a2-2315580bf886" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             scale: 0.95
           }} whileInView={{
@@ -268,7 +268,7 @@ export default function RetreatCateringPage({
             delay: 0.1
           }} className="relative overflow-hidden rounded-lg shadow-lg group" data-magicpath-id="24" data-magicpath-path="RetreatCateringPage.tsx">
               <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80" alt="Yoga retreat outdoor dining" className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" data-magicpath-id="25" data-magicpath-path="RetreatCateringPage.tsx" />
-              <SortableContainer dndKitId="b0c3b97f-e3f0-4988-9776-dfbc83353357" containerType="regular" prevTag="div" className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6" data-magicpath-id="26" data-magicpath-path="RetreatCateringPage.tsx">
+              <SortableContainer dndKitId="e5cee3b2-b178-4376-8055-9ed673f6ad1d" containerType="regular" prevTag="div" className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6" data-magicpath-id="26" data-magicpath-path="RetreatCateringPage.tsx">
                 <p className="text-white text-lg font-semibold" data-magicpath-id="27" data-magicpath-path="RetreatCateringPage.tsx">Cork Yoga Retreat 2024</p>
                 <p className="text-white/80 text-sm" data-magicpath-id="28" data-magicpath-path="RetreatCateringPage.tsx">5-day mindful nourishment</p>
               </SortableContainer>
@@ -278,9 +278,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* Why Choose Me */}
-      <SortableContainer dndKitId="4f996db7-7031-4428-8f0d-da825159cbbd" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="29" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="8d88aea9-03c1-4262-be67-85064672c6ad" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="30" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="4c55a0ca-70ca-41e4-a068-6f9b8c7c9180" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="a555bc18-f6cd-4e32-842d-f83829c16b6d" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="29" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="e002ac54-5b7a-4648-85c2-0dd7ec7f91a2" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="30" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="bc878c1c-d8d9-4aaf-bdd7-f8b47fcb8ea5" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -296,7 +296,7 @@ export default function RetreatCateringPage({
             </h2>
           </SortableContainer>
 
-          <SortableContainer dndKitId="d1e50e79-bc78-43b2-b84b-886bad4e5eca" containerType="collection" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8" data-magicpath-id="33" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="c1a9a966-a775-4d5c-85f4-808165ba9290" containerType="collection" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8" data-magicpath-id="33" data-magicpath-path="RetreatCateringPage.tsx">
             {whyChooseMe.map((item, index) => {
             const IconComponent = item.icon;
             return <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
@@ -329,9 +329,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* What I Can Cater */}
-      <SortableContainer dndKitId="df642eea-4ea1-4611-bcfa-61378c9cdb29" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#8B9B7F]" data-magicpath-id="40" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="9f6ae058-1eb3-4526-b6ad-b462a3cb0c2a" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="41" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="1f38af53-f2a6-41f1-8f1b-bed8cd1e0354" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="2f1ac969-4dbf-465a-ae74-4c04caf0c789" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#8B9B7F]" data-magicpath-id="40" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="d4e6a74d-fcbb-4220-ac43-a8bed37f6589" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="41" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="12bc6bf9-fe6f-4c53-a850-9be9041417af" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -347,7 +347,7 @@ export default function RetreatCateringPage({
             </h2>
           </SortableContainer>
 
-          <SortableContainer dndKitId="5e2a7fcc-c4f2-4a08-a2da-af28798c9142" containerType="collection" prevTag="div" className="space-y-6" data-magicpath-id="44" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="a982681c-868d-4749-82fb-331e7075042f" containerType="collection" prevTag="div" className="space-y-6" data-magicpath-id="44" data-magicpath-path="RetreatCateringPage.tsx">
             {whatICater.map((item, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
             opacity: 0,
             x: -30
@@ -372,9 +372,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* How It Works */}
-      <SortableContainer dndKitId="bec6e90f-e89f-4195-b4a3-7e320647eff8" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="48" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="35fe59f6-0a85-4c7b-9ba0-c4952f36e3fd" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="49" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="0878f398-99ca-44ed-a716-3e55b37dba8a" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="7e94d7c3-a04c-4019-9d73-d416eb5fc5a7" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="48" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="8e106a6b-76af-4bca-b27f-237e190e7fef" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="49" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="e094968a-109b-4557-a809-e6bfc2aea9fb" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -393,11 +393,11 @@ export default function RetreatCateringPage({
             </p>
           </SortableContainer>
 
-          <SortableContainer dndKitId="b998db0e-8507-4338-802b-87cdecb070e4" containerType="regular" prevTag="div" className="relative" data-magicpath-id="53" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="54e8d89c-e40b-45be-b262-5b08bb49c549" containerType="regular" prevTag="div" className="relative" data-magicpath-id="53" data-magicpath-path="RetreatCateringPage.tsx">
             {/* Vertical line for desktop */}
             <div className="hidden md:block absolute left-12 top-0 bottom-0 w-0.5 bg-[#8B9B7F]/30" data-magicpath-id="54" data-magicpath-path="RetreatCateringPage.tsx" />
 
-            <SortableContainer dndKitId="e832cbc5-537b-43d6-8424-1665bcc4a828" containerType="collection" prevTag="div" className="space-y-8 sm:space-y-12" data-magicpath-id="55" data-magicpath-path="RetreatCateringPage.tsx">
+            <SortableContainer dndKitId="0845038c-bb06-458f-aad0-0b5796371923" containerType="collection" prevTag="div" className="space-y-8 sm:space-y-12" data-magicpath-id="55" data-magicpath-path="RetreatCateringPage.tsx">
               {howItWorks.map((step, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
               opacity: 0,
               x: -30
@@ -428,9 +428,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* Testimonial */}
-      <SortableContainer dndKitId="61735334-8270-4121-8850-2e6f1e0875a5" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="62" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="1e2435a2-5efe-4f41-a047-0ea16bcd99bf" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="63" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="fe71221e-44ce-4ee4-8180-aea0638e7ec2" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="c38395b7-f444-4b8d-84f5-832fab80fe24" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="62" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="09da0628-9a9f-49f8-b91a-6a43f7eb35bd" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="63" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="620657b9-a57d-4bec-92b6-27fd1b0e6899" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -446,7 +446,7 @@ export default function RetreatCateringPage({
             </h2>
           </SortableContainer>
 
-          <SortableContainer dndKitId="a5901397-4ffa-4a62-8caa-a8d873cc83b8" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="9e1cd90d-943b-4a2c-a175-d233ac8f1fd3" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -460,8 +460,8 @@ export default function RetreatCateringPage({
             <p className="text-[#4A4A4A] text-lg sm:text-xl md:text-2xl leading-relaxed mb-6 italic" data-magicpath-id="67" data-magicpath-path="RetreatCateringPage.tsx">
               "Juliana catered our yoga retreat in Wicklow, and it was transformative in ways I didn't expect. The food wasn't just plant-based; it felt like an extension of our retreat's healing mission. My participants felt genuinely nourished. Several of them told me the meals were the most memorable part of their three days with us."
             </p>
-            <SortableContainer dndKitId="8b5d890e-225f-4f9c-8529-5ece0ed2ba02" containerType="regular" prevTag="div" className="flex items-center justify-center" data-magicpath-id="68" data-magicpath-path="RetreatCateringPage.tsx">
-              <SortableContainer dndKitId="f3443c05-8b95-4796-8504-4ab886c1c56a" containerType="regular" prevTag="div" className="text-center" data-magicpath-id="69" data-magicpath-path="RetreatCateringPage.tsx">
+            <SortableContainer dndKitId="5f33aa70-5f14-4d9c-aec7-5d6dfacbde5b" containerType="regular" prevTag="div" className="flex items-center justify-center" data-magicpath-id="68" data-magicpath-path="RetreatCateringPage.tsx">
+              <SortableContainer dndKitId="c9cd643a-9503-4c48-82e4-87b1688df85e" containerType="regular" prevTag="div" className="text-center" data-magicpath-id="69" data-magicpath-path="RetreatCateringPage.tsx">
                 <p className="font-semibold text-[#2D2D2D] text-base sm:text-lg" data-magicpath-id="70" data-magicpath-path="RetreatCateringPage.tsx">
                   Sarah
                 </p>
@@ -475,9 +475,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* Sample Menu */}
-      <SortableContainer dndKitId="8ec3b13c-465c-4e55-9881-91c5fb716426" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="72" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="35437b64-a8cb-4fd7-987f-eb20e29cef7e" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="73" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="208f3c0a-e97d-4593-b4c2-1b924c98b4c0" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="d45cfc25-cf8a-4149-9630-134166799766" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-white" data-magicpath-id="72" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="627b7552-93c2-48a9-a6d0-a3aeea02d044" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="73" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="be5f4ded-b80d-4c55-9e3b-26a4844c8220" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -496,7 +496,7 @@ export default function RetreatCateringPage({
             </p>
           </SortableContainer>
 
-          <SortableContainer dndKitId="f91f0519-383c-4dde-99ba-fecc0ae4c864" containerType="collection" prevTag="div" className="space-y-8 sm:space-y-10" data-magicpath-id="77" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="6143e0a6-f5fd-43af-a444-e5469ebb62df" containerType="collection" prevTag="div" className="space-y-8 sm:space-y-10" data-magicpath-id="77" data-magicpath-path="RetreatCateringPage.tsx">
             {Object.entries(sampleMenu).map(([day, meals], dayIndex) => <motion.div data-magicpath-motion-tag="motion.div" key={day} initial={{
             opacity: 0,
             y: 30
@@ -544,9 +544,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* FAQs */}
-      <SortableContainer dndKitId="2ba929b4-3f4e-42b3-b511-7747d4cde019" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="93" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="3265d16b-b5b3-44f9-a559-30fef78f6318" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="94" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="c67a0b0c-784e-4590-bcd5-d1b21fb2630b" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="3bd36d2d-e134-4797-a57f-0f3b66cc289c" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="93" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="c15d700b-5052-4a9e-9cd2-d07809cdefea" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="94" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="eb2c9154-a746-490e-8c38-ea6e5e87c1ba" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -562,7 +562,7 @@ export default function RetreatCateringPage({
             </h2>
           </SortableContainer>
 
-          <SortableContainer dndKitId="34684481-25b5-441f-aa03-8cc41d4f9503" containerType="collection" prevTag="div" className="space-y-4" data-magicpath-id="97" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="62a2c25a-7e1d-4265-a430-90ca9a91b0a1" containerType="collection" prevTag="div" className="space-y-4" data-magicpath-id="97" data-magicpath-path="RetreatCateringPage.tsx">
             {faqs.map((faq, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
             opacity: 0,
             y: 20
@@ -597,7 +597,7 @@ export default function RetreatCateringPage({
               </motion.div>)}
           </SortableContainer>
 
-          <SortableContainer dndKitId="81218c33-9c2f-4ca4-ad5f-f52940585d54" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="e02ef13c-8f3b-4b1b-a831-53332d6da06d" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -619,9 +619,9 @@ export default function RetreatCateringPage({
       </SortableContainer>
 
       {/* Final CTA */}
-      <SortableContainer dndKitId="68ffa0fc-c0e4-481c-8475-919bdb9f047f" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#8B9B7F]" data-magicpath-id="107" data-magicpath-path="RetreatCateringPage.tsx">
-        <SortableContainer dndKitId="fd48b62f-34d0-49eb-a159-639372a350de" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="108" data-magicpath-path="RetreatCateringPage.tsx">
-          <SortableContainer dndKitId="8ec8f983-47fb-4061-b004-a368788c6eb2" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="44b78915-f60f-4091-ace5-d201db3e9a15" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#8B9B7F]" data-magicpath-id="107" data-magicpath-path="RetreatCateringPage.tsx">
+        <SortableContainer dndKitId="f708ee26-2211-48de-8ff7-cd22a2270140" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="108" data-magicpath-path="RetreatCateringPage.tsx">
+          <SortableContainer dndKitId="6de3a4fd-8584-4ee6-8dda-56c2c81fb64e" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 30
         }} whileInView={{
@@ -638,7 +638,7 @@ export default function RetreatCateringPage({
             <p className="text-white/90 text-lg sm:text-xl md:text-2xl mb-10 leading-relaxed" data-magicpath-id="111" data-magicpath-path="RetreatCateringPage.tsx">
               Your guests deserve food that's as thoughtful as your retreat experience.
             </p>
-            <SortableContainer dndKitId="b6a85c3a-b8f6-41fe-862e-6ad23061946c" containerType="regular" prevTag="div" className="flex flex-col sm:flex-row gap-4 justify-center" data-magicpath-id="112" data-magicpath-path="RetreatCateringPage.tsx">
+            <SortableContainer dndKitId="9b0abf65-4c7f-46b6-982e-9773a81e73a5" containerType="regular" prevTag="div" className="flex flex-col sm:flex-row gap-4 justify-center" data-magicpath-id="112" data-magicpath-path="RetreatCateringPage.tsx">
               <button onClick={() => onNavigate?.('#contact')} className="bg-white text-[#8B9B7F] px-8 py-4 rounded-full hover:bg-[#F5F1E8] transition-colors font-medium text-base sm:text-lg" data-magicpath-id="113" data-magicpath-path="RetreatCateringPage.tsx">
                 Get in Touch
               </button>
