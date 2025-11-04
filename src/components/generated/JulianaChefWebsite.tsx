@@ -785,7 +785,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             duration: 0.6,
             delay: 0.2
           }} data-magicpath-id="176" data-magicpath-path="JulianaChefWebsite.tsx">
-              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Gourmet plant-based dish" className="w-full h-64 sm:h-80 object-cover rounded-lg shadow-lg" data-magicpath-id="177" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/f7d14c4e-9317-48a6-b706-edc843541fea.png" alt="Gourmet plant-based dish" className="w-full h-64 sm:h-80 object-cover rounded-lg shadow-lg" data-magicpath-id="177" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              objectFit: "cover",
+              objectPosition: "bottom",
+              opacity: "1"
+            }} />
             </SortableContainer>
           </SortableContainer>
 
