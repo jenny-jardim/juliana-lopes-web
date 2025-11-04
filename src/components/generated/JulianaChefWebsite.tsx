@@ -806,7 +806,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           }} transition={{
             duration: 0.6
           }} className="md:order-1" data-magicpath-id="179" data-magicpath-path="JulianaChefWebsite.tsx">
-              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Plant-based dessert" className="w-full h-64 sm:h-80 object-cover rounded-lg shadow-lg" data-magicpath-id="180" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/29367085-1af0-41c6-a000-7e7ffe3ff643.jpg" alt="Plant-based dessert" className="w-full h-64 sm:h-80 object-cover rounded-lg shadow-lg" data-magicpath-id="180" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              objectFit: "cover",
+              objectPosition: "50% 50%",
+              opacity: "1"
+            }} />
             </SortableContainer>
             <SortableContainer dndKitId="c64b1977-ccde-4e22-a024-622827b07475" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
