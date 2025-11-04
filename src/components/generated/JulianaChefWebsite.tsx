@@ -857,10 +857,15 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
 
       {/* Treats & Bakes Section - Mobile First */}
       <SortableContainer dndKitId="bcadbb4a-51da-483d-819d-504c80b5e3c9" containerType="regular" prevTag="section" id="treats" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="186" data-magicpath-path="JulianaChefWebsite.tsx" style={{
-      background: "#fcf2e3"
+      background: "#fcf2e3",
+      display: "none"
     }}>
-        <SortableContainer dndKitId="d9ed6490-2dc4-427d-a4e4-31eccf9c5ad3" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="187" data-magicpath-path="JulianaChefWebsite.tsx">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#C17857]" data-magicpath-id="188" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="d9ed6490-2dc4-427d-a4e4-31eccf9c5ad3" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="187" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+        display: "none"
+      }}>
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#C17857]" data-magicpath-id="188" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+          display: "none"
+        }}>
             Treats & Bakes
           </h2>
 
@@ -876,7 +881,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           }} transition={{
             duration: 0.6
           }} data-magicpath-id="190" data-magicpath-path="JulianaChefWebsite.tsx">
-              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Delicious plant-based treats" className="w-full rounded-lg shadow-lg" data-magicpath-id="191" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Delicious plant-based treats" className="w-full rounded-lg shadow-lg" data-magicpath-id="191" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              display: "none"
+            }} />
             </SortableContainer>
             <SortableContainer dndKitId="b7bbcc00-9f55-4fcf-89f2-983a01ac7333" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
@@ -890,17 +897,27 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             duration: 0.6,
             delay: 0.2
           }} className="space-y-4 sm:space-y-6" data-magicpath-id="192" data-magicpath-path="JulianaChefWebsite.tsx">
-              <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" data-magicpath-id="193" data-magicpath-path="JulianaChefWebsite.tsx">
+              <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" data-magicpath-id="193" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              display: "none"
+            }}>
                 Fresh-Baked Weekly Treats
               </h3>
-              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="194" data-magicpath-path="JulianaChefWebsite.tsx">
+              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="194" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              display: "none"
+            }}>
                 Indulge in my signature plant-based treats, freshly baked every week. From decadent brownies to fluffy cinnamon rolls, every treat is crafted with wholesome ingredients and lots of love.
               </p>
-              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="195" data-magicpath-path="JulianaChefWebsite.tsx">
-                <strong data-magicpath-id="196" data-magicpath-path="JulianaChefWebsite.tsx">Order Window:</strong> Every Friday, 5am-9am<br data-magicpath-id="197" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="195" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              display: "none"
+            }}>
+                <strong data-magicpath-id="196" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                display: "none"
+              }}>Order Window:</strong> Every Friday, 5am-9am<br data-magicpath-id="197" data-magicpath-path="JulianaChefWebsite.tsx" />
                 <strong data-magicpath-id="198" data-magicpath-path="JulianaChefWebsite.tsx">Collection:</strong> Dun Laoghaire or Weekly Pop-up Cake Stall
               </p>
-              <SortableContainer dndKitId="7eca60ab-abbd-4067-a4f0-7d265b0bcb00" containerType="regular" prevTag="div" className="space-y-3" data-magicpath-id="199" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="7eca60ab-abbd-4067-a4f0-7d265b0bcb00" containerType="regular" prevTag="div" className="space-y-3" data-magicpath-id="199" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              display: "none"
+            }}>
                 <SortableContainer dndKitId="6751a95a-6671-4183-8048-11851d68c623" containerType="regular" prevTag="div" className="flex items-start space-x-2" data-magicpath-id="200" data-magicpath-path="JulianaChefWebsite.tsx">
                   <span className="text-[#C17857] text-lg" data-magicpath-id="201" data-magicpath-path="JulianaChefWebsite.tsx">✓</span>
                   <p className="text-[#4A4A4A] text-sm" data-magicpath-id="202" data-magicpath-path="JulianaChefWebsite.tsx">100% Plant-Based</p>
@@ -915,7 +932,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 </SortableContainer>
               </SortableContainer>
               <button className="bg-[#C17857] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#B06847] transition-colors font-medium text-sm sm:text-base" data-magicpath-id="209" data-magicpath-path="JulianaChefWebsite.tsx" style={{
-              background: "#c76942"
+              background: "#c76942",
+              display: "none"
             }}>
                 View This Week's Menu
               </button>
