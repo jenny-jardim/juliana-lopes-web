@@ -659,7 +659,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* About Section - Mobile First */}
-      <SortableContainer dndKitId="33180c0f-357f-49c6-9596-1cced7ee36a6" containerType="regular" prevTag="section" id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="156" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="33180c0f-357f-49c6-9596-1cced7ee36a6" containerType="regular" prevTag="section" id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="156" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+      background: "#fcf2e3"
+    }}>
         <SortableContainer dndKitId="e9b0d8ee-72a9-4294-93f6-f6b7256c61b5" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="157" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#2D2D2D]" data-magicpath-id="158" data-magicpath-path="JulianaChefWebsite.tsx">
             Meet Your Chef
@@ -810,7 +812,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Treats & Bakes Section - Mobile First */}
-      <SortableContainer dndKitId="bcadbb4a-51da-483d-819d-504c80b5e3c9" containerType="regular" prevTag="section" id="treats" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="186" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="bcadbb4a-51da-483d-819d-504c80b5e3c9" containerType="regular" prevTag="section" id="treats" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="186" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+      background: "#fcf2e3"
+    }}>
         <SortableContainer dndKitId="d9ed6490-2dc4-427d-a4e4-31eccf9c5ad3" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="187" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#C17857]" data-magicpath-id="188" data-magicpath-path="JulianaChefWebsite.tsx">
             Treats & Bakes
@@ -990,7 +994,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* FAQs Section - Mobile First */}
-      <SortableContainer dndKitId="7a11e835-34be-4211-b850-d584db2f452e" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="243" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="7a11e835-34be-4211-b850-d584db2f452e" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" data-magicpath-id="243" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+      background: "#fcf2e3"
+    }}>
         <SortableContainer dndKitId="0f7dd2c3-420a-4291-8024-702b31209a4c" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="244" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#2D2D2D]" data-magicpath-id="245" data-magicpath-path="JulianaChefWebsite.tsx">
             FAQs
