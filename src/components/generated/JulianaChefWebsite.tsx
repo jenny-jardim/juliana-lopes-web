@@ -845,7 +845,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       <SortableContainer dndKitId="16d39071-b401-45c3-9f88-ecd19cd563de" containerType="regular" prevTag="motion.header" style={{
       opacity: headerOpacity
     }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner" data-magicpath-id="177" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="868db683-2c0f-444a-8674-b016c6aafade" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="178" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="868db683-2c0f-444a-8674-b016c6aafade" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="178" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+        background: "#5e7155"
+      }}>
           <SortableContainer dndKitId="5f2bf164-2b56-4be4-a30f-ebc4e47b064c" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="179" data-magicpath-path="JulianaChefWebsite.tsx" style={{
           background: "#5e7155",
           outline: "0.8px solid rgb(94 113 85 / 0)",
@@ -868,7 +870,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               outlineWidth: "0px",
               outlineColor: "oklab(0 0 0 / 0.1)",
               outlineOffset: "0px",
-              color: "#5e7155"
+              color: "#5e7155",
+              height: "70px"
             }} />
             </SortableContainer>
 
