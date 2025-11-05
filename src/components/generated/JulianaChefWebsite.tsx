@@ -1108,7 +1108,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       {/* Testimonials Section - Mobile First */}
       <SortableContainer dndKitId="1b517c39-e0bc-4e30-99ca-9c7ba1009e0b" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#8B9B7F]" data-magicpath-id="250" data-magicpath-path="JulianaChefWebsite.tsx">
         <SortableContainer dndKitId="2643a13e-263e-4b2d-9504-73f8e7d580a9" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="251" data-magicpath-path="JulianaChefWebsite.tsx">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-white" data-magicpath-id="252" data-magicpath-path="JulianaChefWebsite.tsx">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-white" data-magicpath-id="252" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+          color: "#fcf2e3"
+        }}>
             What People Say
           </h2>
           <SortableContainer dndKitId="521688d8-eaa8-4b61-ad6f-68170ead483b" containerType="regular" prevTag="div" className="relative" data-magicpath-id="253" data-magicpath-path="JulianaChefWebsite.tsx">
@@ -1123,7 +1125,10 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             x: -50
           }} transition={{
             duration: 0.5
-          }} className="bg-white rounded-lg p-6 sm:p-8 md:p-12 shadow-xl" data-magicpath-id="254" data-magicpath-path="JulianaChefWebsite.tsx">
+          }} className="bg-white rounded-lg p-6 sm:p-8 md:p-12 shadow-xl" data-magicpath-id="254" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+            color: "#fcf2e3",
+            background: "#fcf2e3"
+          }}>
               <p className="text-[#4A4A4A] text-base sm:text-lg md:text-xl leading-relaxed mb-6 italic" style={{
               color: "#404d3a"
             }} data-magicpath-id="255" data-magicpath-path="JulianaChefWebsite.tsx">
@@ -1143,14 +1148,22 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
 
             {/* Navigation Controls */}
             <SortableContainer dndKitId="3d443ffe-0197-40a0-ba52-815ab02eea2c" containerType="regular" prevTag="div" className="flex justify-center items-center mt-6 sm:mt-8 space-x-3 sm:space-x-4" data-magicpath-id="260" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="eda45f01-19a6-48af-aff4-e46d04b0104b" containerType="regular" prevTag="button" onClick={prevTestimonial} className="bg-white text-[#8B9B7F] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Previous testimonial" data-magicpath-id="261" data-magicpath-path="JulianaChefWebsite.tsx">
-                <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="262" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <SortableContainer dndKitId="eda45f01-19a6-48af-aff4-e46d04b0104b" containerType="regular" prevTag="button" onClick={prevTestimonial} className="bg-white text-[#8B9B7F] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Previous testimonial" data-magicpath-id="261" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              background: "#fcf2e3"
+            }}>
+                <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="262" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                background: "#fcf2e3"
+              }} />
               </SortableContainer>
               <div className="flex space-x-2" data-magicpath-id="263" data-magicpath-path="JulianaChefWebsite.tsx">
                 {testimonials.map((_, index) => <button key={index} onClick={() => setCurrentTestimonial(index)} className={`w-2 h-2 rounded-full transition-colors ${index === currentTestimonial ? 'bg-white' : 'bg-white/40'}`} aria-label={`Go to testimonial ${index + 1}`} data-magicpath-id="264" data-magicpath-path="JulianaChefWebsite.tsx" />)}
               </div>
-              <SortableContainer dndKitId="5891887b-1efe-4162-9c04-2e2ce55ee966" containerType="regular" prevTag="button" onClick={nextTestimonial} className="bg-white text-[#8B9B7F] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Next testimonial" data-magicpath-id="265" data-magicpath-path="JulianaChefWebsite.tsx">
-                <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="266" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <SortableContainer dndKitId="5891887b-1efe-4162-9c04-2e2ce55ee966" containerType="regular" prevTag="button" onClick={nextTestimonial} className="bg-white text-[#8B9B7F] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Next testimonial" data-magicpath-id="265" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              background: "#fcf2e3"
+            }}>
+                <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="266" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                background: "#fcf2e3"
+              }} />
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
@@ -1235,21 +1248,29 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Footer - Mobile First */}
-      <SortableContainer dndKitId="30161e9f-957a-4a6a-bf33-d4640cee827e" containerType="regular" prevTag="footer" className="bg-[#8B9B7F] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" data-magicpath-id="282" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="30161e9f-957a-4a6a-bf33-d4640cee827e" containerType="regular" prevTag="footer" className="bg-[#8B9B7F] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" data-magicpath-id="282" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+      color: "#fcf2e3"
+    }}>
         <SortableContainer dndKitId="69d75414-6c0e-4afb-aeb6-ec41722ff112" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="283" data-magicpath-path="JulianaChefWebsite.tsx">
           <SortableContainer dndKitId="30f0cba8-4fc5-4407-aea7-aa792d11b8e4" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="284" data-magicpath-path="JulianaChefWebsite.tsx">
             <SortableContainer dndKitId="02dd84db-ed51-426e-bddd-52a16f383a8a" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="285" data-magicpath-path="JulianaChefWebsite.tsx">
               <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="286" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
-              <p className="text-white/80 text-xs sm:text-sm" data-magicpath-id="287" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
+              <p className="text-white/80 text-xs sm:text-sm" data-magicpath-id="287" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              color: "#fcf2e3"
+            }}>Plant-Based Retreat Chef</p>
             </SortableContainer>
-            <SortableContainer dndKitId="802adfe4-ec2d-4f7e-8b1f-70804b11b0f0" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="288" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="802adfe4-ec2d-4f7e-8b1f-70804b11b0f0" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="288" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+            color: "#fcf2e3"
+          }}>
               <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="289" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
               <SortableContainer dndKitId="6cdc124a-7151-4d04-b181-d19afc1fd5eb" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="290" data-magicpath-path="JulianaChefWebsite.tsx">
                 <li data-magicpath-id="291" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="#home" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#home');
-                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="292" data-magicpath-path="JulianaChefWebsite.tsx">
+                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="292" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }}>
                     Home
                   </a>
                 </li>
@@ -1257,7 +1278,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   <a href="#about" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#about');
-                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="294" data-magicpath-path="JulianaChefWebsite.tsx">
+                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="294" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }}>
                     About Juliana
                   </a>
                 </li>
@@ -1265,7 +1288,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   <a href="#offerings" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#offerings');
-                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="296" data-magicpath-path="JulianaChefWebsite.tsx">
+                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="296" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }}>
                     Retreat Catering
                   </a>
                 </li>
@@ -1273,15 +1298,21 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   <a href="#treats" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#treats');
-                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="298" data-magicpath-path="JulianaChefWebsite.tsx">
+                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="298" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }}>
                     Treats & Bakes
                   </a>
                 </li>
-                <li data-magicpath-id="299" data-magicpath-path="JulianaChefWebsite.tsx">
+                <li data-magicpath-id="299" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                color: "#fcf2e3"
+              }}>
                   <a href="#contact" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#contact');
-                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="300" data-magicpath-path="JulianaChefWebsite.tsx">
+                }} className="text-white/80 hover:text-white transition-colors" data-magicpath-id="300" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }}>
                     Contact
                   </a>
                 </li>
@@ -1291,16 +1322,22 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="302" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
               <SortableContainer dndKitId="5cec68d5-9f76-4b90-8582-5a749cace8db" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="303" data-magicpath-path="JulianaChefWebsite.tsx">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="304" data-magicpath-path="JulianaChefWebsite.tsx">
-                  <Instagram className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="305" data-magicpath-path="JulianaChefWebsite.tsx" />
+                  <Instagram className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="305" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }} />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Facebook" data-magicpath-id="306" data-magicpath-path="JulianaChefWebsite.tsx">
-                  <Facebook className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="307" data-magicpath-path="JulianaChefWebsite.tsx" />
+                  <Facebook className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="307" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#fcf2e3"
+                }} />
                 </a>
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
           <SortableContainer dndKitId="d0a8975f-3f7e-4d18-962e-8448f30f6997" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="308" data-magicpath-path="JulianaChefWebsite.tsx">
-            <p data-magicpath-id="309" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
+            <p data-magicpath-id="309" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+            color: "#fcf2e3"
+          }}>© 2024 Juliana the Vegan Chef. All rights reserved.</p>
           </SortableContainer>
         </SortableContainer>
       </SortableContainer>
