@@ -1017,7 +1017,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           }} transition={{
             duration: 0.6
           }} data-magicpath-id="205" data-magicpath-path="JulianaChefWebsite.tsx">
-              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/14f8bd6c-f085-44f9-b974-e2b94bdd0564.png" alt="Chef Juliana smiling in her kitchen, preparing plant-based dishes" className="w-full rounded-lg shadow-lg" style={{
+              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/ba3e07e1-150a-4e48-b1c9-9383828fc6ce.png" alt="Chef Juliana smiling in her kitchen, preparing plant-based dishes" className="w-full rounded-lg shadow-lg" style={{
               objectFit: "fill",
               objectPosition: "50% 50%",
               opacity: "1"
@@ -1036,7 +1036,10 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             delay: 0.2
           }} className="space-y-4 sm:space-y-6" data-magicpath-id="207" data-magicpath-path="JulianaChefWebsite.tsx">
               <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              textAlign: "center",
+              justifyContent: "center",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="208" data-magicpath-path="JulianaChefWebsite.tsx">Hi, I'm Juliana!</h3>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="209" data-magicpath-path="JulianaChefWebsite.tsx">
                 I'm a passionate plant-based chef with over 8 years of culinary experience. I built my business and brand on creating nourishing, delicious plant-based meals for wellness retreats around the world.
@@ -1044,7 +1047,10 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="210" data-magicpath-path="JulianaChefWebsite.tsx">
                 What truly fuels my culinary passion is not just food itself but the transformative power it has to bring people together and foster genuine connections. I believe food has the unique ability to create shared experiences that inspire, heal, and unite us.
               </p>
-              <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base" onClick={() => setShowAboutPage(true)} data-magicpath-id="211" data-magicpath-path="JulianaChefWebsite.tsx">
+              <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base" onClick={() => setShowAboutPage(true)} data-magicpath-id="211" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              textAlign: "center",
+              justifyContent: "center"
+            }}>
                 Read My Full Story
               </button>
             </SortableContainer>
@@ -1075,7 +1081,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             duration: 0.6
           }} className="space-y-4 sm:space-y-6" data-magicpath-id="216" data-magicpath-path="JulianaChefWebsite.tsx">
               <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="217" data-magicpath-path="JulianaChefWebsite.tsx">Retreat & Event Catering</h3>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
               color: "#404d3a"
@@ -1136,7 +1143,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             duration: 0.6
           }} className="space-y-4 sm:space-y-6 order-1 md:order-2" data-magicpath-id="224" data-magicpath-path="JulianaChefWebsite.tsx">
               <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="225" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Treats</h3>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
               color: "#404d3a"
@@ -1390,7 +1398,10 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         }} data-magicpath-id="279" data-magicpath-path="JulianaChefWebsite.tsx">
             Let's Work Together!
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-[#5e7155] mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed px-4" data-magicpath-id="280" data-magicpath-path="JulianaChefWebsite.tsx">
+          <p className="text-base sm:text-lg md:text-xl text-[#5e7155] mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed px-4" data-magicpath-id="280" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+          fontFamily: "Montserrat",
+          fontWeight: "500"
+        }}>
             Food is how I show care. Let me be part of creating something meaningful for your retreat, event, or simply your week.
           </p>
           <button onClick={() => {
