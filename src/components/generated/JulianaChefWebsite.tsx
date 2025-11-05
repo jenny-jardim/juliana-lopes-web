@@ -854,7 +854,13 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/deff7a85-6f9d-44a9-a015-f831a5396e4f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" data-magicpath-id="181" data-magicpath-path="JulianaChefWebsite.tsx" style={{
               objectFit: "contain",
               objectPosition: "50% 50%",
-              opacity: "1"
+              opacity: "1",
+              color: "rgb(45 45 45 / 0)",
+              outline: "none",
+              outlineStyle: "none",
+              outlineWidth: "0px",
+              outlineColor: "oklab(0 0 0 / 0.1)",
+              outlineOffset: "0px"
             }} />
             </SortableContainer>
 
