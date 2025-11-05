@@ -851,7 +851,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             <SortableContainer dndKitId="1eb6d2cc-2112-4c97-9586-b056b134a5c8" containerType="regular" prevTag="button" onClick={() => document.getElementById('home')?.scrollIntoView({
             behavior: 'smooth'
           })} className="flex items-center hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home" data-magicpath-id="180" data-magicpath-path="JulianaChefWebsite.tsx">
-              <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/0d9d49d2-8c2e-4b14-b09a-5b31e903e01f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" data-magicpath-id="181" data-magicpath-path="JulianaChefWebsite.tsx" />
+              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/deff7a85-6f9d-44a9-a015-f831a5396e4f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" data-magicpath-id="181" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              objectFit: "contain",
+              objectPosition: "50% 50%",
+              opacity: "1"
+            }} />
             </SortableContainer>
 
             {/* Desktop Navigation */}
