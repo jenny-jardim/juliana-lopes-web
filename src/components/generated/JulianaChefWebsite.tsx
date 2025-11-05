@@ -799,7 +799,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           y: 0
         }} transition={{
           duration: 0.8
-        }} className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-4 sm:mb-6 leading-tight" data-magicpath-id="198" data-magicpath-path="JulianaChefWebsite.tsx">
+        }} className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-4 sm:mb-6 leading-tight" data-magicpath-id="198" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+          color: "#fcf2e3"
+        }}>
             Plant-Based Retreat Chef
           </motion.h1>
           <motion.p data-magicpath-motion-tag="motion.p" initial={{
@@ -811,7 +813,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         }} transition={{
           duration: 0.8,
           delay: 0.2
-        }} className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4" data-magicpath-id="199" data-magicpath-path="JulianaChefWebsite.tsx">
+        }} className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4" data-magicpath-id="199" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+          color: "#fcf2e3"
+        }}>
             Specializing in Transformational Food Experiences For Wellness Retreats Worldwide
           </motion.p>
           <motion.button data-magicpath-motion-tag="motion.button" initial={{
@@ -833,7 +837,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             behavior: 'smooth'
           });
         }} style={{
-          background: "#c76942"
+          background: "#c76942",
+          color: "#fcf2e3"
         }} data-magicpath-id="200" data-magicpath-path="JulianaChefWebsite.tsx">
             Book Your Retreat Catering
           </motion.button>
@@ -1136,7 +1141,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </p>
               <SortableContainer dndKitId="be8e12ca-90ea-4deb-a7fe-10283e5f2e6a" containerType="regular" prevTag="div" className="flex items-center justify-between" data-magicpath-id="256" data-magicpath-path="JulianaChefWebsite.tsx">
                 <SortableContainer dndKitId="7a4f7289-8333-4b8b-a07b-f202bb451fdf" containerType="regular" prevTag="div" data-magicpath-id="257" data-magicpath-path="JulianaChefWebsite.tsx">
-                  <p className="font-semibold text-[#2D2D2D] text-sm sm:text-base" data-magicpath-id="258" data-magicpath-path="JulianaChefWebsite.tsx">
+                  <p className="font-semibold text-[#2D2D2D] text-sm sm:text-base" data-magicpath-id="258" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                  color: "#404d3a"
+                }}>
                     {testimonials[currentTestimonial].author}
                   </p>
                   <p className="text-[#8B9B7F] text-xs sm:text-sm" data-magicpath-id="259" data-magicpath-path="JulianaChefWebsite.tsx">
