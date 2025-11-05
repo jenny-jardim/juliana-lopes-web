@@ -16,73 +16,73 @@ export default function TreatsBakesPage({
     name: "Cheese Cakes",
     description: "Dates, nuts, natural ingredients. Perfect for celebrations",
     image: "https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=600&q=80",
-    mpid: "a43ded38-15ed-484d-a599-0ef19dddc68e"
+    mpid: "db0c0f8f-ba3a-42b5-b0f7-4ae5c590ef82"
   }, {
     name: "Brownies",
     description: "Rich, satisfying, completely plant-based",
     image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80",
-    mpid: "a9431a48-40f1-4ea0-b90e-dd37e0b4a0f8"
+    mpid: "4827820b-bd7a-4cd0-ab5f-dc336e57f786"
   }, {
     name: "Cookies",
     description: "Crispy edges, chewy centers, pure comfort",
     image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
-    mpid: "b2648134-0b3d-4f74-8a21-4d5024cff7d9"
+    mpid: "435d25d4-1a50-48ae-b161-a79469d61e0f"
   }, {
     name: "Blondies",
     description: "Golden, buttery, irresistibly sweet",
     image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=600&q=80",
-    mpid: "8f2ce658-75a0-48f3-ab3e-53bfa226d628"
+    mpid: "476c6ff2-8852-42ce-a243-5420f1a7e4d3"
   }, {
     name: "Seasonal Treats",
     description: "Panettones (December) and seasonal specialties",
     image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
-    mpid: "bcdefcf6-14e2-4af2-a4aa-6222fa28690e"
+    mpid: "7a4490d3-cef5-44e7-8427-739150d04cf3"
   }, {
     name: "Custom Orders",
     description: "Corporate gifts, event platters, dietary needs—just ask",
     image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600&q=80",
-    mpid: "b9991aae-81f6-4d49-897b-96042c3dd997"
+    mpid: "3c450a3d-b8e3-4937-8374-bb2132b699be"
   }] as any[];
   const testimonials = [{
     quote: "I'm vegan and gluten-free. Juliana's treats make me feel genuinely cared for.",
     author: "Róisín",
     location: "Dublin",
-    mpid: "1e0ed27a-1f42-4e6e-b12d-d60bb978fb1f"
+    mpid: "4d708670-940d-4e66-9b09-1c5a47d8f200"
   }, {
     quote: "I order every two weeks for my team. Everyone fights over what they get.",
     author: "Priya",
     location: "Dublin",
-    mpid: "161b2a7f-4cb4-41e1-b547-a4ea16d206db"
+    mpid: "a4fa0896-c8ae-4491-9f7d-20ca9ada2a30"
   }, {
     quote: "I'll spend more on Pep Me Up because I trust the quality and intention behind it.",
     author: "Michael",
     location: "Dublin",
-    mpid: "7095bfc7-3372-451a-ba53-60655d67482b"
+    mpid: "6f2a3378-bca1-4ea6-9289-cf245633ad4a"
   }] as any[];
   const faqs = [{
     question: "How long do treats stay fresh?",
     answer: "5-7 days when stored properly. Storage instructions included.",
-    mpid: "91430407-8444-45cd-81ec-b349811af2d6"
+    mpid: "c8fc3a7b-23b3-4fbf-910c-51c5e55dd316"
   }, {
     question: "Minimum order?",
     answer: "Depends on what you want—reach out and we'll figure it out.",
-    mpid: "5ecdd067-46bb-4edb-ba19-30201b8e2312"
+    mpid: "260cac2c-b828-4f07-8e3f-e0de6550f11a"
   }, {
     question: "Corporate gifts?",
     answer: "Absolutely. It's a thoughtful, homemade way to show appreciation.",
-    mpid: "02db2807-b20f-4d54-ac56-e4ed6766d174"
+    mpid: "f1280c04-cade-498f-b74d-e33ce10c6c5a"
   }, {
     question: "Custom flavors?",
     answer: "Yes! Tell me what you're craving.",
-    mpid: "8b607194-ac85-4d56-88b5-13d5ce748671"
+    mpid: "f0f1d935-584b-45ea-bf7e-18454fd97928"
   }, {
     question: "Why the higher price?",
     answer: "Fresh baked, whole ingredients, genuine care. No mass production. Worth every penny.",
-    mpid: "fd48d9fc-ee7d-4762-a17c-591c3c443822"
+    mpid: "00e64ee2-2afd-4d12-a20d-b3ffd823a296"
   }, {
     question: "Serious allergies?",
     answer: "Yes, I work with you safely.",
-    mpid: "0987bbfe-b483-4122-a6aa-003f0c99b4c4"
+    mpid: "75c16489-e802-4f6a-bc47-2fad832b9f8e"
   }] as any[];
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
   const nextMenuItem = () => {
@@ -101,13 +101,13 @@ export default function TreatsBakesPage({
     const message = encodeURIComponent("Hi Juliana! I'd like to place an order for Pep Me Up treats.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
-  return <SortableContainer dndKitId="30a1b0e6-87b7-48b6-bca1-436d563a9d4b" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8]" data-magicpath-id="0" data-magicpath-path="TreatsBakesPage.tsx">
+  return <SortableContainer dndKitId="86d52f23-b48e-4309-90cf-3c9d19121b52" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8]" data-magicpath-id="0" data-magicpath-path="TreatsBakesPage.tsx">
       {/* Hero Section with Pep Me Up Logo - Redesigned */}
-      <SortableContainer dndKitId="e4a2b09e-8928-4e4e-9e9d-8db73495167f" containerType="regular" prevTag="section" className="relative py-12 sm:py-16 px-4 sm:px-6 bg-[#FCF2E3]" role="banner" aria-label="Pep Me Up treats and bakes hero section" data-magicpath-id="1" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="a956c48f-4cb3-44e3-aba3-2961bd794275" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="2" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="a1cf1e54-23d8-4acf-8894-96d68dae859d" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" data-magicpath-id="3" data-magicpath-path="TreatsBakesPage.tsx">
+      <SortableContainer dndKitId="152f4ec1-f47c-4ed8-a741-f272ede4e208" containerType="regular" prevTag="section" className="relative py-12 sm:py-16 px-4 sm:px-6 bg-[#FCF2E3]" role="banner" aria-label="Pep Me Up treats and bakes hero section" data-magicpath-id="1" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="434c36e9-9b15-42bd-a258-c14770062668" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="2" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="8adbdb25-f890-4a0f-b5b8-bb0f450a2563" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" data-magicpath-id="3" data-magicpath-path="TreatsBakesPage.tsx">
             {/* Left: Logo */}
-            <SortableContainer dndKitId="7f94cfa3-75e0-4e7b-beba-92eb9d70ea56" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="47aedf5b-981d-4d07-9091-933d8c1e4a0d" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             x: -30
           }} animate={{
@@ -116,13 +116,13 @@ export default function TreatsBakesPage({
           }} transition={{
             duration: 0.8
           }} className="flex justify-center md:justify-start" data-magicpath-id="4" data-magicpath-path="TreatsBakesPage.tsx">
-              <SortableContainer dndKitId="3ca75e7d-5394-4cff-b48c-a7c2c0ab47b4" containerType="regular" prevTag="div" className="relative w-56 h-56 sm:w-64 sm:h-64" data-magicpath-id="5" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="28b09f5f-3826-481a-85d1-9106af51671e" containerType="regular" prevTag="div" className="relative w-56 h-56 sm:w-64 sm:h-64" data-magicpath-id="5" data-magicpath-path="TreatsBakesPage.tsx">
                 <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/41c65110-9aa0-4c4f-9281-d9eb3017d4d8.png" alt="Pep Me Up logo - plant-based gluten-free treats" className="w-full h-full object-contain filter drop-shadow-2xl" data-magicpath-id="6" data-magicpath-path="TreatsBakesPage.tsx" />
               </SortableContainer>
             </SortableContainer>
 
             {/* Right: Headline and Text */}
-            <SortableContainer dndKitId="df416501-d238-4046-bd64-01b70459a666" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="0692d295-3169-4946-923a-466540361bfe" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             x: 30
           }} animate={{
@@ -144,10 +144,10 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* Why Pep Me Up Section */}
-      <SortableContainer dndKitId="670e8424-b1f7-4b5d-ba02-cb9992a1dda9" containerType="regular" prevTag="main" data-magicpath-id="10" data-magicpath-path="TreatsBakesPage.tsx">
-      <SortableContainer dndKitId="0ea57a6d-9ab5-482a-925b-e57a4631a9cd" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-white" aria-labelledby="why-pep-me-up-heading" data-magicpath-id="11" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="0b98eed3-9992-405a-8463-1850ce1e61e3" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="12" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="f779f246-a661-4a37-b1b6-1d4cd0c90e74" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="8a33dca2-2d11-4875-b6e1-3eec4fe2c1ae" containerType="regular" prevTag="main" data-magicpath-id="10" data-magicpath-path="TreatsBakesPage.tsx">
+      <SortableContainer dndKitId="73a5c8ac-461b-42ef-b519-56d8e14c824a" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-white" aria-labelledby="why-pep-me-up-heading" data-magicpath-id="11" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="5a5240ba-4d6d-459b-bfee-33555296e4c8" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="12" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="7b0e2f9c-4c5e-4d36-856a-98c1729b8a36" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -164,7 +164,7 @@ export default function TreatsBakesPage({
           </SortableContainer>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6" data-magicpath-id="15" data-magicpath-path="TreatsBakesPage.tsx">
-            {["Baked fresh, never mass-produced", "Whole ingredients, real nutrition", "Plant-based & gluten-friendly always", "Homemade feeling, professional quality", "A reminder that you're worth the care"].map((benefit, index) => <SortableContainer dndKitId="635ef5f6-0514-444e-9bb2-815a459f126f" containerType="regular" prevTag="motion.div" key={index} initial={{
+            {["Baked fresh, never mass-produced", "Whole ingredients, real nutrition", "Plant-based & gluten-friendly always", "Homemade feeling, professional quality", "A reminder that you're worth the care"].map((benefit, index) => <SortableContainer dndKitId="78e3e197-1d4c-41f5-9bf6-703c9da4beac" containerType="regular" prevTag="motion.div" key={index} initial={{
               opacity: 0,
               x: -30
             }} whileInView={{
@@ -184,9 +184,9 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* Safety & Allergy Notice - Compact Version */}
-      <SortableContainer dndKitId="db343564-1d89-4792-b9f2-0ff8851eb7fc" containerType="regular" prevTag="section" className="py-10 px-4 sm:px-6 bg-[#FFF4ED]" aria-labelledby="safety-heading" data-magicpath-id="19" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="2579f9b4-27cb-439b-9b7e-59c12de23187" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="20" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="a7577922-e713-4af1-9bf8-f36aa92f365c" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="3d713a41-7c26-4430-a98a-dd2f683228d2" containerType="regular" prevTag="section" className="py-10 px-4 sm:px-6 bg-[#FFF4ED]" aria-labelledby="safety-heading" data-magicpath-id="19" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="187eb243-dd01-4761-903f-c040f2a4b4c7" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="20" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="0ea2bf2c-8c20-42cd-bb71-2a77af08e895" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 20
           }} whileInView={{
@@ -197,9 +197,9 @@ export default function TreatsBakesPage({
           }} transition={{
             duration: 0.6
           }} className="bg-white border-2 border-[#C17857] rounded-lg p-5" data-magicpath-id="21" data-magicpath-path="TreatsBakesPage.tsx">
-            <SortableContainer dndKitId="9f60a9a8-b7d3-49bc-bc50-2ba00496ea3f" containerType="regular" prevTag="div" className="flex items-start gap-3" data-magicpath-id="22" data-magicpath-path="TreatsBakesPage.tsx">
+            <SortableContainer dndKitId="97b3b87b-8f7c-40db-b77b-dd313f97d3f9" containerType="regular" prevTag="div" className="flex items-start gap-3" data-magicpath-id="22" data-magicpath-path="TreatsBakesPage.tsx">
               <AlertCircle className="w-5 h-5 text-[#C17857] flex-shrink-0 mt-0.5" aria-hidden="true" data-magicpath-id="23" data-magicpath-path="TreatsBakesPage.tsx" />
-              <SortableContainer dndKitId="79aa3005-1729-444b-8ac9-2bceaeb188fd" containerType="regular" prevTag="div" data-magicpath-id="24" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="19ddd9ed-29d5-460d-8d8e-82160a29aee3" containerType="regular" prevTag="div" data-magicpath-id="24" data-magicpath-path="TreatsBakesPage.tsx">
                 <h3 id="safety-heading" className="text-lg font-semibold text-[#2D2D2D] mb-1" data-magicpath-id="25" data-magicpath-path="TreatsBakesPage.tsx">
                   Safety Comes First
                 </h3>
@@ -216,9 +216,9 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* Menu Carousel Section */}
-      <SortableContainer dndKitId="6cb572cc-32e2-4f12-8080-a786decdaf4a" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="menu-heading" data-magicpath-id="29" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="19f93eba-51dd-4181-aef7-fc22760263f4" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="30" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="4c3fd06a-6c87-4edc-b740-2f1c8e8eb176" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="334c2932-778b-4374-b6e7-1864a028f96f" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="menu-heading" data-magicpath-id="29" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="fffb5d4d-be43-47ea-8264-d66fd188ab35" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="30" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="44e9175e-6c09-47e3-9209-27f19d5452dc" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -236,11 +236,11 @@ export default function TreatsBakesPage({
           </SortableContainer>
 
           {/* Carousel Card */}
-          <SortableContainer dndKitId="4756ac44-81b8-44d0-9622-1f7274a7ca23" containerType="regular" prevTag="div" className="max-w-2xl mx-auto" data-magicpath-id="34" data-magicpath-path="TreatsBakesPage.tsx">
-            <SortableContainer dndKitId="12e2aa77-73ce-4366-9c10-60c6f81c3d9a" containerType="regular" prevTag="div" className="bg-white rounded-2xl shadow-2xl overflow-hidden" data-magicpath-id="35" data-magicpath-path="TreatsBakesPage.tsx">
-              <SortableContainer dndKitId="4dd7cc34-8db8-436e-a230-7eb48da7650b" containerType="regular" prevTag="div" className="relative h-80 sm:h-96 overflow-hidden" data-magicpath-id="36" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="6da0009b-ab36-4158-ade4-2a0dd4f5a5aa" containerType="regular" prevTag="div" className="max-w-2xl mx-auto" data-magicpath-id="34" data-magicpath-path="TreatsBakesPage.tsx">
+            <SortableContainer dndKitId="1e5667fc-299b-4b23-9898-2f9582fb32ed" containerType="regular" prevTag="div" className="bg-white rounded-2xl shadow-2xl overflow-hidden" data-magicpath-id="35" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="fe1dd737-2673-4db7-8e57-09197adfef03" containerType="regular" prevTag="div" className="relative h-80 sm:h-96 overflow-hidden" data-magicpath-id="36" data-magicpath-path="TreatsBakesPage.tsx">
                 <AnimatePresence mode="wait" data-magicpath-id="37" data-magicpath-path="TreatsBakesPage.tsx">
-                  <SortableContainer dndKitId="732c0a6e-4a03-4400-903a-34409a7d8602" containerType="regular" prevTag="motion.div" key={currentMenuIndex} initial={{
+                  <SortableContainer dndKitId="f1c63e20-646a-4bdf-98da-d5c0e8828064" containerType="regular" prevTag="motion.div" key={currentMenuIndex} initial={{
                     opacity: 0,
                     x: 100
                   }} animate={{
@@ -258,18 +258,18 @@ export default function TreatsBakesPage({
                 </AnimatePresence>
 
                 {/* Navigation Arrows */}
-                <SortableContainer dndKitId="63acff1c-5c7d-45a3-9837-543a8fb77851" containerType="regular" prevTag="button" onClick={prevMenuItem} className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-[#C17857] p-3 rounded-full shadow-lg transition-all z-10" aria-label="Previous item" data-magicpath-id="41" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="d17413d9-86b1-4da4-8e3c-f10e2675cf1b" containerType="regular" prevTag="button" onClick={prevMenuItem} className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-[#C17857] p-3 rounded-full shadow-lg transition-all z-10" aria-label="Previous item" data-magicpath-id="41" data-magicpath-path="TreatsBakesPage.tsx">
                   <ChevronLeft className="w-6 h-6" data-magicpath-id="42" data-magicpath-path="TreatsBakesPage.tsx" />
                 </SortableContainer>
-                <SortableContainer dndKitId="fc66b1cb-6373-4ce7-9628-dd262a704217" containerType="regular" prevTag="button" onClick={nextMenuItem} className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-[#C17857] p-3 rounded-full shadow-lg transition-all z-10" aria-label="Next item" data-magicpath-id="43" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="c392c97f-9dc7-460f-acc9-55a6c35b3236" containerType="regular" prevTag="button" onClick={nextMenuItem} className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-[#C17857] p-3 rounded-full shadow-lg transition-all z-10" aria-label="Next item" data-magicpath-id="43" data-magicpath-path="TreatsBakesPage.tsx">
                   <ChevronRight className="w-6 h-6" data-magicpath-id="44" data-magicpath-path="TreatsBakesPage.tsx" />
                 </SortableContainer>
               </SortableContainer>
 
               {/* Card Content */}
-              <SortableContainer dndKitId="94a3bd87-6007-466d-80d5-a3ab8ab9f17d" containerType="regular" prevTag="div" className="p-6 sm:p-8" data-magicpath-id="45" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="01f380a4-fec7-49aa-8ebb-fed86c762108" containerType="regular" prevTag="div" className="p-6 sm:p-8" data-magicpath-id="45" data-magicpath-path="TreatsBakesPage.tsx">
                 <AnimatePresence mode="wait" data-magicpath-id="46" data-magicpath-path="TreatsBakesPage.tsx">
-                  <SortableContainer dndKitId="1fac1546-7c8a-4a7d-bb2e-120a7026be16" containerType="regular" prevTag="motion.div" key={currentMenuIndex} initial={{
+                  <SortableContainer dndKitId="c06dbb8c-e013-478c-ba3b-cfbb7891cb52" containerType="regular" prevTag="motion.div" key={currentMenuIndex} initial={{
                     opacity: 0,
                     y: 20
                   }} animate={{
@@ -301,9 +301,9 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* How to Order Section */}
-      <SortableContainer dndKitId="b3637791-2606-4048-9d82-31a135c85396" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-white" aria-labelledby="how-to-order-heading" data-magicpath-id="52" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="ec3df401-6e2a-4963-8fca-1e9509ef7c89" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="53" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="869ee91b-c494-459c-b3c1-2a0a902d9362" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="0a5ac9d6-7717-4bad-8dc1-7897f728eb07" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-white" aria-labelledby="how-to-order-heading" data-magicpath-id="52" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="4e057342-0c7c-479d-a005-c5fcd1413f66" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="53" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="4aa1e2b4-cbd3-4d83-988d-ed359e8c1e9a" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -319,18 +319,18 @@ export default function TreatsBakesPage({
             </h2>
             
             {/* Ordering Steps */}
-            <SortableContainer dndKitId="14f8db3e-2154-4e10-b623-0ae3daf609f1" containerType="regular" prevTag="div" className="mb-12 space-y-8" data-magicpath-id="56" data-magicpath-path="TreatsBakesPage.tsx">
+            <SortableContainer dndKitId="6040cba8-6428-49b9-ba22-458f61f674a9" containerType="regular" prevTag="div" className="mb-12 space-y-8" data-magicpath-id="56" data-magicpath-path="TreatsBakesPage.tsx">
               <h3 className="text-2xl font-semibold text-[#C17857] mb-6 text-center" data-magicpath-id="57" data-magicpath-path="TreatsBakesPage.tsx">
                 How to place your order:
               </h3>
               
               {/* Step 1 */}
-              <SortableContainer dndKitId="fc764390-aad1-4778-bb43-a8cf65d6ea00" containerType="regular" prevTag="div" className="bg-[#F5F1E8] rounded-xl p-6" data-magicpath-id="58" data-magicpath-path="TreatsBakesPage.tsx">
-                <SortableContainer dndKitId="d3d1819a-04da-468f-8852-a5d4591b73f9" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="59" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="9762a630-169f-4059-811a-69036a51f5d5" containerType="regular" prevTag="div" className="bg-[#F5F1E8] rounded-xl p-6" data-magicpath-id="58" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="4d48a7f0-b653-4ab1-82e1-409f8f7a33ee" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="59" data-magicpath-path="TreatsBakesPage.tsx">
                   <div className="bg-[#C17857] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg" data-magicpath-id="60" data-magicpath-path="TreatsBakesPage.tsx">
                     1
                   </div>
-                  <SortableContainer dndKitId="04e51b68-9302-4cfd-a598-ac1dd3c9111c" containerType="regular" prevTag="div" data-magicpath-id="61" data-magicpath-path="TreatsBakesPage.tsx">
+                  <SortableContainer dndKitId="c86336ae-4672-431e-b5c0-acf909b65aab" containerType="regular" prevTag="div" data-magicpath-id="61" data-magicpath-path="TreatsBakesPage.tsx">
                     <h4 className="text-xl font-semibold text-[#2D2D2D] mb-2" data-magicpath-id="62" data-magicpath-path="TreatsBakesPage.tsx">
                       Choose the base for your pie
                     </h4>
@@ -340,12 +340,12 @@ export default function TreatsBakesPage({
               </SortableContainer>
               
               {/* Step 2 */}
-              <SortableContainer dndKitId="34ce0a51-2cfa-4531-aceb-30fe3c4056fd" containerType="regular" prevTag="div" className="bg-[#F5F1E8] rounded-xl p-6" data-magicpath-id="64" data-magicpath-path="TreatsBakesPage.tsx">
-                <SortableContainer dndKitId="c2ff39c8-69f0-4c67-9a51-a23838b389f0" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="65" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="785451a2-a92f-4c2b-a840-b54177216faf" containerType="regular" prevTag="div" className="bg-[#F5F1E8] rounded-xl p-6" data-magicpath-id="64" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="10a83d36-bb99-4cc2-87f0-cf442939d147" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="65" data-magicpath-path="TreatsBakesPage.tsx">
                   <div className="bg-[#C17857] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg" data-magicpath-id="66" data-magicpath-path="TreatsBakesPage.tsx">
                     2
                   </div>
-                  <SortableContainer dndKitId="60344b74-649e-4310-b026-61af9e08276d" containerType="regular" prevTag="div" data-magicpath-id="67" data-magicpath-path="TreatsBakesPage.tsx">
+                  <SortableContainer dndKitId="34e51252-944d-4137-acde-25679849294e" containerType="regular" prevTag="div" data-magicpath-id="67" data-magicpath-path="TreatsBakesPage.tsx">
                     <h4 className="text-xl font-semibold text-[#2D2D2D] mb-2" data-magicpath-id="68" data-magicpath-path="TreatsBakesPage.tsx">
                       Your favourite flavour (one or more)!
                     </h4>
@@ -354,33 +354,33 @@ export default function TreatsBakesPage({
               </SortableContainer>
               
               {/* Step 3 - Sizes & Pricing */}
-              <SortableContainer dndKitId="b6c81dad-78ec-4e82-adb1-0f76596c8aae" containerType="regular" prevTag="div" className="bg-[#F5F1E8] rounded-xl p-6" data-magicpath-id="69" data-magicpath-path="TreatsBakesPage.tsx">
-                <SortableContainer dndKitId="0347dd00-9f5a-4be0-96c9-0b0e171e3990" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="70" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="0a77fb5d-6afb-4230-a6b1-6d0717b42a00" containerType="regular" prevTag="div" className="bg-[#F5F1E8] rounded-xl p-6" data-magicpath-id="69" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="93b467b7-c407-41a3-8cc1-1d86df00eeb2" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="70" data-magicpath-path="TreatsBakesPage.tsx">
                   <div className="bg-[#C17857] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg" data-magicpath-id="71" data-magicpath-path="TreatsBakesPage.tsx">
                     3
                   </div>
-                  <SortableContainer dndKitId="700f2cb1-07a0-4001-b602-48e4396a0092" containerType="regular" prevTag="div" className="flex-1" data-magicpath-id="72" data-magicpath-path="TreatsBakesPage.tsx">
+                  <SortableContainer dndKitId="9320ebda-93f5-4316-9daa-e514d846110c" containerType="regular" prevTag="div" className="flex-1" data-magicpath-id="72" data-magicpath-path="TreatsBakesPage.tsx">
                     <h4 className="text-xl font-semibold text-[#2D2D2D] mb-4" data-magicpath-id="73" data-magicpath-path="TreatsBakesPage.tsx">
                       The size of your treat:
                     </h4>
-                    <SortableContainer dndKitId="9926bda5-5e96-437c-a7e9-47a1ea98d7a3" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 gap-3" data-magicpath-id="74" data-magicpath-path="TreatsBakesPage.tsx">
-                      <SortableContainer dndKitId="d053d0b2-27a8-4873-b154-36ea23ebe801" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="75" data-magicpath-path="TreatsBakesPage.tsx">
+                    <SortableContainer dndKitId="74dbb74f-1bd2-4c8e-9d2f-9de1375dd80d" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 gap-3" data-magicpath-id="74" data-magicpath-path="TreatsBakesPage.tsx">
+                      <SortableContainer dndKitId="7d75dc52-ce25-43ea-9a8a-4247d80fcf5c" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="75" data-magicpath-path="TreatsBakesPage.tsx">
                         <span className="text-[#2D2D2D] font-medium" data-magicpath-id="76" data-magicpath-path="TreatsBakesPage.tsx">Pie in a Tub</span>
                         <span className="text-[#C17857] font-bold text-lg" data-magicpath-id="77" data-magicpath-path="TreatsBakesPage.tsx">€7</span>
                       </SortableContainer>
-                      <SortableContainer dndKitId="bdf15330-db6c-489f-80ea-f0b2e4abe251" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="78" data-magicpath-path="TreatsBakesPage.tsx">
+                      <SortableContainer dndKitId="95d8ddc9-aec6-4132-8913-78c2b382d66c" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="78" data-magicpath-path="TreatsBakesPage.tsx">
                         <span className="text-[#2D2D2D] font-medium" data-magicpath-id="79" data-magicpath-path="TreatsBakesPage.tsx">13 cm</span>
                         <span className="text-[#C17857] font-bold text-lg" data-magicpath-id="80" data-magicpath-path="TreatsBakesPage.tsx">€13</span>
                       </SortableContainer>
-                      <SortableContainer dndKitId="646b3c18-c12d-44f5-965c-b2684d34703e" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="81" data-magicpath-path="TreatsBakesPage.tsx">
+                      <SortableContainer dndKitId="da54215a-db17-466c-a7df-5fa6dda6f135" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="81" data-magicpath-path="TreatsBakesPage.tsx">
                         <span className="text-[#2D2D2D] font-medium" data-magicpath-id="82" data-magicpath-path="TreatsBakesPage.tsx">16 cm</span>
                         <span className="text-[#C17857] font-bold text-lg" data-magicpath-id="83" data-magicpath-path="TreatsBakesPage.tsx">€25</span>
                       </SortableContainer>
-                      <SortableContainer dndKitId="c2e90631-3b4a-4f6b-9d45-ac66555d7464" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="84" data-magicpath-path="TreatsBakesPage.tsx">
+                      <SortableContainer dndKitId="45a6f990-fad3-481d-9d1a-847d9fc56fc9" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center" data-magicpath-id="84" data-magicpath-path="TreatsBakesPage.tsx">
                         <span className="text-[#2D2D2D] font-medium" data-magicpath-id="85" data-magicpath-path="TreatsBakesPage.tsx">20 cm</span>
                         <span className="text-[#C17857] font-bold text-lg" data-magicpath-id="86" data-magicpath-path="TreatsBakesPage.tsx">€35</span>
                       </SortableContainer>
-                      <SortableContainer dndKitId="09093757-7022-4561-847a-a62e3945abaa" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center sm:col-span-2" data-magicpath-id="87" data-magicpath-path="TreatsBakesPage.tsx">
+                      <SortableContainer dndKitId="5b96fcbb-4981-4307-abbd-580e7839fe89" containerType="regular" prevTag="div" className="bg-white rounded-lg p-4 flex justify-between items-center sm:col-span-2" data-magicpath-id="87" data-magicpath-path="TreatsBakesPage.tsx">
                         <span className="text-[#2D2D2D] font-medium" data-magicpath-id="88" data-magicpath-path="TreatsBakesPage.tsx">25 cm</span>
                         <span className="text-[#C17857] font-bold text-lg" data-magicpath-id="89" data-magicpath-path="TreatsBakesPage.tsx">€45</span>
                       </SortableContainer>
@@ -394,24 +394,24 @@ export default function TreatsBakesPage({
             </SortableContainer>
             
             {/* Contact & Delivery Info with WhatsApp */}
-            <SortableContainer dndKitId="c4a20477-b90b-4a55-8bd8-3dfa436f5a0b" containerType="regular" prevTag="div" className="bg-[#C17857] text-white rounded-xl p-8 sm:p-10 text-center" data-magicpath-id="91" data-magicpath-path="TreatsBakesPage.tsx">
+            <SortableContainer dndKitId="efb83e8f-9fd5-434c-b548-91db724e5b58" containerType="regular" prevTag="div" className="bg-[#C17857] text-white rounded-xl p-8 sm:p-10 text-center" data-magicpath-id="91" data-magicpath-path="TreatsBakesPage.tsx">
               <p className="text-xl sm:text-2xl font-semibold mb-4" data-magicpath-id="92" data-magicpath-path="TreatsBakesPage.tsx">
                 Place Your Order:
               </p>
               <p className="text-lg sm:text-xl mb-6" data-magicpath-id="93" data-magicpath-path="TreatsBakesPage.tsx">Monday–Friday, 10am–5pm</p>
               
               {/* WhatsApp Order Button */}
-              <SortableContainer dndKitId="ec937469-f5c9-45d2-91f1-76f959dfb844" containerType="regular" prevTag="button" onClick={handleWhatsAppOrder} className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-3 mx-auto mb-6 transition-colors shadow-lg" data-magicpath-id="94" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="5429287b-ecb4-4434-aa13-280495ebdc8c" containerType="regular" prevTag="button" onClick={handleWhatsAppOrder} className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-3 mx-auto mb-6 transition-colors shadow-lg" data-magicpath-id="94" data-magicpath-path="TreatsBakesPage.tsx">
                 <MessageCircle className="w-6 h-6" data-magicpath-id="95" data-magicpath-path="TreatsBakesPage.tsx" />
                 Order via WhatsApp
               </SortableContainer>
               
-              <SortableContainer dndKitId="be65aebd-49bd-4cee-8c93-44e43b424b37" containerType="regular" prevTag="div" className="space-y-3 text-left max-w-xl mx-auto" data-magicpath-id="96" data-magicpath-path="TreatsBakesPage.tsx">
-                <SortableContainer dndKitId="e57ed8c6-0f92-4d7a-b1ac-794f3f054a88" containerType="regular" prevTag="div" className="bg-white/10 rounded-lg p-4" data-magicpath-id="97" data-magicpath-path="TreatsBakesPage.tsx">
+              <SortableContainer dndKitId="963520aa-2252-48ac-a2e6-b9166809e600" containerType="regular" prevTag="div" className="space-y-3 text-left max-w-xl mx-auto" data-magicpath-id="96" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="2eef75a0-994a-4924-9bcc-5c80cd1f773d" containerType="regular" prevTag="div" className="bg-white/10 rounded-lg p-4" data-magicpath-id="97" data-magicpath-path="TreatsBakesPage.tsx">
                   <p className="text-lg font-semibold mb-1" data-magicpath-id="98" data-magicpath-path="TreatsBakesPage.tsx">Collection:</p>
                   <p className="text-white/90" data-magicpath-id="99" data-magicpath-path="TreatsBakesPage.tsx">Dun Laoghaire, County Dublin</p>
                 </SortableContainer>
-                <SortableContainer dndKitId="83424031-dac2-4589-97c4-afe31537d9bb" containerType="regular" prevTag="div" className="bg-white/10 rounded-lg p-4" data-magicpath-id="100" data-magicpath-path="TreatsBakesPage.tsx">
+                <SortableContainer dndKitId="06f0a74b-ae58-4b4b-afb7-75e5b4b7cbab" containerType="regular" prevTag="div" className="bg-white/10 rounded-lg p-4" data-magicpath-id="100" data-magicpath-path="TreatsBakesPage.tsx">
                   <p className="text-lg font-semibold mb-1" data-magicpath-id="101" data-magicpath-path="TreatsBakesPage.tsx">Saturday Delivery:</p>
                   <p className="text-white/90" data-magicpath-id="102" data-magicpath-path="TreatsBakesPage.tsx">Dublin City Centre</p>
                 </SortableContainer>
@@ -422,9 +422,9 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* Customer Testimonials */}
-      <SortableContainer dndKitId="a81b5e68-05b2-416f-801b-0e6f96760190" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-[#5e7155]" aria-labelledby="testimonials-heading" data-magicpath-id="103" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="5c4544d6-6d1f-4c5d-99c6-37a21ef9cf4f" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="104" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="72788474-c54b-46f5-b236-1c5ae414b0cf" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="a02566c6-d037-4bac-bd79-0813d5c0247a" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-[#5e7155]" aria-labelledby="testimonials-heading" data-magicpath-id="103" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="c9f72ffb-5c08-45b7-9b38-4052c8aec99f" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="104" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="943a1caa-4428-4522-9c18-21ba58291c8b" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -440,7 +440,7 @@ export default function TreatsBakesPage({
             </h2>
           </SortableContainer>
 
-          <SortableContainer dndKitId="d1d3f3d9-ffb4-4e08-86e9-2d690f0876c7" containerType="collection" prevTag="div" className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8" data-magicpath-id="107" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="a3ac9ceb-00ba-436e-8f78-602e8a2c8b2e" containerType="collection" prevTag="div" className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8" data-magicpath-id="107" data-magicpath-path="TreatsBakesPage.tsx">
             {testimonials.map((testimonial, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
               opacity: 0,
               y: 30
@@ -466,9 +466,9 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* FAQs Section */}
-      <SortableContainer dndKitId="b2633338-d74a-4af4-89db-6982aa20f656" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="faqs-heading" data-magicpath-id="113" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="648e4ca5-e45f-4804-a537-3e444c001488" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="114" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="681cf9e7-8333-4446-ae77-37e936c5c5ab" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="32c42dfd-9a4d-4626-9fab-2f7da9aac62f" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="faqs-heading" data-magicpath-id="113" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="2b7cbeed-df4f-4967-9072-e45d29743905" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="114" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="0a1a0e97-3ea0-4d38-bfd0-787844049d88" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -484,7 +484,7 @@ export default function TreatsBakesPage({
             </h2>
           </SortableContainer>
 
-          <SortableContainer dndKitId="72a8c42b-5fda-4bd0-88cd-ea81ba613f67" containerType="collection" prevTag="div" className="space-y-4" data-magicpath-id="117" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="21552f85-b447-48b3-bbf0-9d7831073582" containerType="collection" prevTag="div" className="space-y-4" data-magicpath-id="117" data-magicpath-path="TreatsBakesPage.tsx">
             {faqs.map((faq, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
               opacity: 0,
               y: 20
@@ -524,7 +524,7 @@ export default function TreatsBakesPage({
               </motion.div>)}
           </SortableContainer>
 
-          <SortableContainer dndKitId="907ffea2-ba1b-4c9a-b794-1e81b82a3112" containerType="regular" prevTag="div" className="text-center mt-8" data-magicpath-id="126" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="b3c07bb1-ac73-4bdc-aa41-bbd68dbf6752" containerType="regular" prevTag="div" className="text-center mt-8" data-magicpath-id="126" data-magicpath-path="TreatsBakesPage.tsx">
             <button onClick={() => onNavigate?.('#contact')} className="text-[#C17857] hover:text-[#B06847] font-semibold text-lg underline" data-magicpath-id="127" data-magicpath-path="TreatsBakesPage.tsx">
               More Questions? Contact Me
             </button>
@@ -533,9 +533,9 @@ export default function TreatsBakesPage({
       </SortableContainer>
 
       {/* Call to Action */}
-      <SortableContainer dndKitId="bcefa9e7-886d-4e67-b4e8-b04c0febd103" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-br from-[#C17857] to-[#5e7155]" aria-labelledby="cta-heading" data-magicpath-id="128" data-magicpath-path="TreatsBakesPage.tsx">
-        <SortableContainer dndKitId="eb320ac2-c4c2-454b-8660-157884dacf85" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="129" data-magicpath-path="TreatsBakesPage.tsx">
-          <SortableContainer dndKitId="8898571b-191a-4734-a3e3-974154b3c436" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="bd36150e-a3e7-40db-bb8d-c0f6fe4b0bf5" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-br from-[#C17857] to-[#5e7155]" aria-labelledby="cta-heading" data-magicpath-id="128" data-magicpath-path="TreatsBakesPage.tsx">
+        <SortableContainer dndKitId="be3bd8dc-137a-40a4-b5d6-78868c4712c6" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="129" data-magicpath-path="TreatsBakesPage.tsx">
+          <SortableContainer dndKitId="2c4e5096-ba55-4086-9977-61fe933ac754" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -552,7 +552,7 @@ export default function TreatsBakesPage({
             <p className="text-white/90 text-lg sm:text-xl mb-8 max-w-2xl mx-auto" data-magicpath-id="132" data-magicpath-path="TreatsBakesPage.tsx">
               Order fresh-baked treats made with love and wholesome ingredients
             </p>
-            <SortableContainer dndKitId="8e0ba749-7385-4329-99dc-3aba2ca9051d" containerType="regular" prevTag="button" onClick={handleWhatsAppOrder} className="bg-white text-[#C17857] px-8 sm:px-10 py-4 rounded-full hover:bg-[#F5F1E8] transition-colors font-semibold text-base sm:text-lg shadow-xl flex items-center justify-center gap-3 mx-auto" data-magicpath-id="133" data-magicpath-path="TreatsBakesPage.tsx">
+            <SortableContainer dndKitId="3e5d3ac1-458a-4518-a382-dce10b8dcd92" containerType="regular" prevTag="button" onClick={handleWhatsAppOrder} className="bg-white text-[#C17857] px-8 sm:px-10 py-4 rounded-full hover:bg-[#F5F1E8] transition-colors font-semibold text-base sm:text-lg shadow-xl flex items-center justify-center gap-3 mx-auto" data-magicpath-id="133" data-magicpath-path="TreatsBakesPage.tsx">
               <MessageCircle className="w-5 h-5" data-magicpath-id="134" data-magicpath-path="TreatsBakesPage.tsx" />
               Place an Order
             </SortableContainer>
