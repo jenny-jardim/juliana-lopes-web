@@ -879,7 +879,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               color: "#fcf2e3"
             }} data-magicpath-id="185" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</div>
               <div className="text-white/80 text-xs sm:text-sm" style={{
-              color: "#fcf2e3"
+              color: "#fcf2e3",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="186" data-magicpath-path="JulianaChefWebsite.tsx">the vegan chef</div>
             </SortableContainer>
 
@@ -889,7 +890,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               e.preventDefault();
               handleNavClick(item.href);
             }} className="text-white hover:text-white/80 transition-colors font-medium text-sm" style={{
-              color: "#fcf2e3"
+              color: "#fcf2e3",
+              fontFamily: "Montserrat"
             }} data-magicpath-uuid={(item as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="188" data-magicpath-path="JulianaChefWebsite.tsx">
                   {item.name}
                 </a>)}
@@ -964,10 +966,10 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           duration: 0.8,
           delay: 0.2
         }} className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4" style={{
-          color: "#fcf2e3"
-        }} data-magicpath-id="199" data-magicpath-path="JulianaChefWebsite.tsx">
-            Specializing in Transformational Food Experiences For Wellness Retreats Worldwide
-          </motion.p>
+          color: "#fcf2e3",
+          fontFamily: "Montserrat",
+          fontWeight: "600"
+        }} data-magicpath-id="199" data-magicpath-path="JulianaChefWebsite.tsx">Specialising in Transformational Food Experiences For Wellness Retreats Worldwide</motion.p>
           <motion.button data-magicpath-motion-tag="motion.button" initial={{
           opacity: 0,
           y: 30
@@ -988,7 +990,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           });
         }} style={{
           background: "#c76942",
-          color: "#fcf2e3"
+          color: "#fcf2e3",
+          fontFamily: "Montserrat",
+          fontWeight: "600"
         }} data-magicpath-id="200" data-magicpath-path="JulianaChefWebsite.tsx">
             Book Your Retreat Catering
           </motion.button>
@@ -1059,7 +1063,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </p>
               <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base" onClick={() => setShowAboutPage(true)} data-magicpath-id="211" data-magicpath-path="JulianaChefWebsite.tsx" style={{
               textAlign: "center",
-              justifyContent: "center"
+              justifyContent: "center",
+              fontFamily: "Montserrat",
+              fontWeight: "600"
             }}>
                 Read My Full Story
               </button>
@@ -1118,7 +1124,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 behavior: 'smooth'
               });
             }} style={{
-              background: "#c76942"
+              background: "#c76942",
+              fontFamily: "Montserrat",
+              fontWeight: "600"
             }} data-magicpath-id="220" data-magicpath-path="JulianaChefWebsite.tsx">
                 Find Out More
               </button>
@@ -1187,7 +1195,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 behavior: 'smooth'
               });
             }} style={{
-              background: "#c76942"
+              background: "#c76942",
+              fontFamily: "Montserrat",
+              fontWeight: "600"
             }} data-magicpath-id="228" data-magicpath-path="JulianaChefWebsite.tsx">
                 See Treats Menu
               </button>
@@ -1321,14 +1331,16 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             background: "#fcf2e3"
           }} data-magicpath-id="254" data-magicpath-path="JulianaChefWebsite.tsx">
               <p className="text-[#4A4A4A] text-base sm:text-lg md:text-xl leading-relaxed mb-6 italic" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="255" data-magicpath-path="JulianaChefWebsite.tsx">
                 "{testimonials[currentTestimonial].quote}"
               </p>
               <SortableContainer dndKitId="13d9211f-b9dc-40c8-a918-931efe76dcf4" containerType="regular" prevTag="div" className="flex items-center justify-between" data-magicpath-id="256" data-magicpath-path="JulianaChefWebsite.tsx">
                 <SortableContainer dndKitId="73d72a35-7525-47d9-bb0f-d56f345c233e" containerType="regular" prevTag="div" data-magicpath-id="257" data-magicpath-path="JulianaChefWebsite.tsx">
                   <p className="font-semibold text-[#2D2D2D] text-sm sm:text-base" style={{
-                  color: "#404d3a"
+                  color: "#404d3a",
+                  fontFamily: "Montserrat"
                 }} data-magicpath-id="258" data-magicpath-path="JulianaChefWebsite.tsx">
                     {testimonials[currentTestimonial].author}
                   </p>
@@ -1390,7 +1402,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               color: "#404d3a"
             }} data-magicpath-uuid={(faq as any)["mpid"] ?? "unsafe"} data-magicpath-id="272" data-magicpath-path="JulianaChefWebsite.tsx">
                   <span className="font-semibold text-[#2D2D2D] pr-4 text-sm sm:text-base" style={{
-                color: "#404d3a"
+                color: "#404d3a",
+                fontFamily: "Montserrat"
               }} data-magicpath-uuid={(faq as any)["mpid"] ?? "unsafe"} data-magicpath-field="question:unknown" data-magicpath-id="273" data-magicpath-path="JulianaChefWebsite.tsx">
                     {faq.question}
                   </span>
@@ -1436,7 +1449,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             behavior: 'smooth'
           });
         }} className="bg-[#5e7155] text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-base sm:text-lg" style={{
-          background: "#404d3a"
+          background: "#404d3a",
+          fontFamily: "Montserrat",
+          fontWeight: "600"
         }} data-magicpath-id="281" data-magicpath-path="JulianaChefWebsite.tsx">
             Get In Touch
           </button>
@@ -1452,15 +1467,20 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             <SortableContainer dndKitId="f0ca3d02-d7c8-4902-bce9-598b45f4c6bb" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="285" data-magicpath-path="JulianaChefWebsite.tsx">
               <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="286" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
               <p className="text-white/80 text-xs sm:text-sm" style={{
-              color: "#fcf2e3"
+              color: "#fcf2e3",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="287" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
             </SortableContainer>
             <SortableContainer dndKitId="11f06e0e-c9ca-443b-b909-ef6836e155a0" containerType="regular" prevTag="div" className="text-center sm:text-left" style={{
             color: "#fcf2e3"
           }} data-magicpath-id="288" data-magicpath-path="JulianaChefWebsite.tsx">
-              <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="289" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
+              <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="289" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              fontFamily: "Montserrat"
+            }}>Quick Links</h4>
               <SortableContainer dndKitId="df7866c7-ddfc-49ef-90df-91cb8c144dd4" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="290" data-magicpath-path="JulianaChefWebsite.tsx">
-                <li data-magicpath-id="291" data-magicpath-path="JulianaChefWebsite.tsx">
+                <li data-magicpath-id="291" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                fontFamily: "Montserrat"
+              }}>
                   <a href="#home" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#home');
@@ -1470,7 +1490,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                     Home
                   </a>
                 </li>
-                <li data-magicpath-id="293" data-magicpath-path="JulianaChefWebsite.tsx">
+                <li data-magicpath-id="293" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                fontFamily: "Montserrat"
+              }}>
                   <a href="#about" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#about');
@@ -1485,12 +1507,15 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   e.preventDefault();
                   handleNavClick('#offerings');
                 }} className="text-white/80 hover:text-white transition-colors" style={{
-                  color: "#fcf2e3"
+                  color: "#fcf2e3",
+                  fontFamily: "Montserrat"
                 }} data-magicpath-id="296" data-magicpath-path="JulianaChefWebsite.tsx">
                     Retreat Catering
                   </a>
                 </li>
-                <li data-magicpath-id="297" data-magicpath-path="JulianaChefWebsite.tsx">
+                <li data-magicpath-id="297" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+                fontFamily: "Montserrat"
+              }}>
                   <a href="#treats" onClick={e => {
                   e.preventDefault();
                   handleNavClick('#treats');
@@ -1501,7 +1526,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </a>
                 </li>
                 <li style={{
-                color: "#fcf2e3"
+                color: "#fcf2e3",
+                fontFamily: "Montserrat"
               }} data-magicpath-id="299" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="#contact" onClick={e => {
                   e.preventDefault();
@@ -1515,7 +1541,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </SortableContainer>
             </SortableContainer>
             <SortableContainer dndKitId="78a3c4e8-4983-4a18-a978-7ef60c5e0b79" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="301" data-magicpath-path="JulianaChefWebsite.tsx">
-              <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="302" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
+              <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="302" data-magicpath-path="JulianaChefWebsite.tsx" style={{
+              fontFamily: "Montserrat"
+            }}>Connect</h4>
               <SortableContainer dndKitId="97d67697-640f-4a81-b133-c234c7ccea98" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="303" data-magicpath-path="JulianaChefWebsite.tsx">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="304" data-magicpath-path="JulianaChefWebsite.tsx">
                   <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
@@ -1532,7 +1560,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           </SortableContainer>
           <SortableContainer dndKitId="a468449b-9d2b-4909-ba1a-feee3a22871e" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="308" data-magicpath-path="JulianaChefWebsite.tsx">
             <p style={{
-            color: "#fcf2e3"
+            color: "#fcf2e3",
+            fontFamily: "Montserrat"
           }} data-magicpath-id="309" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
           </SortableContainer>
         </SortableContainer>
