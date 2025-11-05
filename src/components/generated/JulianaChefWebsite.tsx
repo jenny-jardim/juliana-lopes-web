@@ -10,60 +10,60 @@ type JulianaChefWebsiteProps = {};
 const navigation = [{
   name: 'Home',
   href: '#home',
-  mpid: "6fcaf1d2-f519-4e44-8995-6ba35a9a9140"
+  mpid: "4c2ce49f-76ac-4756-acc9-900368f3e93b"
 }, {
   name: 'About Juliana',
   href: '#about',
-  mpid: "6297ac78-c51a-4f10-98ec-fbf24e21c575"
+  mpid: "f6322dee-6d4f-4602-8d7c-bf1567ade1ab"
 }, {
   name: 'Retreat Catering',
   href: '#offerings',
-  mpid: "09950beb-ceac-4c55-8619-7469555abbd1"
+  mpid: "cfe70c5d-24dc-4fe1-bc1e-ead81862eea8"
 }, {
   name: 'Treats & Bakes',
   href: '#treats',
-  mpid: "df0d75b0-07a8-4b33-b638-d90b391d8ffd"
+  mpid: "9c412dbd-83b0-4817-a9f3-128637a77713"
 }, {
   name: 'Contact',
   href: '#contact',
-  mpid: "03fe59f0-b062-4ff2-8b11-5a7c19800c21"
+  mpid: "ef487a38-8ec0-4d3b-98a5-90a88b28c1c3"
 }] as any[];
 const testimonials = [{
   quote: "Juliana transformed our retreat experience. Her plant-based dishes were not only delicious but beautifully presented. Our guests couldn't stop raving about the food!",
   author: 'Sophie Martinez',
   location: 'Retreat Host, Portugal',
-  mpid: "5a9851c9-9ce9-4fc8-9783-282ae5802245"
+  mpid: "3676fa83-9ea5-478a-8cf7-1f7c12eda84c"
 }, {
   quote: "Working with Chef Juliana was incredible. She brought creativity and passion to every meal, making our wellness retreat truly unforgettable.",
   author: 'Marcus Chen',
   location: 'Wellness Coordinator, Bali',
-  mpid: "3d3cd698-7bd3-490f-9241-910eb44e4d7a"
+  mpid: "2db846e9-9dd9-4d94-8da7-e469c4fa2227"
 }, {
   quote: "The treats Juliana prepared were absolutely divine. Gluten-free, plant-based perfection that even our non-vegan guests adored.",
   author: 'Emma Thompson',
   location: 'Event Planner, UK',
-  mpid: "3330b813-2890-48fb-adc6-7b10a28af282"
+  mpid: "6b2e6708-5482-4177-8219-49b4a9490e30"
 }] as any[];
 const faqs = [{
   question: "I'm based in the UK. Can you cater my retreat?",
   answer: "Yes! I cater retreats and events across the world and the UK. Travel costs may apply for certain locations.",
-  mpid: "1888c105-d9d7-4e7b-9f1f-1c47f3e3b9c9"
+  mpid: "bc17f05f-9aae-4966-aa59-a11ae246e5a7"
 }, {
   question: "How far ahead should I book your catering service?",
   answer: "I recommend booking at least 2-3 months in advance to ensure availability, especially for retreat seasons.",
-  mpid: "0ff8b86c-1e7d-45af-94c4-43bd0ecd31a9"
+  mpid: "527b0abf-cbfe-499a-929d-66b81f8077eb"
 }, {
   question: "What if my guests have lots of different dietary needs?",
   answer: "I specialize in accommodating various dietary requirements. All my dishes are plant-based and can be adapted for allergies and preferences.",
-  mpid: "de968404-c129-4dfe-a336-b96422939b34"
+  mpid: "e38a8888-fabd-4951-ac8e-3a2abc49f1e6"
 }, {
   question: "How do I know everything is vegan if I can't see it being made?",
   answer: "I provide full transparency with ingredient lists and preparation methods. You're welcome to observe the cooking process.",
-  mpid: "8b181bf8-022a-47f3-8fd4-0824cec33bf9"
+  mpid: "150def98-60d3-4813-b1a4-dc7f4c36ca0e"
 }, {
   question: "I work a lot and eat out. Are your treats actually healthy?",
   answer: "Yes! My treats use wholesome, natural ingredients without refined sugars. They're designed to nourish while satisfying your sweet tooth.",
-  mpid: "69d41f3b-bf89-4ec3-b601-42e4cb17aef4"
+  mpid: "3125ef48-5027-4c7d-a9eb-6dc13dbf54ee"
 }] as any[];
 
 // @component: JulianaChefWebsite
@@ -185,14 +185,14 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
 
   // If showing Contact page, render it with header and footer
   if (showContactPage) {
-    return <SortableContainer dndKitId="5e863822-6f98-49bd-b1a3-ed529689cad9" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="0" data-magicpath-path="JulianaChefWebsite.tsx">
+    return <SortableContainer dndKitId="24e3d2d7-6c7f-4e75-9536-a03d2d13e184" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="0" data-magicpath-path="JulianaChefWebsite.tsx">
         {/* Header */}
-        <SortableContainer dndKitId="fd8b42d5-bc78-4812-af33-e4c16197961b" containerType="regular" prevTag="motion.header" style={{
+        <SortableContainer dndKitId="76f75bd1-5160-41a7-b812-62c7b2eef354" containerType="regular" prevTag="motion.header" style={{
         opacity: headerOpacity
       }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner" data-magicpath-id="1" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="8f3c9ad5-e1a2-45a4-82ff-4277f55f3195" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="2" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="cf1c4556-9d8f-46cc-b84f-00692b3fbcd8" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="3" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="6937babc-41a7-4d6c-9281-3b72e9b7bb46" containerType="regular" prevTag="button" onClick={() => {
+          <SortableContainer dndKitId="5a06c46f-49db-480e-a1c7-615c0e30656e" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="2" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="c62f54fb-e8b5-4a75-bcfb-64f0059c85ed" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="3" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="263d32bf-d9ed-42b6-9d2c-3b863784cd1f" containerType="regular" prevTag="button" onClick={() => {
               setShowContactPage(false);
               window.scrollTo({
                 top: 0,
@@ -203,7 +203,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 <div className="text-white/80 text-xs sm:text-sm" data-magicpath-id="6" data-magicpath-path="JulianaChefWebsite.tsx">the vegan chef</div>
               </SortableContainer>
 
-              <SortableContainer dndKitId="93abc81f-d322-4944-a825-9ea5e9086321" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="7" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="0c8b96b6-70e5-4fa2-b571-df19209d95e0" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="7" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
                 e.preventDefault();
                 handleNavClick(item.href);
@@ -212,13 +212,13 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </a>)}
               </SortableContainer>
 
-              <SortableContainer dndKitId="e14351a7-6510-4ebf-94a3-8090ba176980" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="9" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="d7368416-6292-431e-858b-2a84c97306e4" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="9" data-magicpath-path="JulianaChefWebsite.tsx">
                 {mobileMenuOpen ? <X className="w-6 h-6" data-magicpath-id="10" data-magicpath-path="JulianaChefWebsite.tsx" /> : <Menu className="w-6 h-6" data-magicpath-id="11" data-magicpath-path="JulianaChefWebsite.tsx" />}
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
 
-          {mobileMenuOpen && <SortableContainer dndKitId="e6b88929-0672-4acf-84fe-353437347e69" containerType="regular" prevTag="motion.div" initial={{
+          {mobileMenuOpen && <SortableContainer dndKitId="6aa1302d-fb30-4040-9c70-6c8e1c006f34" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           height: 0
         }} animate={{
@@ -228,7 +228,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           opacity: 0,
           height: 0
         }} className="md:hidden bg-[#5e7155] border-t border-white/10" data-magicpath-id="12" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="7d6070be-d4c5-48e2-8688-3ecfd0c08800" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="13" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="fa324a3d-a431-42de-bede-283af3ec253f" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="13" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
               e.preventDefault();
               handleNavClick(item.href);
@@ -240,21 +240,21 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         </SortableContainer>
 
         {/* Contact Page Content */}
-        <SortableContainer dndKitId="802517ff-7aee-4713-9c69-180d0b8c6360" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="15" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="76f34c30-1649-4e64-8a27-1a4a787a0ff8" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="15" data-magicpath-path="JulianaChefWebsite.tsx">
           <ContactPage onNavigate={handleContactNavigate} data-magicpath-id="16" data-magicpath-path="JulianaChefWebsite.tsx" />
         </SortableContainer>
 
         {/* Footer */}
-        <SortableContainer dndKitId="ad59af22-8a6c-41a4-a84c-ac9dda26a332" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="17" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="0e64fe98-229a-4828-bef8-f5a30da3e4c5" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="18" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="ab47b15c-56c7-4507-a38e-f5fee69e1095" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="19" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="71cdba2d-9ecd-4ce5-97a8-df6ec7bf12d9" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="20" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="54f08f44-b087-4661-be44-c6533dd800eb" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="17" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="82e0d793-dc2d-4761-b64b-a5ed42e2ad6d" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="18" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="da2cead4-eb45-4168-94a9-c09c794b73f5" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="19" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="2cc5d865-7d19-49c7-9509-8c657dd4fcd5" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="20" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="21" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
                 <p className="text-white/80 text-xs sm:text-sm" data-magicpath-id="22" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
               </SortableContainer>
-              <SortableContainer dndKitId="715b924c-4773-4f76-914a-6f4f3161db5e" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="23" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="4c283810-22e1-4913-8f8d-64e3c2c16645" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="23" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="24" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
-                <SortableContainer dndKitId="99145f72-4c54-4420-bd08-c3e44eac995c" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="25" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="36646304-195a-4ea9-b68d-428ad56158df" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="25" data-magicpath-path="JulianaChefWebsite.tsx">
                   <li data-magicpath-id="26" data-magicpath-path="JulianaChefWebsite.tsx">
                     <a href="#home" onClick={e => {
                     e.preventDefault();
@@ -297,9 +297,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </li>
                 </SortableContainer>
               </SortableContainer>
-              <SortableContainer dndKitId="ad5db18f-1e08-43bf-9c1a-ba5dfed3b150" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="36" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="ac0de6db-1760-4cf3-8f15-442a89cf6ecb" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="36" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="37" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
-                <SortableContainer dndKitId="4095d90c-8561-4fb3-be1f-8d1dce7adbf4" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="38" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="18eac562-ed0f-4773-8952-1b3847aed0b8" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="38" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="39" data-magicpath-path="JulianaChefWebsite.tsx">
                     <Instagram className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="40" data-magicpath-path="JulianaChefWebsite.tsx" />
                   </a>
@@ -309,7 +309,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 </SortableContainer>
               </SortableContainer>
             </SortableContainer>
-            <SortableContainer dndKitId="bb5c0d22-07b0-4bd8-baae-c0fa9a5b45fa" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="43" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="cd024a50-0907-46b3-ab67-891e30ffe7f8" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="43" data-magicpath-path="JulianaChefWebsite.tsx">
               <p data-magicpath-id="44" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
             </SortableContainer>
           </SortableContainer>
@@ -319,14 +319,14 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
 
   // If showing Treats & Bakes page, render it with header and footer
   if (showTreatsBakesPage) {
-    return <SortableContainer dndKitId="f5f78b68-d3fd-49dc-8cca-c3540dbea17c" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="45" data-magicpath-path="JulianaChefWebsite.tsx">
+    return <SortableContainer dndKitId="69818024-5454-4912-bdaf-d24dd8ca3e3d" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="45" data-magicpath-path="JulianaChefWebsite.tsx">
         {/* Header */}
-        <SortableContainer dndKitId="53468131-03d1-455a-bf54-c48679df7a46" containerType="regular" prevTag="motion.header" style={{
+        <SortableContainer dndKitId="a419060b-2979-423e-b71c-7372c6ec96fb" containerType="regular" prevTag="motion.header" style={{
         opacity: headerOpacity
       }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner" data-magicpath-id="46" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="d45720d3-4e93-443e-b9e5-45ef1ebd7774" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="47" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="46e7d127-1714-4d18-b1cf-6fb966f6bc8a" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="48" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="da3fc36f-d65f-4fe6-9ccf-fcd56969a3fa" containerType="regular" prevTag="button" onClick={() => {
+          <SortableContainer dndKitId="e8e85cff-51f2-4268-bbf9-a95a428f78a7" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="47" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="a28f974a-0fec-4f4f-8894-8292203df2e8" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="48" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="821d4277-4405-4525-82e9-68fa76b588c1" containerType="regular" prevTag="button" onClick={() => {
               setShowTreatsBakesPage(false);
               window.scrollTo({
                 top: 0,
@@ -337,7 +337,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 <div className="text-white/80 text-xs sm:text-sm" data-magicpath-id="51" data-magicpath-path="JulianaChefWebsite.tsx">the vegan chef</div>
               </SortableContainer>
 
-              <SortableContainer dndKitId="61a1da82-0f8d-4331-b7ed-f3736be1b71e" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="52" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="70327588-6db2-47b2-a445-0bff78d97228" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="52" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
                 e.preventDefault();
                 handleNavClick(item.href);
@@ -346,13 +346,13 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </a>)}
               </SortableContainer>
 
-              <SortableContainer dndKitId="b788f7c6-2a19-4513-bd75-e0ddb15919bf" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="54" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="b91bc798-2cec-48f4-97b2-98139b625355" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="54" data-magicpath-path="JulianaChefWebsite.tsx">
                 {mobileMenuOpen ? <X className="w-6 h-6" data-magicpath-id="55" data-magicpath-path="JulianaChefWebsite.tsx" /> : <Menu className="w-6 h-6" data-magicpath-id="56" data-magicpath-path="JulianaChefWebsite.tsx" />}
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
 
-          {mobileMenuOpen && <SortableContainer dndKitId="e02f976a-7729-4cf6-a6b6-c9b3a499dd15" containerType="regular" prevTag="motion.div" initial={{
+          {mobileMenuOpen && <SortableContainer dndKitId="b2ea1b4d-9650-4773-a5dd-19b3c92e4fe2" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           height: 0
         }} animate={{
@@ -362,7 +362,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           opacity: 0,
           height: 0
         }} className="md:hidden bg-[#5e7155] border-t border-white/10" data-magicpath-id="57" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="9bfd525e-d80c-4aa8-b491-4f4bf04671be" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="58" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="df6f5c9b-7859-4909-bd43-c26f99fab461" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="58" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
               e.preventDefault();
               handleNavClick(item.href);
@@ -374,21 +374,21 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         </SortableContainer>
 
         {/* Treats & Bakes Page Content */}
-        <SortableContainer dndKitId="3d5cb1f5-47bd-4a42-a903-b809caad50c1" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="60" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="fbcfeb8b-2e3f-4865-9b96-655e40f97a43" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="60" data-magicpath-path="JulianaChefWebsite.tsx">
           <TreatsBakesPage onNavigate={handleTreatsNavigate} data-magicpath-id="61" data-magicpath-path="JulianaChefWebsite.tsx" />
         </SortableContainer>
 
         {/* Footer */}
-        <SortableContainer dndKitId="cfa8d669-b801-48f2-8c1d-74e896a1fb64" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="62" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="76afb959-b238-4a13-8523-3dc0d38fae09" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="63" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="cfa1bd9a-7763-4d40-9d5c-9c878392be55" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="64" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="cb3913cf-913e-43ed-940a-781945ec796f" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="65" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="5d97ca02-670c-4fad-986e-0a321a72e39c" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="62" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="b49b3373-ea14-407b-b896-bcdf8859b656" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="63" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="131b4e46-ff54-4fe6-8e81-7221d33dfcf6" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="64" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="ad34d04a-f0b9-4e47-bf1c-92dd3ee4ee03" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="65" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="66" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
                 <p className="text-white/80 text-xs sm:text-sm" data-magicpath-id="67" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
               </SortableContainer>
-              <SortableContainer dndKitId="de43b804-c3da-4395-819c-3246d09346a5" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="68" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="69cc70ca-e967-4253-af61-af83ac0fc03e" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="68" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="69" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
-                <SortableContainer dndKitId="b4cc033e-95bb-4cdf-9e46-0fb98e1c3bde" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="70" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="45c79ec9-acb3-42cb-b2e9-c2c514377aad" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="70" data-magicpath-path="JulianaChefWebsite.tsx">
                   <li data-magicpath-id="71" data-magicpath-path="JulianaChefWebsite.tsx">
                     <a href="#home" onClick={e => {
                     e.preventDefault();
@@ -431,9 +431,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </li>
                 </SortableContainer>
               </SortableContainer>
-              <SortableContainer dndKitId="c609c707-426d-485c-a67b-f7bfffe0df03" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="81" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="963a9429-87e4-4b2c-a57d-865298fadbdf" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="81" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="82" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
-                <SortableContainer dndKitId="5906e738-bef2-4afd-8ae8-01e378778f5f" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="83" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="f7cf420a-79cc-49cd-9dd0-eb5bc0c62408" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="83" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="84" data-magicpath-path="JulianaChefWebsite.tsx">
                     <Instagram className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="85" data-magicpath-path="JulianaChefWebsite.tsx" />
                   </a>
@@ -443,7 +443,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 </SortableContainer>
               </SortableContainer>
             </SortableContainer>
-            <SortableContainer dndKitId="a90ac722-930d-4a4a-bdd7-23061d2fb7ac" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="88" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="3c544703-55f5-4304-a91c-d06ba93cc05a" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="88" data-magicpath-path="JulianaChefWebsite.tsx">
               <p data-magicpath-id="89" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
             </SortableContainer>
           </SortableContainer>
@@ -453,14 +453,14 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
 
   // If showing Retreat Catering page, render it with header and footer
   if (showRetreatCateringPage) {
-    return <SortableContainer dndKitId="b0e976dc-515d-4998-b3de-223a9745f5f6" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="90" data-magicpath-path="JulianaChefWebsite.tsx">
+    return <SortableContainer dndKitId="fc264c08-0184-4037-9771-4dc1a87809d1" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="90" data-magicpath-path="JulianaChefWebsite.tsx">
         {/* Header */}
-        <SortableContainer dndKitId="5be465fc-9039-4de2-8e99-3fcb76ea931d" containerType="regular" prevTag="motion.header" style={{
+        <SortableContainer dndKitId="1d2904d3-cfaa-41b6-9ad5-0793e8fdb778" containerType="regular" prevTag="motion.header" style={{
         opacity: headerOpacity
       }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner" data-magicpath-id="91" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="fb68c545-c853-4e1e-a11a-9d47c9e908b7" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="92" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="e8e743cf-9690-4df3-8963-3c9af83be3eb" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="93" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="f3577e0e-a8ef-4ccb-a751-48a390f1a202" containerType="regular" prevTag="button" onClick={() => {
+          <SortableContainer dndKitId="5c248bf5-121e-4f66-9381-94c7ba59fed6" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="92" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="30f588e5-ddf6-4ed3-8e6e-a6d318653d78" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="93" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="6e86bad7-e2b3-44ab-ad11-0086e7994551" containerType="regular" prevTag="button" onClick={() => {
               setShowRetreatCateringPage(false);
               window.scrollTo({
                 top: 0,
@@ -471,7 +471,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 <div className="text-white/80 text-xs sm:text-sm" data-magicpath-id="96" data-magicpath-path="JulianaChefWebsite.tsx">the vegan chef</div>
               </SortableContainer>
 
-              <SortableContainer dndKitId="d59d9bc8-5c1a-4f93-b725-4917238c1580" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="97" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="83cda234-70cd-463b-a9aa-d344a88c63aa" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="97" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
                 e.preventDefault();
                 handleNavClick(item.href);
@@ -480,13 +480,13 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </a>)}
               </SortableContainer>
 
-              <SortableContainer dndKitId="88b6504b-a282-43d2-8a34-7e46c88316a0" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="99" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="de414c28-1161-4492-b775-a84f5273fdbe" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="99" data-magicpath-path="JulianaChefWebsite.tsx">
                 {mobileMenuOpen ? <X className="w-6 h-6" data-magicpath-id="100" data-magicpath-path="JulianaChefWebsite.tsx" /> : <Menu className="w-6 h-6" data-magicpath-id="101" data-magicpath-path="JulianaChefWebsite.tsx" />}
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
 
-          {mobileMenuOpen && <SortableContainer dndKitId="77a80db8-e214-451d-8f81-5b2b21eea86f" containerType="regular" prevTag="motion.div" initial={{
+          {mobileMenuOpen && <SortableContainer dndKitId="51e80147-c81d-417a-bc2c-7a4d75b74948" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           height: 0
         }} animate={{
@@ -496,7 +496,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           opacity: 0,
           height: 0
         }} className="md:hidden bg-[#5e7155] border-t border-white/10" data-magicpath-id="102" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="3af9f276-a8ea-480b-b526-881bb44430fd" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="103" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="9a364ce2-0540-464c-a8d0-91120541fba4" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="103" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
               e.preventDefault();
               handleNavClick(item.href);
@@ -508,21 +508,21 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         </SortableContainer>
 
         {/* Retreat Catering Page Content */}
-        <SortableContainer dndKitId="cbc87a44-0983-4058-beba-4e6a19aead88" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="105" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="cee74fa4-1ff0-4726-ab25-0738700b07c8" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="105" data-magicpath-path="JulianaChefWebsite.tsx">
           <RetreatCateringPage onNavigate={handleRetreatNavigate} data-magicpath-id="106" data-magicpath-path="JulianaChefWebsite.tsx" />
         </SortableContainer>
 
         {/* Footer */}
-        <SortableContainer dndKitId="1d79ecbd-1a7b-4402-9b2a-4908f443f0e1" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="107" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="10a0c72d-f0ca-4526-be2a-1279b49cc84d" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="108" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="1266d77d-411c-4bc5-8a8f-314e018e7ab0" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="109" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="0fe48236-b3d3-45e1-a727-2802e67aaa62" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="110" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="3404e5f4-a234-4ffd-8fa3-d107faa3faf6" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="107" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="8ca669f7-fccb-4d5f-b5c1-93b40736ccd7" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="108" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="fc72e95f-e0ba-4954-908d-e5abb074ddfa" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="109" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="e09ccee9-b944-475d-b32b-63bed8997b54" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="110" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="111" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
                 <p className="text-white/80 text-xs sm:text-sm" data-magicpath-id="112" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
               </SortableContainer>
-              <SortableContainer dndKitId="4d278db6-c524-4063-8a60-762c5303a528" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="113" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="1b8af063-6d3c-4f49-a1b1-31fc869a6786" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="113" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="114" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
-                <SortableContainer dndKitId="be0bdca9-5d53-44c2-994a-07167e3b4c71" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="115" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="9135dce4-14ca-49ec-a268-32acd76d9a4a" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="115" data-magicpath-path="JulianaChefWebsite.tsx">
                   <li data-magicpath-id="116" data-magicpath-path="JulianaChefWebsite.tsx">
                     <a href="#home" onClick={e => {
                     e.preventDefault();
@@ -565,9 +565,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </li>
                 </SortableContainer>
               </SortableContainer>
-              <SortableContainer dndKitId="495cbbce-025e-417a-b865-0c82dcbf6129" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="126" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="5a02c139-c650-4961-8157-8aef4b1936c9" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="126" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="127" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
-                <SortableContainer dndKitId="ba16bc82-3481-4d19-a932-9a1ceb6e68ff" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="128" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="27b1b99a-5ef1-425b-8674-99e83c6e5f31" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="128" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="129" data-magicpath-path="JulianaChefWebsite.tsx">
                     <Instagram className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="130" data-magicpath-path="JulianaChefWebsite.tsx" />
                   </a>
@@ -577,7 +577,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 </SortableContainer>
               </SortableContainer>
             </SortableContainer>
-            <SortableContainer dndKitId="07ed0624-d89d-4742-9c8a-ae9e8a20141c" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="133" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="9584deda-17a4-4950-ae13-da6ab89f0858" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="133" data-magicpath-path="JulianaChefWebsite.tsx">
               <p data-magicpath-id="134" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
             </SortableContainer>
           </SortableContainer>
@@ -587,14 +587,14 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
 
   // If showing About page, render it with header and footer
   if (showAboutPage) {
-    return <SortableContainer dndKitId="8c50e356-2660-4484-b150-43c33a25380a" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="135" data-magicpath-path="JulianaChefWebsite.tsx">
+    return <SortableContainer dndKitId="16c67e94-3e15-4ae4-b819-b8bff54de9c9" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="135" data-magicpath-path="JulianaChefWebsite.tsx">
         {/* Header */}
-        <SortableContainer dndKitId="53814f89-be6d-44ad-87db-8b89a1bf1124" containerType="regular" prevTag="motion.header" style={{
+        <SortableContainer dndKitId="f0dada16-e040-4613-9c8f-f98ab36d3d6b" containerType="regular" prevTag="motion.header" style={{
         opacity: headerOpacity
       }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner" data-magicpath-id="136" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="0c8cff85-3f49-4496-956d-a4cf7d07ab7b" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="137" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="224c14d0-d04f-49fd-a845-47dda1fe6c16" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="138" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="29044506-f819-4b4c-b5df-1182bd00ff72" containerType="regular" prevTag="button" onClick={() => {
+          <SortableContainer dndKitId="57117e2f-4051-4634-b87e-1335bc553f9f" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="137" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="2cc6a649-91b9-459d-83bf-2d70391a1f8f" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="138" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="5143f516-1eac-4b93-a1a4-f8227bdb9563" containerType="regular" prevTag="button" onClick={() => {
               setShowAboutPage(false);
               window.scrollTo({
                 top: 0,
@@ -605,7 +605,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 <div className="text-white/80 text-xs sm:text-sm" data-magicpath-id="141" data-magicpath-path="JulianaChefWebsite.tsx">the vegan chef</div>
               </SortableContainer>
 
-              <SortableContainer dndKitId="ae1c2fec-1788-4744-87dc-9654f53b3c98" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="142" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="d8a09b78-71fc-462b-97dd-a8f443a75ad2" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="142" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
                 e.preventDefault();
                 handleNavClick(item.href);
@@ -614,13 +614,13 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </a>)}
               </SortableContainer>
 
-              <SortableContainer dndKitId="f886ed6a-97aa-43ab-8ea3-bc7405ed3fa3" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="144" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="4ad0bed6-285b-4f75-bde9-6634f3ec3dc4" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="144" data-magicpath-path="JulianaChefWebsite.tsx">
                 {mobileMenuOpen ? <X className="w-6 h-6" data-magicpath-id="145" data-magicpath-path="JulianaChefWebsite.tsx" /> : <Menu className="w-6 h-6" data-magicpath-id="146" data-magicpath-path="JulianaChefWebsite.tsx" />}
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
 
-          {mobileMenuOpen && <SortableContainer dndKitId="22d8653f-bada-4740-b770-f38539eb06bb" containerType="regular" prevTag="motion.div" initial={{
+          {mobileMenuOpen && <SortableContainer dndKitId="c0bfa4b9-3880-4fda-a8c1-c28162e20d22" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           height: 0
         }} animate={{
@@ -630,7 +630,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           opacity: 0,
           height: 0
         }} className="md:hidden bg-[#5e7155] border-t border-white/10" data-magicpath-id="147" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="753445fe-3bdf-4fec-b0dc-03aa5deaf1a3" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="148" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="443ff907-4c53-433c-a74d-78c3ef26cd26" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="148" data-magicpath-path="JulianaChefWebsite.tsx">
                 {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
               e.preventDefault();
               handleNavClick(item.href);
@@ -642,21 +642,21 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         </SortableContainer>
 
         {/* About Page Content */}
-        <SortableContainer dndKitId="37f89692-4707-4547-8899-3660ace56599" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="150" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="729c33f7-0b03-42e0-8772-03cfa988699a" containerType="regular" prevTag="div" className="pt-16 sm:pt-20" data-magicpath-id="150" data-magicpath-path="JulianaChefWebsite.tsx">
           <AboutPage onNavigate={handleAboutNavigate} data-magicpath-id="151" data-magicpath-path="JulianaChefWebsite.tsx" />
         </SortableContainer>
 
         {/* Footer */}
-        <SortableContainer dndKitId="0fcdb2c8-8f49-4c80-b026-065f1b69b21c" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="152" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="b94950d9-c426-48e5-afe6-81703a4f0fd7" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="153" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="965ef156-e4ba-4982-929b-5326b06ca71c" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="154" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="d2ab8717-ecb4-40fd-818a-a0a5ff9b7938" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="155" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="b9d09848-1265-414a-8e2f-057aa9129603" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo" data-magicpath-id="152" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="95112d29-7596-44e5-8ea4-1b3e268d51d5" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="153" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="237f2b19-7f6e-46b6-b139-3c50006d4352" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="154" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="c6f8f95b-54d9-4d8f-a8bd-adcce6464c70" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="155" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="156" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
                 <p className="text-white/80 text-xs sm:text-sm" data-magicpath-id="157" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
               </SortableContainer>
-              <SortableContainer dndKitId="fe4ff399-ceb6-419b-8c7c-78ac89190dec" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="158" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="e3dd6496-47c8-4fcc-9647-81dd7a88f1f7" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="158" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="159" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
-                <SortableContainer dndKitId="d849821c-87dc-4e4e-97df-88b5a5e68c44" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="160" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="801c976f-0a35-4a58-936f-6b3dd757ef6d" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="160" data-magicpath-path="JulianaChefWebsite.tsx">
                   <li data-magicpath-id="161" data-magicpath-path="JulianaChefWebsite.tsx">
                     <a href="#home" onClick={e => {
                     e.preventDefault();
@@ -699,9 +699,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                   </li>
                 </SortableContainer>
               </SortableContainer>
-              <SortableContainer dndKitId="da42d41a-50f1-43a0-9267-442c33c951a8" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="171" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="05af388d-55d5-4710-a032-2093aca096bf" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="171" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="172" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
-                <SortableContainer dndKitId="a43c31d3-8b59-4657-9067-023cc2a720b3" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="173" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="480e4d9a-a065-45c1-8331-52c65f05a66a" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="173" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="174" data-magicpath-path="JulianaChefWebsite.tsx">
                     <Instagram className="w-5 h-5 sm:w-6 sm:h-6" data-magicpath-id="175" data-magicpath-path="JulianaChefWebsite.tsx" />
                   </a>
@@ -711,7 +711,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 </SortableContainer>
               </SortableContainer>
             </SortableContainer>
-            <SortableContainer dndKitId="32cb8f99-468d-4f6a-8ee9-a71f4dc9cf1d" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="178" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="e6168796-a372-43b2-a924-984bb93e98ae" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="178" data-magicpath-path="JulianaChefWebsite.tsx">
               <p data-magicpath-id="179" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
             </SortableContainer>
           </SortableContainer>
@@ -720,15 +720,15 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
   }
 
   // @return
-  return <SortableContainer dndKitId="93b056d1-ff32-4bd3-815a-72cdcc3a7afc" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="180" data-magicpath-path="JulianaChefWebsite.tsx">
+  return <SortableContainer dndKitId="baef27e7-ba46-4db8-9ce8-5fd5d8811d0a" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]" data-magicpath-id="180" data-magicpath-path="JulianaChefWebsite.tsx">
       {/* Mobile-First Header */}
-      <SortableContainer dndKitId="d6f864b4-d51d-43e0-8db2-5f69bda84b2f" containerType="regular" prevTag="motion.header" style={{
+      <SortableContainer dndKitId="98fcdd26-267a-41f0-98de-2f59bfd421d8" containerType="regular" prevTag="motion.header" style={{
       opacity: headerOpacity
     }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner" data-magicpath-id="181" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="fac17c81-71f3-49be-881c-5c5ed66274d2" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="182" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="d61db60f-762a-4477-a1dd-733b5ba37c6b" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="183" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="fa97d05c-22e8-4e00-9bcf-7e1dee7e319b" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="182" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="2ad07263-e96f-4cd3-b4bd-d3639c8c6ae1" containerType="regular" prevTag="div" className="flex items-center justify-between h-16 sm:h-20" data-magicpath-id="183" data-magicpath-path="JulianaChefWebsite.tsx">
             {/* Logo */}
-            <SortableContainer dndKitId="ca219b92-1985-4233-ae47-6fd980e4b7f1" containerType="regular" prevTag="button" onClick={() => document.getElementById('home')?.scrollIntoView({
+            <SortableContainer dndKitId="c708b216-d2f7-42e6-9768-24bd5141aea6" containerType="regular" prevTag="button" onClick={() => document.getElementById('home')?.scrollIntoView({
             behavior: 'smooth'
           })} className="flex items-center space-x-2 hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home" data-magicpath-id="184" data-magicpath-path="JulianaChefWebsite.tsx">
               <div className="text-white font-serif text-lg sm:text-xl" style={{
@@ -740,7 +740,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             </SortableContainer>
 
             {/* Desktop Navigation */}
-            <SortableContainer dndKitId="fcedd20c-8f0b-4675-90a7-6570debb13ae" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="187" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="4591f2e8-9867-43fb-8f33-b6a6f8474456" containerType="collection" prevTag="nav" className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation" data-magicpath-id="187" data-magicpath-path="JulianaChefWebsite.tsx">
               {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
               e.preventDefault();
               handleNavClick(item.href);
@@ -752,14 +752,14 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             </SortableContainer>
 
             {/* Mobile Menu Button */}
-            <SortableContainer dndKitId="63bb2c5e-94c2-4ce7-965e-8a457d6ddfed" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="189" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="68d1edbd-72cf-488b-ad63-28150ca06595" containerType="regular" prevTag="button" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu" data-magicpath-id="189" data-magicpath-path="JulianaChefWebsite.tsx">
               {mobileMenuOpen ? <X className="w-6 h-6" data-magicpath-id="190" data-magicpath-path="JulianaChefWebsite.tsx" /> : <Menu className="w-6 h-6" data-magicpath-id="191" data-magicpath-path="JulianaChefWebsite.tsx" />}
             </SortableContainer>
           </SortableContainer>
         </SortableContainer>
 
         {/* Mobile Menu */}
-        {mobileMenuOpen && <SortableContainer dndKitId="a0efa6f8-e23d-4512-86c6-c2d924079891" containerType="regular" prevTag="motion.div" initial={{
+        {mobileMenuOpen && <SortableContainer dndKitId="c06a8b28-b167-4bcc-9aec-695501fc429a" containerType="regular" prevTag="motion.div" initial={{
         opacity: 0,
         height: 0
       }} animate={{
@@ -769,7 +769,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         opacity: 0,
         height: 0
       }} className="md:hidden bg-[#5e7155] border-t border-white/10" data-magicpath-id="192" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="11fdefc5-5960-40dc-969b-9b6e62080fd4" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="193" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="cd251dd0-1bd6-4cac-b8bd-727272524399" containerType="collection" prevTag="nav" className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation" data-magicpath-id="193" data-magicpath-path="JulianaChefWebsite.tsx">
               {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
             e.preventDefault();
             handleNavClick(item.href);
@@ -781,7 +781,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Hero Section - Mobile First */}
-      <SortableContainer dndKitId="a3fca1b3-9da5-4b66-9e9e-72e6ad654123" containerType="regular" prevTag="section" id="home" className="relative min-h-screen h-screen flex items-center justify-center overflow-hidden" role="main" aria-label="Hero section featuring plant-based retreat chef services" data-magicpath-id="195" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="effdd7a0-051b-42e5-a803-8925d8449b6c" containerType="regular" prevTag="section" id="home" className="relative min-h-screen h-screen flex items-center justify-center overflow-hidden" role="main" aria-label="Hero section featuring plant-based retreat chef services" data-magicpath-id="195" data-magicpath-path="JulianaChefWebsite.tsx">
         <div className="absolute inset-0 bg-cover bg-center" style={{
         filter: 'brightness(0.7)',
         backgroundImage: "url(https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/665cd21b-9e06-4fcc-8e44-61ef845fae0e.png)",
@@ -790,7 +790,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         backgroundRepeat: "repeat",
         opacity: "1"
       }} data-magicpath-id="196" data-magicpath-path="JulianaChefWebsite.tsx" />
-        <SortableContainer dndKitId="c878a1a2-b63c-4dcc-9169-8219b9429909" containerType="regular" prevTag="div" className="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl" data-magicpath-id="197" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="d8f56761-16a5-4509-8929-9346fbbf1940" containerType="regular" prevTag="div" className="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl" data-magicpath-id="197" data-magicpath-path="JulianaChefWebsite.tsx">
           <motion.h1 data-magicpath-motion-tag="motion.h1" initial={{
           opacity: 0,
           y: 30
@@ -846,17 +846,17 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* About Section - Mobile First */}
-      <SortableContainer dndKitId="0c5f129c-0848-4c8a-aa49-db785b1cee50" containerType="regular" prevTag="section" id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" style={{
+      <SortableContainer dndKitId="1d00fa4f-36b8-45cf-9453-f2b08735a83f" containerType="regular" prevTag="section" id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" style={{
       background: "#fcf2e3"
     }} aria-labelledby="about-heading" data-magicpath-id="201" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="a541abf3-ac10-44aa-a654-2fa8beabb252" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="202" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="e496f45b-e353-45e6-b93a-3132b18fa113" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="202" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 id="about-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#2D2D2D]" style={{
           color: "#404d3a"
         }} data-magicpath-id="203" data-magicpath-path="JulianaChefWebsite.tsx">
             Meet Your Chef
           </h2>
-          <SortableContainer dndKitId="e1988295-a1ba-472a-a2bb-8da6d99a9813" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center" data-magicpath-id="204" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="3c74cc61-b1a9-4aa6-9873-033590e5bb10" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="e16506ab-de1d-4452-91eb-20409593297d" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center" data-magicpath-id="204" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="ae9081c7-52ed-4c1e-8526-b06be499e5dd" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -873,7 +873,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               opacity: "1"
             }} data-magicpath-id="206" data-magicpath-path="JulianaChefWebsite.tsx" />
             </SortableContainer>
-            <SortableContainer dndKitId="7fc159bc-5d8a-4ae8-b407-4d260849dc72" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="0d547b0d-e375-4515-852d-c0be9fdcdd29" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -903,8 +903,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Offerings Section - Mobile First */}
-      <SortableContainer dndKitId="8b20c969-7b10-4166-896a-f835eebfa8c9" containerType="regular" prevTag="section" id="offerings" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-white" aria-labelledby="offerings-heading" data-magicpath-id="212" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="d0c014c8-241b-4e9e-aff2-2b6a7216cb4b" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="213" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="d3433a3b-2a3a-4889-b2c5-f46afb32a857" containerType="regular" prevTag="section" id="offerings" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-white" aria-labelledby="offerings-heading" data-magicpath-id="212" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="6b2c923b-5e86-40b9-a948-d9d3c2d46b7a" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="213" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 id="offerings-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#5e7155]" style={{
           color: "#c76942"
         }} data-magicpath-id="214" data-magicpath-path="JulianaChefWebsite.tsx">
@@ -912,8 +912,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           </h2>
 
           {/* Retreat Catering */}
-          <SortableContainer dndKitId="e5adc118-9639-435d-8e52-b5de2c9e0a0e" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 mb-12 sm:mb-16 md:mb-20" data-magicpath-id="215" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="1083f484-e241-474f-b9b6-cfc88a8490fc" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="cc3a5635-6cb7-447f-a248-d6881a7091f2" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 mb-12 sm:mb-16 md:mb-20" data-magicpath-id="215" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="282d0d1e-61f4-4f8c-b7cc-9c1b5742e1fa" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -950,7 +950,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 Find Out More
               </button>
             </SortableContainer>
-            <SortableContainer dndKitId="abcd2fb2-339c-4f16-842f-e47dd4f98529" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="ad528706-87ac-4307-b158-e2f6692b215a" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -973,8 +973,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           </SortableContainer>
 
           {/* Plant-Based Treats */}
-          <SortableContainer dndKitId="759e836b-d62a-42d6-bf78-8f39ae40f4ca" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12" data-magicpath-id="223" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="dcf3bb28-7b01-4082-b262-99cac6779426" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="7b7350d6-31a4-48a4-a221-627cd8dc3603" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12" data-magicpath-id="223" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="f08edf0e-734c-4db8-b2d5-f61d95d5db19" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1012,7 +1012,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 See Treats Menu
               </button>
             </SortableContainer>
-            <SortableContainer dndKitId="a3373500-16c6-4f2e-a83c-1209303c9111" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="fd2df31b-8b02-4d3e-b5c7-af15108ee896" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1037,11 +1037,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Treats & Bakes Section - Mobile First */}
-      <SortableContainer dndKitId="348bf253-4925-4a3b-8238-179dca4d6978" containerType="regular" prevTag="section" id="treats" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" style={{
+      <SortableContainer dndKitId="f2ca1cff-3e0c-4c84-9e3d-72c6fa5e71e7" containerType="regular" prevTag="section" id="treats" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" style={{
       background: "#fcf2e3",
       display: "none"
     }} aria-labelledby="treats-heading" data-magicpath-id="231" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="b0ad7b10-1353-465d-b219-aece3c3fa0be" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" style={{
+        <SortableContainer dndKitId="9233c4af-a672-4d3a-9336-5ec736f1b675" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" style={{
         display: "none"
       }} data-magicpath-id="232" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 id="treats-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#5e7155]" style={{
@@ -1050,8 +1050,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             Treats & Bakes
           </h2>
 
-          <SortableContainer dndKitId="102d99a6-330b-4e21-8088-b46a8866cee2" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8" data-magicpath-id="234" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="689458e6-969d-4919-baf6-2e876050bc3a" containerType="regular" prevTag="motion.div" initial={{
+          <SortableContainer dndKitId="1f8c4444-b90c-4aa5-a17b-ad7f0b10a884" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8" data-magicpath-id="234" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="1e2f70f7-3cbb-468d-aeb9-fa442ae386b7" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1063,7 +1063,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             duration: 0.6
           }} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow" data-magicpath-id="235" data-magicpath-path="JulianaChefWebsite.tsx">
               <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Chocolate brownies" className="w-full h-48 object-cover" data-magicpath-id="236" data-magicpath-path="JulianaChefWebsite.tsx" />
-              <SortableContainer dndKitId="2eb1b1f4-6f33-433b-a983-a910e7e5ad91" containerType="regular" prevTag="div" className="p-4 sm:p-6" data-magicpath-id="237" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="ac64c0fc-3037-46ab-bda3-4c719bec4948" containerType="regular" prevTag="div" className="p-4 sm:p-6" data-magicpath-id="237" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="text-lg font-semibold text-[#2D2D2D] mb-2" data-magicpath-id="238" data-magicpath-path="JulianaChefWebsite.tsx">Fudgy Brownies</h4>
                 <p className="text-[#4A4A4A] text-sm" data-magicpath-id="239" data-magicpath-path="JulianaChefWebsite.tsx">
                   Rich, decadent, and impossibly fudgy. Made with premium dark chocolate and a secret ingredient.
@@ -1071,7 +1071,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </SortableContainer>
             </SortableContainer>
 
-            <SortableContainer dndKitId="0cddcee2-34d7-4b3c-a362-e24cfb41f20f" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="fb8991fa-1bfe-4cf6-a062-fd15cf4f937b" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1084,7 +1084,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             delay: 0.1
           }} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow" data-magicpath-id="240" data-magicpath-path="JulianaChefWebsite.tsx">
               <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80" alt="Cinnamon rolls" className="w-full h-48 object-cover" data-magicpath-id="241" data-magicpath-path="JulianaChefWebsite.tsx" />
-              <SortableContainer dndKitId="516202e6-7bc2-47b9-8901-438c4787db7e" containerType="regular" prevTag="div" className="p-4 sm:p-6" data-magicpath-id="242" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="31f674f2-9ad7-427c-9555-a82dd071aae6" containerType="regular" prevTag="div" className="p-4 sm:p-6" data-magicpath-id="242" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="text-lg font-semibold text-[#2D2D2D] mb-2" data-magicpath-id="243" data-magicpath-path="JulianaChefWebsite.tsx">Cinnamon Rolls</h4>
                 <p className="text-[#4A4A4A] text-sm" data-magicpath-id="244" data-magicpath-path="JulianaChefWebsite.tsx">
                   Soft, pillowy rolls swirled with cinnamon and topped with creamy glaze. Pure comfort in every bite.
@@ -1092,7 +1092,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </SortableContainer>
             </SortableContainer>
 
-            <SortableContainer dndKitId="f07bef74-3b88-4a31-abc6-1606b9da8e72" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="0821de4e-e27b-4f1c-b697-9f7531f14598" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1105,7 +1105,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             delay: 0.2
           }} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow" data-magicpath-id="245" data-magicpath-path="JulianaChefWebsite.tsx">
               <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80" alt="Cookies" className="w-full h-48 object-cover" data-magicpath-id="246" data-magicpath-path="JulianaChefWebsite.tsx" />
-              <SortableContainer dndKitId="2b98f8a7-5adc-4c12-ac3c-86c84bea2ff7" containerType="regular" prevTag="div" className="p-4 sm:p-6" data-magicpath-id="247" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="3824f232-9fd6-4256-abad-6932d98365c5" containerType="regular" prevTag="div" className="p-4 sm:p-6" data-magicpath-id="247" data-magicpath-path="JulianaChefWebsite.tsx">
                 <h4 className="text-lg font-semibold text-[#2D2D2D] mb-2" data-magicpath-id="248" data-magicpath-path="JulianaChefWebsite.tsx">Signature Cookies</h4>
                 <p className="text-[#4A4A4A] text-sm" data-magicpath-id="249" data-magicpath-path="JulianaChefWebsite.tsx">
                   Crispy edges, chewy centers. From chocolate chip to oatmeal raisin, there's a cookie for everyone.
@@ -1117,15 +1117,15 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Testimonials Section - Mobile First */}
-      <SortableContainer dndKitId="1c8e9298-0c24-4f43-97af-eead82680465" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#5e7155]" aria-labelledby="testimonials-heading" data-magicpath-id="250" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="4668d539-4db4-43fe-8d60-861f3ad48642" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="251" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="cdf06f87-87d5-444c-8ad4-d9e3eeb457e7" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#5e7155]" aria-labelledby="testimonials-heading" data-magicpath-id="250" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="bb8660e2-9b1b-4031-b88d-df15f98f096d" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="251" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 id="testimonials-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-white" style={{
           color: "#fcf2e3"
         }} data-magicpath-id="252" data-magicpath-path="JulianaChefWebsite.tsx">
             What People Say
           </h2>
-          <SortableContainer dndKitId="2c1469ee-b95c-49d6-831b-9f6fed8b4f2b" containerType="regular" prevTag="div" className="relative" data-magicpath-id="253" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="023e361d-2d22-4374-b3a9-5ce797206b8d" containerType="regular" prevTag="motion.div" key={currentTestimonial} initial={{
+          <SortableContainer dndKitId="259f4cb7-4d36-40b8-a024-6e216a61ade8" containerType="regular" prevTag="div" className="relative" data-magicpath-id="253" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="5b0ebd7d-2af6-46ad-84d7-3ae05d9c9603" containerType="regular" prevTag="motion.div" key={currentTestimonial} initial={{
             opacity: 0,
             x: 50
           }} animate={{
@@ -1145,8 +1145,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             }} data-magicpath-id="255" data-magicpath-path="JulianaChefWebsite.tsx">
                 "{testimonials[currentTestimonial].quote}"
               </p>
-              <SortableContainer dndKitId="858e1659-c927-4526-9aaa-d1a384506570" containerType="regular" prevTag="div" className="flex items-center justify-between" data-magicpath-id="256" data-magicpath-path="JulianaChefWebsite.tsx">
-                <SortableContainer dndKitId="a3286605-25ee-4af3-9080-056bdef044ed" containerType="regular" prevTag="div" data-magicpath-id="257" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="a6f8c687-5426-4972-b8e1-0649fec1a6e7" containerType="regular" prevTag="div" className="flex items-center justify-between" data-magicpath-id="256" data-magicpath-path="JulianaChefWebsite.tsx">
+                <SortableContainer dndKitId="c11bfea3-6fd4-47f3-907f-311dcfb04de9" containerType="regular" prevTag="div" data-magicpath-id="257" data-magicpath-path="JulianaChefWebsite.tsx">
                   <p className="font-semibold text-[#2D2D2D] text-sm sm:text-base" style={{
                   color: "#404d3a"
                 }} data-magicpath-id="258" data-magicpath-path="JulianaChefWebsite.tsx">
@@ -1160,8 +1160,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             </SortableContainer>
 
             {/* Navigation Controls */}
-            <SortableContainer dndKitId="8967250b-b860-43a1-a2a7-05185bfe3b95" containerType="regular" prevTag="div" className="flex justify-center items-center mt-6 sm:mt-8 space-x-3 sm:space-x-4" data-magicpath-id="260" data-magicpath-path="JulianaChefWebsite.tsx">
-              <SortableContainer dndKitId="926f60a1-128e-4309-b806-9be2703720f9" containerType="regular" prevTag="button" onClick={prevTestimonial} className="bg-white text-[#5e7155] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Previous testimonial" style={{
+            <SortableContainer dndKitId="f4580d01-7bfb-4a7e-9138-a91ecdadac27" containerType="regular" prevTag="div" className="flex justify-center items-center mt-6 sm:mt-8 space-x-3 sm:space-x-4" data-magicpath-id="260" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="fe68faea-d29e-4c6d-a940-58048893e37f" containerType="regular" prevTag="button" onClick={prevTestimonial} className="bg-white text-[#5e7155] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Previous testimonial" style={{
               background: "#fcf2e3"
             }} data-magicpath-id="261" data-magicpath-path="JulianaChefWebsite.tsx">
                 <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" style={{
@@ -1171,7 +1171,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               <div className="flex space-x-2" data-magicpath-id="263" data-magicpath-path="JulianaChefWebsite.tsx">
                 {testimonials.map((_, index) => <button key={index} onClick={() => setCurrentTestimonial(index)} className={`w-2 h-2 rounded-full transition-colors ${index === currentTestimonial ? 'bg-white' : 'bg-white/40'}`} aria-label={`Go to testimonial ${index + 1}`} data-magicpath-id="264" data-magicpath-path="JulianaChefWebsite.tsx" />)}
               </div>
-              <SortableContainer dndKitId="f7a4f9b3-be54-40e5-a2e6-87f7f5f64eee" containerType="regular" prevTag="button" onClick={nextTestimonial} className="bg-white text-[#5e7155] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Next testimonial" style={{
+              <SortableContainer dndKitId="77e2cb72-0aea-4185-ab36-9965886821a7" containerType="regular" prevTag="button" onClick={nextTestimonial} className="bg-white text-[#5e7155] p-2 rounded-full hover:bg-[#F5F1E8] transition-colors" aria-label="Next testimonial" style={{
               background: "#fcf2e3"
             }} data-magicpath-id="265" data-magicpath-path="JulianaChefWebsite.tsx">
                 <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" style={{
@@ -1184,16 +1184,16 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* FAQs Section - Mobile First */}
-      <SortableContainer dndKitId="65053e26-4fd4-4363-8750-4bb688bbcb89" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" style={{
+      <SortableContainer dndKitId="1202cb2c-f6bc-4d47-84fe-bc894f79f99d" containerType="regular" prevTag="section" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" style={{
       background: "#fcf2e3"
     }} aria-labelledby="faqs-heading" data-magicpath-id="267" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="fa529fb6-9c99-4d39-b0f1-d29d770c59f5" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="268" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="b1a0bb33-ca1b-454d-8fb8-9829106a691f" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="268" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 id="faqs-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-[#2D2D2D]" style={{
           color: "#404d3a"
         }} data-magicpath-id="269" data-magicpath-path="JulianaChefWebsite.tsx">
             FAQs
           </h2>
-          <SortableContainer dndKitId="6939163c-5402-48a2-9bb3-2402f4f7fe25" containerType="collection" prevTag="div" className="space-y-3 sm:space-y-4" data-magicpath-id="270" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="5ec2657e-9b83-4077-8b21-edf38bd72a11" containerType="collection" prevTag="div" className="space-y-3 sm:space-y-4" data-magicpath-id="270" data-magicpath-path="JulianaChefWebsite.tsx">
             {faqs.map((faq, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
             opacity: 0,
             y: 20
@@ -1233,8 +1233,8 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Contact Section - Mobile First */}
-      <SortableContainer dndKitId="fc871c79-dc55-4420-8564-3501e8ac13e4" containerType="regular" prevTag="section" id="contact" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-white" aria-labelledby="contact-heading" data-magicpath-id="277" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="4f1004ff-99e2-43f9-a41a-193128941538" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="278" data-magicpath-path="JulianaChefWebsite.tsx">
+      <SortableContainer dndKitId="513d342e-6fbf-4fbf-ad50-b4357a5103fa" containerType="regular" prevTag="section" id="contact" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-white" aria-labelledby="contact-heading" data-magicpath-id="277" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="d2e782fb-9e12-4c21-8a6b-6ed842e1b6a4" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="278" data-magicpath-path="JulianaChefWebsite.tsx">
           <h2 id="contact-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-6 text-[#2D2D2D]" style={{
           color: "#c76942"
         }} data-magicpath-id="279" data-magicpath-path="JulianaChefWebsite.tsx">
@@ -1261,22 +1261,22 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </SortableContainer>
 
       {/* Footer - Mobile First */}
-      <SortableContainer dndKitId="2629b36c-dad4-4168-9805-967782504ea7" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" style={{
+      <SortableContainer dndKitId="4bf021e4-e5f6-4957-ab10-e338e71c9882" containerType="regular" prevTag="footer" className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" style={{
       color: "#fcf2e3"
     }} role="contentinfo" data-magicpath-id="282" data-magicpath-path="JulianaChefWebsite.tsx">
-        <SortableContainer dndKitId="c62d5e49-5a9d-4959-b7a2-c1b865ccfe78" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="283" data-magicpath-path="JulianaChefWebsite.tsx">
-          <SortableContainer dndKitId="14c09b8c-ab3c-46f0-800e-1427ac121470" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="284" data-magicpath-path="JulianaChefWebsite.tsx">
-            <SortableContainer dndKitId="680ab455-97a8-45ad-ac08-8c0bd7fcfdbf" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="285" data-magicpath-path="JulianaChefWebsite.tsx">
+        <SortableContainer dndKitId="e51029cf-a460-464b-bac6-4ac320f4c382" containerType="regular" prevTag="div" className="max-w-6xl mx-auto" data-magicpath-id="283" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="675cb1a5-346f-41bd-869c-95d7420c0fd3" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8" data-magicpath-id="284" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="a7147a0b-e169-489c-b01c-2765f4028afd" containerType="regular" prevTag="div" className="text-center sm:text-left" data-magicpath-id="285" data-magicpath-path="JulianaChefWebsite.tsx">
               <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" data-magicpath-id="286" data-magicpath-path="JulianaChefWebsite.tsx">Juliana</h3>
               <p className="text-white/80 text-xs sm:text-sm" style={{
               color: "#fcf2e3"
             }} data-magicpath-id="287" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Retreat Chef</p>
             </SortableContainer>
-            <SortableContainer dndKitId="a0cd2fc3-0c31-4b4e-851b-307e8b6afc7a" containerType="regular" prevTag="div" className="text-center sm:text-left" style={{
+            <SortableContainer dndKitId="60a7868e-cb6f-497a-ac85-64f19581aa1a" containerType="regular" prevTag="div" className="text-center sm:text-left" style={{
             color: "#fcf2e3"
           }} data-magicpath-id="288" data-magicpath-path="JulianaChefWebsite.tsx">
               <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="289" data-magicpath-path="JulianaChefWebsite.tsx">Quick Links</h4>
-              <SortableContainer dndKitId="8d045cf6-64a2-499f-b9bc-91ef9409c8f3" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="290" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="e61fed0c-8f06-431b-9d32-6ceec0a2f083" containerType="regular" prevTag="ul" className="space-y-1 sm:space-y-2 text-xs sm:text-sm" data-magicpath-id="290" data-magicpath-path="JulianaChefWebsite.tsx">
                 <li data-magicpath-id="291" data-magicpath-path="JulianaChefWebsite.tsx">
                   <a href="#home" onClick={e => {
                   e.preventDefault();
@@ -1331,9 +1331,9 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
                 </li>
               </SortableContainer>
             </SortableContainer>
-            <SortableContainer dndKitId="7e71cbb4-8357-431e-9315-8fa09004877a" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="301" data-magicpath-path="JulianaChefWebsite.tsx">
+            <SortableContainer dndKitId="afac2010-0c75-4ec1-a408-8724f1a3ed01" containerType="regular" prevTag="div" className="text-center sm:text-left sm:col-span-2 md:col-span-1" data-magicpath-id="301" data-magicpath-path="JulianaChefWebsite.tsx">
               <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" data-magicpath-id="302" data-magicpath-path="JulianaChefWebsite.tsx">Connect</h4>
-              <SortableContainer dndKitId="3fe126ce-ce44-4fcd-adb1-f319d86a8855" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="303" data-magicpath-path="JulianaChefWebsite.tsx">
+              <SortableContainer dndKitId="6e9d22fd-12b6-4fa6-aac2-7919db61c8a3" containerType="regular" prevTag="div" className="flex space-x-4 justify-center sm:justify-start" data-magicpath-id="303" data-magicpath-path="JulianaChefWebsite.tsx">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram" data-magicpath-id="304" data-magicpath-path="JulianaChefWebsite.tsx">
                   <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
                   color: "#fcf2e3"
@@ -1347,7 +1347,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
-          <SortableContainer dndKitId="adce5266-8b47-4476-8526-a7e16dfa2835" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="308" data-magicpath-path="JulianaChefWebsite.tsx">
+          <SortableContainer dndKitId="6becac72-9fe4-45bd-bad1-2b46085f94db" containerType="regular" prevTag="div" className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60" data-magicpath-id="308" data-magicpath-path="JulianaChefWebsite.tsx">
             <p style={{
             color: "#fcf2e3"
           }} data-magicpath-id="309" data-magicpath-path="JulianaChefWebsite.tsx">© 2024 Juliana the Vegan Chef. All rights reserved.</p>
