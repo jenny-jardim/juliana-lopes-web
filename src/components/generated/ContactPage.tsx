@@ -23,35 +23,35 @@ export default function ContactPage({
   const handleInstagramContact = () => {
     window.open("https://instagram.com/julianaveganchef", '_blank');
   };
-  return <SortableContainer dndKitId="9712bd57-6265-43f6-9cc1-7f7f0f59bec6" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8]" data-magicpath-id="0" data-magicpath-path="ContactPage.tsx">
-      {/* Hero Section */}
-      <SortableContainer dndKitId="2f7d1a4b-e507-4eab-baa9-ccc7a3364b16" containerType="regular" prevTag="section" className="relative py-20 sm:py-24 md:py-32 px-4 sm:px-6 bg-gradient-to-br from-[#5e7155] to-[#404d3a]" role="banner" aria-label="Contact page hero section" data-magicpath-id="1" data-magicpath-path="ContactPage.tsx">
-        <SortableContainer dndKitId="73ac4528-5113-4b82-b1b3-20b6b8bd6e8e" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="2" data-magicpath-path="ContactPage.tsx">
-          <SortableContainer dndKitId="e431e026-fd67-4114-ba06-a871d2929d59" containerType="regular" prevTag="motion.div" initial={{
+  return <SortableContainer dndKitId="45fb14d5-c4b0-4c56-a2b4-0d063d226116" containerType="regular" prevTag="div" className="min-h-screen bg-[#F5F1E8]" data-magicpath-id="0" data-magicpath-path="ContactPage.tsx">
+      {/* Hero Section - Minimal */}
+      <SortableContainer dndKitId="96b916c9-c07d-4a3e-8f4e-1cfde6214d18" containerType="regular" prevTag="section" className="relative py-24 px-4 sm:px-6 bg-gradient-to-br from-[#5e7155] to-[#404d3a]" role="banner" aria-label="Contact page hero section" data-magicpath-id="1" data-magicpath-path="ContactPage.tsx">
+        <SortableContainer dndKitId="2869e655-87bd-4aa2-b892-24733b461057" containerType="regular" prevTag="div" className="max-w-4xl mx-auto text-center" data-magicpath-id="2" data-magicpath-path="ContactPage.tsx">
+          <SortableContainer dndKitId="07a6eee5-c1e5-4056-8de2-54785f83a494" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
-          y: 30
+          y: 20
         }} animate={{
           opacity: 1,
           y: 0
         }} transition={{
-          duration: 0.8
+          duration: 0.6
         }} data-magicpath-id="3" data-magicpath-path="ContactPage.tsx">
-            <Heart className="w-16 h-16 sm:w-20 sm:h-20 text-white mx-auto mb-6 opacity-90" data-magicpath-id="4" data-magicpath-path="ContactPage.tsx" />
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight" data-magicpath-id="5" data-magicpath-path="ContactPage.tsx">
+            <Heart className="w-12 h-12 text-white mx-auto mb-4 opacity-90" data-magicpath-id="4" data-magicpath-path="ContactPage.tsx" />
+            <h1 className="font-serif text-5xl md:text-6xl text-white mb-4 leading-tight" data-magicpath-id="5" data-magicpath-path="ContactPage.tsx">
               Let's Connect
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed" data-magicpath-id="6" data-magicpath-path="ContactPage.tsx">
-              I'd love to hear from you. Whether it's about catering your retreat or ordering weekly treats, let's talk.
+            <p className="text-lg text-white/80 max-w-2xl mx-auto" data-magicpath-id="6" data-magicpath-path="ContactPage.tsx">
+              I'd love to hear from you
             </p>
           </SortableContainer>
         </SortableContainer>
       </SortableContainer>
 
-      {/* Contact Methods Section */}
-      <SortableContainer dndKitId="b00e1c36-8c62-4d9b-8b15-532a77f0da4f" containerType="regular" prevTag="main" data-magicpath-id="7" data-magicpath-path="ContactPage.tsx">
-      <SortableContainer dndKitId="b0ee1c97-590b-470a-a8da-211fce80825d" containerType="regular" prevTag="section" className="py-16 sm:py-20 md:py-24 px-4 sm:px-6" aria-labelledby="contact-methods-heading" data-magicpath-id="8" data-magicpath-path="ContactPage.tsx">
-        <SortableContainer dndKitId="ace1c117-fbf5-40a2-9957-4b1d49f26349" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="9" data-magicpath-path="ContactPage.tsx">
-          <SortableContainer dndKitId="a59e97ed-45e1-4d84-bffe-5bf52c8ca7e4" containerType="regular" prevTag="motion.div" initial={{
+      {/* Main Contact Card - Single, Clean, Elegant */}
+      <SortableContainer dndKitId="49be3012-35bd-43d5-bf03-4670298b074e" containerType="regular" prevTag="main" data-magicpath-id="7" data-magicpath-path="ContactPage.tsx">
+        <SortableContainer dndKitId="70ad16f9-1097-46c3-b845-3278420206f4" containerType="regular" prevTag="section" className="py-20 px-4 sm:px-6" aria-labelledby="contact-methods-heading" data-magicpath-id="8" data-magicpath-path="ContactPage.tsx">
+          <SortableContainer dndKitId="52fd737f-ec48-452d-9e39-ec5aa6e69887" containerType="regular" prevTag="div" className="max-w-3xl mx-auto" data-magicpath-id="9" data-magicpath-path="ContactPage.tsx">
+            <SortableContainer dndKitId="579d2570-5211-4514-a59d-7007893442a7" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -61,260 +61,185 @@ export default function ContactPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12" data-magicpath-id="10" data-magicpath-path="ContactPage.tsx">
-            <h2 id="contact-methods-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-4" data-magicpath-id="11" data-magicpath-path="ContactPage.tsx">
-              How to Reach Me
-            </h2>
-            <p className="text-[#5e7155] text-lg sm:text-xl" data-magicpath-id="12" data-magicpath-path="ContactPage.tsx">
-              Choose your preferred way to connect
-            </p>
+          }} className="bg-white rounded-3xl shadow-xl p-10 sm:p-14" data-magicpath-id="10" data-magicpath-path="ContactPage.tsx">
+              <h2 id="contact-methods-heading" className="font-serif text-3xl sm:text-4xl text-[#2D2D2D] mb-3 text-center" data-magicpath-id="11" data-magicpath-path="ContactPage.tsx">
+                Get In Touch
+              </h2>
+              <p className="text-[#5e7155] text-center mb-12" data-magicpath-id="12" data-magicpath-path="ContactPage.tsx">
+                Choose your preferred way to reach me
+              </p>
+
+              {/* Contact Methods - Minimal List */}
+              <SortableContainer dndKitId="1e6141e8-37e0-43d2-9699-7799e5771b1a" containerType="regular" prevTag="div" className="space-y-8" data-magicpath-id="13" data-magicpath-path="ContactPage.tsx">
+                {/* WhatsApp */}
+                <SortableContainer dndKitId="3cd60019-2806-430b-b263-dd15ef58b1aa" containerType="regular" prevTag="motion.button" onClick={handleWhatsAppContact} whileHover={{
+                x: 4
+              }} className="w-full flex items-center gap-6 group" data-magicpath-id="14" data-magicpath-path="ContactPage.tsx">
+                  <SortableContainer dndKitId="b0b6f583-7886-4afe-bc77-67146ef7aa04" containerType="regular" prevTag="div" className="bg-green-50 p-4 rounded-2xl group-hover:bg-green-500 transition-colors" data-magicpath-id="15" data-magicpath-path="ContactPage.tsx">
+                    <MessageCircle className="w-8 h-8 text-green-600 group-hover:text-white transition-colors" data-magicpath-id="16" data-magicpath-path="ContactPage.tsx" />
+                  </SortableContainer>
+                  <SortableContainer dndKitId="12611b9f-1604-4990-86bb-d5943bb6f518" containerType="regular" prevTag="div" className="flex-1 text-left" data-magicpath-id="17" data-magicpath-path="ContactPage.tsx">
+                    <h3 className="font-serif text-2xl text-[#2D2D2D] mb-1 group-hover:text-green-600 transition-colors" data-magicpath-id="18" data-magicpath-path="ContactPage.tsx">
+                      WhatsApp
+                    </h3>
+                    <p className="text-[#5e7155] text-sm" data-magicpath-id="19" data-magicpath-path="ContactPage.tsx">
+                      My preferred contact method — quick responses
+                    </p>
+                  </SortableContainer>
+                  <div className="text-[#5e7155] opacity-0 group-hover:opacity-100 transition-opacity" data-magicpath-id="20" data-magicpath-path="ContactPage.tsx">
+                    →
+                  </div>
+                </SortableContainer>
+
+                <div className="border-t border-gray-100" data-magicpath-id="21" data-magicpath-path="ContactPage.tsx" />
+
+                {/* Email */}
+                <SortableContainer dndKitId="a4f6cd97-2460-45ef-bfb2-d093b2dc25fa" containerType="regular" prevTag="motion.button" onClick={handleEmailContact} whileHover={{
+                x: 4
+              }} className="w-full flex items-center gap-6 group" data-magicpath-id="22" data-magicpath-path="ContactPage.tsx">
+                  <SortableContainer dndKitId="dc1f1785-7de5-45bd-a5da-e2de8c55862f" containerType="regular" prevTag="div" className="bg-orange-50 p-4 rounded-2xl group-hover:bg-[#c76942] transition-colors" data-magicpath-id="23" data-magicpath-path="ContactPage.tsx">
+                    <Mail className="w-8 h-8 text-[#c76942] group-hover:text-white transition-colors" data-magicpath-id="24" data-magicpath-path="ContactPage.tsx" />
+                  </SortableContainer>
+                  <SortableContainer dndKitId="d2a89839-89a3-4f43-bc87-e7dddab52474" containerType="regular" prevTag="div" className="flex-1 text-left" data-magicpath-id="25" data-magicpath-path="ContactPage.tsx">
+                    <h3 className="font-serif text-2xl text-[#2D2D2D] mb-1 group-hover:text-[#c76942] transition-colors" data-magicpath-id="26" data-magicpath-path="ContactPage.tsx">
+                      Email
+                    </h3>
+                    <p className="text-[#5e7155] text-sm" data-magicpath-id="27" data-magicpath-path="ContactPage.tsx">
+                      hello@julianaveganchef.com
+                    </p>
+                  </SortableContainer>
+                  <div className="text-[#5e7155] opacity-0 group-hover:opacity-100 transition-opacity" data-magicpath-id="28" data-magicpath-path="ContactPage.tsx">
+                    →
+                  </div>
+                </SortableContainer>
+
+                <div className="border-t border-gray-100" data-magicpath-id="29" data-magicpath-path="ContactPage.tsx" />
+
+                {/* Instagram */}
+                <SortableContainer dndKitId="7bb64376-3045-499b-8f02-e76fb6fa2be5" containerType="regular" prevTag="motion.button" onClick={handleInstagramContact} whileHover={{
+                x: 4
+              }} className="w-full flex items-center gap-6 group" data-magicpath-id="30" data-magicpath-path="ContactPage.tsx">
+                  <SortableContainer dndKitId="9a6fac7b-418f-4fe4-95fe-ef0af1ecb5e1" containerType="regular" prevTag="div" className="bg-pink-50 p-4 rounded-2xl group-hover:bg-gradient-to-br group-hover:from-purple-500 group-hover:to-pink-500 transition-all" data-magicpath-id="31" data-magicpath-path="ContactPage.tsx">
+                    <InstagramIcon className="w-8 h-8 text-pink-600 group-hover:text-white transition-colors" data-magicpath-id="32" data-magicpath-path="ContactPage.tsx" />
+                  </SortableContainer>
+                  <SortableContainer dndKitId="693d428d-6986-4d4b-b090-ca237a69d194" containerType="regular" prevTag="div" className="flex-1 text-left" data-magicpath-id="33" data-magicpath-path="ContactPage.tsx">
+                    <h3 className="font-serif text-2xl text-[#2D2D2D] mb-1 group-hover:text-pink-600 transition-colors" data-magicpath-id="34" data-magicpath-path="ContactPage.tsx">
+                      Instagram
+                    </h3>
+                    <p className="text-[#5e7155] text-sm" data-magicpath-id="35" data-magicpath-path="ContactPage.tsx">
+                      @julianaveganchef — food photos & updates
+                    </p>
+                  </SortableContainer>
+                  <div className="text-[#5e7155] opacity-0 group-hover:opacity-100 transition-opacity" data-magicpath-id="36" data-magicpath-path="ContactPage.tsx">
+                    →
+                  </div>
+                </SortableContainer>
+              </SortableContainer>
+
+              {/* Additional Details - Minimal */}
+              <SortableContainer dndKitId="3f13f741-fcb4-4488-837a-69087b0be507" containerType="regular" prevTag="div" className="mt-12 pt-8 border-t border-gray-100" data-magicpath-id="37" data-magicpath-path="ContactPage.tsx">
+                <SortableContainer dndKitId="bcbed13a-2108-4232-bf2f-5228d098ba44" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 gap-6" data-magicpath-id="38" data-magicpath-path="ContactPage.tsx">
+                  <SortableContainer dndKitId="51b98e8a-1f04-4faf-9022-3f0985cdbf8f" containerType="regular" prevTag="div" className="flex items-start gap-3" data-magicpath-id="39" data-magicpath-path="ContactPage.tsx">
+                    <MapPin className="w-5 h-5 text-[#5e7155] mt-1 flex-shrink-0" data-magicpath-id="40" data-magicpath-path="ContactPage.tsx" />
+                    <SortableContainer dndKitId="494bcfc2-9750-440a-9ffa-71e4e3c2d126" containerType="regular" prevTag="div" data-magicpath-id="41" data-magicpath-path="ContactPage.tsx">
+                      <p className="text-sm font-semibold text-[#2D2D2D] mb-1" data-magicpath-id="42" data-magicpath-path="ContactPage.tsx">
+                        Location
+                      </p>
+                      <p className="text-sm text-[#5e7155]" data-magicpath-id="43" data-magicpath-path="ContactPage.tsx">
+                        Dun Laoghaire, Dublin
+                      </p>
+                    </SortableContainer>
+                  </SortableContainer>
+
+                  <SortableContainer dndKitId="564c6b99-b66b-4f6a-b78d-a3f1f968afa9" containerType="regular" prevTag="div" className="flex items-start gap-3" data-magicpath-id="44" data-magicpath-path="ContactPage.tsx">
+                    <Clock className="w-5 h-5 text-[#5e7155] mt-1 flex-shrink-0" data-magicpath-id="45" data-magicpath-path="ContactPage.tsx" />
+                    <SortableContainer dndKitId="6498caf1-e041-4bc2-9d41-2a78918a0780" containerType="regular" prevTag="div" data-magicpath-id="46" data-magicpath-path="ContactPage.tsx">
+                      <p className="text-sm font-semibold text-[#2D2D2D] mb-1" data-magicpath-id="47" data-magicpath-path="ContactPage.tsx">
+                        Response Time
+                      </p>
+                      <p className="text-sm text-[#5e7155]" data-magicpath-id="48" data-magicpath-path="ContactPage.tsx">
+                        Within 24-48 hours
+                      </p>
+                    </SortableContainer>
+                  </SortableContainer>
+                </SortableContainer>
+              </SortableContainer>
+            </SortableContainer>
           </SortableContainer>
+        </SortableContainer>
 
-          {/* Contact Cards */}
-          <SortableContainer dndKitId="606e2163-7466-41c4-bcbf-84608fbde86a" containerType="regular" prevTag="div" className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12" data-magicpath-id="13" data-magicpath-path="ContactPage.tsx">
-            {/* WhatsApp Card */}
-            <SortableContainer dndKitId="49a4e79c-fc95-4f94-ba55-049e1f1c2607" containerType="regular" prevTag="motion.button" onClick={handleWhatsAppContact} initial={{
-              opacity: 0,
-              y: 30
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} viewport={{
-              once: true
-            }} transition={{
-              duration: 0.6
-            }} className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all hover:scale-105 cursor-pointer" data-magicpath-id="14" data-magicpath-path="ContactPage.tsx">
-              <MessageCircle className="w-12 h-12 mx-auto mb-4" data-magicpath-id="15" data-magicpath-path="ContactPage.tsx" />
-              <h3 className="font-serif text-2xl mb-3" data-magicpath-id="16" data-magicpath-path="ContactPage.tsx">WhatsApp</h3>
-              <p className="text-white/90 mb-4" data-magicpath-id="17" data-magicpath-path="ContactPage.tsx">
-                My preferred contact method. Quick responses and easy communication.
+        {/* Closing Message */}
+        <SortableContainer dndKitId="db4acf5b-17d4-4ff2-be66-ea45a6229f35" containerType="regular" prevTag="section" className="py-16 px-4 sm:px-6" aria-label="Closing message" data-magicpath-id="49" data-magicpath-path="ContactPage.tsx">
+          <SortableContainer dndKitId="5375a256-db13-4537-a288-ef5ab586595e" containerType="regular" prevTag="div" className="max-w-3xl mx-auto text-center" data-magicpath-id="50" data-magicpath-path="ContactPage.tsx">
+            <SortableContainer dndKitId="961d0c8c-4f03-4660-a807-4f2d8da8b1eb" containerType="regular" prevTag="motion.div" initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            duration: 0.6
+          }} data-magicpath-id="51" data-magicpath-path="ContactPage.tsx">
+              <p className="text-2xl sm:text-3xl font-serif text-[#2D2D2D] mb-4 leading-relaxed italic" data-magicpath-id="52" data-magicpath-path="ContactPage.tsx">
+                "Looking forward to connecting."
               </p>
-              <SortableContainer dndKitId="4ff29704-ec0c-4003-b273-d1b4683f707a" containerType="regular" prevTag="div" className="bg-white/20 rounded-lg py-2 px-4 inline-block" data-magicpath-id="18" data-magicpath-path="ContactPage.tsx">
-                <span className="font-semibold" data-magicpath-id="19" data-magicpath-path="ContactPage.tsx">Click to Message</span>
-              </SortableContainer>
-            </SortableContainer>
-
-            {/* Email Card */}
-            <SortableContainer dndKitId="65adfbf5-26b3-41bd-919e-1b9bc1b8d201" containerType="regular" prevTag="motion.button" onClick={handleEmailContact} initial={{
-              opacity: 0,
-              y: 30
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} viewport={{
-              once: true
-            }} transition={{
-              duration: 0.6,
-              delay: 0.1
-            }} className="bg-gradient-to-br from-[#c76942] to-[#b65e38] text-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all hover:scale-105 cursor-pointer" data-magicpath-id="20" data-magicpath-path="ContactPage.tsx">
-              <Mail className="w-12 h-12 mx-auto mb-4" data-magicpath-id="21" data-magicpath-path="ContactPage.tsx" />
-              <h3 className="font-serif text-2xl mb-3" data-magicpath-id="22" data-magicpath-path="ContactPage.tsx">Email</h3>
-              <p className="text-white/90 mb-4" data-magicpath-id="23" data-magicpath-path="ContactPage.tsx">
-                For detailed inquiries and formal requests.
+              <p className="text-[#5e7155] text-lg" data-magicpath-id="53" data-magicpath-path="ContactPage.tsx">
+                — Juliana
               </p>
-              <SortableContainer dndKitId="5f6c10cd-567f-4395-abb0-e11af7cdd6fe" containerType="regular" prevTag="div" className="bg-white/20 rounded-lg py-2 px-4 inline-block" data-magicpath-id="24" data-magicpath-path="ContactPage.tsx">
-                <span className="font-semibold text-sm" data-magicpath-id="25" data-magicpath-path="ContactPage.tsx">hello@julianaveganchef.com</span>
-              </SortableContainer>
-            </SortableContainer>
-
-            {/* Instagram Card */}
-            <SortableContainer dndKitId="f9a1b6da-97c8-4d9f-af48-9588ba36a5fb" containerType="regular" prevTag="motion.button" onClick={handleInstagramContact} initial={{
-              opacity: 0,
-              y: 30
-            }} whileInView={{
-              opacity: 1,
-              y: 0
-            }} viewport={{
-              once: true
-            }} transition={{
-              duration: 0.6,
-              delay: 0.2
-            }} className="bg-gradient-to-br from-purple-500 to-pink-500 text-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all hover:scale-105 cursor-pointer" data-magicpath-id="26" data-magicpath-path="ContactPage.tsx">
-              <InstagramIcon className="w-12 h-12 mx-auto mb-4" data-magicpath-id="27" data-magicpath-path="ContactPage.tsx" />
-              <h3 className="font-serif text-2xl mb-3" data-magicpath-id="28" data-magicpath-path="ContactPage.tsx">Instagram</h3>
-              <p className="text-white/90 mb-4" data-magicpath-id="29" data-magicpath-path="ContactPage.tsx">
-                Follow along for food photos and daily updates.
-              </p>
-              <SortableContainer dndKitId="e039c1f4-5c47-49a3-8cd2-411c1971502e" containerType="regular" prevTag="div" className="bg-white/20 rounded-lg py-2 px-4 inline-block" data-magicpath-id="30" data-magicpath-path="ContactPage.tsx">
-                <span className="font-semibold" data-magicpath-id="31" data-magicpath-path="ContactPage.tsx">@julianaveganchef</span>
-              </SortableContainer>
             </SortableContainer>
           </SortableContainer>
+        </SortableContainer>
 
-          {/* Additional Info Section */}
-          <SortableContainer dndKitId="ec72e812-27d1-4a3e-95e8-73ecbdd789f2" containerType="regular" prevTag="div" className="grid grid-cols-1 lg:grid-cols-2 gap-8" data-magicpath-id="32" data-magicpath-path="ContactPage.tsx">
-            {/* My Promise Card */}
-            <SortableContainer dndKitId="0546e9ec-206c-4203-8e54-c58d12b0f9ea" containerType="regular" prevTag="motion.div" initial={{
-              opacity: 0,
-              x: -30
-            }} whileInView={{
-              opacity: 1,
-              x: 0
-            }} viewport={{
-              once: true
-            }} transition={{
-              duration: 0.6
-            }} className="bg-gradient-to-br from-[#5e7155] to-[#404d3a] text-white rounded-2xl p-8 shadow-lg" data-magicpath-id="33" data-magicpath-path="ContactPage.tsx">
-              <SortableContainer dndKitId="af46345e-a802-4409-8e40-11478c6c22bd" containerType="regular" prevTag="div" className="flex items-start gap-4 mb-4" data-magicpath-id="34" data-magicpath-path="ContactPage.tsx">
-                <Heart className="w-8 h-8 flex-shrink-0 mt-1" data-magicpath-id="35" data-magicpath-path="ContactPage.tsx" />
-                <SortableContainer dndKitId="87a2070f-946e-479b-a506-bc86113ac75c" containerType="regular" prevTag="div" data-magicpath-id="36" data-magicpath-path="ContactPage.tsx">
-                  <h3 className="font-serif text-2xl sm:text-3xl mb-4" data-magicpath-id="37" data-magicpath-path="ContactPage.tsx">
-                    My Promise
+        {/* Quick Links */}
+        <SortableContainer dndKitId="fa4e86d3-9066-47cb-a08c-5276e030455a" containerType="regular" prevTag="section" className="py-16 px-4 sm:px-6 bg-white" aria-labelledby="explore-heading" data-magicpath-id="54" data-magicpath-path="ContactPage.tsx">
+          <SortableContainer dndKitId="72913edc-d443-4239-9247-7eed28e513ff" containerType="regular" prevTag="div" className="max-w-4xl mx-auto" data-magicpath-id="55" data-magicpath-path="ContactPage.tsx">
+            <SortableContainer dndKitId="d2b1c0c1-3c89-4a80-8201-dea59e8d1a28" containerType="regular" prevTag="motion.div" initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            duration: 0.6
+          }} data-magicpath-id="56" data-magicpath-path="ContactPage.tsx">
+              <h2 id="explore-heading" className="font-serif text-2xl text-center text-[#2D2D2D] mb-8" data-magicpath-id="57" data-magicpath-path="ContactPage.tsx">
+                Explore More
+              </h2>
+              <SortableContainer dndKitId="9d8b4227-68c8-4114-9e44-23223ace8a04" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-3 gap-4" data-magicpath-id="58" data-magicpath-path="ContactPage.tsx">
+                <SortableContainer dndKitId="8cf2bd18-1f73-4d1e-a90a-e8c1f46f2043" containerType="regular" prevTag="button" onClick={() => onNavigate?.('#offerings')} className="bg-[#F5F1E8] hover:bg-[#5e7155] text-[#2D2D2D] hover:text-white p-6 rounded-xl transition-all" data-magicpath-id="59" data-magicpath-path="ContactPage.tsx">
+                  <h3 className="font-semibold text-lg mb-1" data-magicpath-id="60" data-magicpath-path="ContactPage.tsx">
+                    Retreat Catering
                   </h3>
-                  <p className="text-white/90 leading-relaxed text-base sm:text-lg" data-magicpath-id="38" data-magicpath-path="ContactPage.tsx">
-                    Every message gets a personal response. Every customer matters. I usually respond within 24-48 hours, Monday–Friday.
+                  <p className="text-sm opacity-70" data-magicpath-id="61" data-magicpath-path="ContactPage.tsx">
+                    Catering services
                   </p>
                 </SortableContainer>
-              </SortableContainer>
-            </SortableContainer>
 
-            {/* Contact Details Card */}
-            <SortableContainer dndKitId="f0dde858-9864-4c68-a6a0-21ce427e46d8" containerType="regular" prevTag="motion.div" initial={{
-              opacity: 0,
-              x: 30
-            }} whileInView={{
-              opacity: 1,
-              x: 0
-            }} viewport={{
-              once: true
-            }} transition={{
-              duration: 0.6
-            }} className="bg-white rounded-2xl p-8 shadow-lg space-y-6" data-magicpath-id="39" data-magicpath-path="ContactPage.tsx">
-              <h3 className="font-serif text-2xl sm:text-3xl text-[#2D2D2D] mb-4" data-magicpath-id="40" data-magicpath-path="ContactPage.tsx">
-                Other Details
-              </h3>
+                <SortableContainer dndKitId="83f1bf20-257c-47e0-95ed-9b9a14feb475" containerType="regular" prevTag="button" onClick={() => onNavigate?.('#treats')} className="bg-[#F5F1E8] hover:bg-[#c76942] text-[#2D2D2D] hover:text-white p-6 rounded-xl transition-all" data-magicpath-id="62" data-magicpath-path="ContactPage.tsx">
+                  <h3 className="font-semibold text-lg mb-1" data-magicpath-id="63" data-magicpath-path="ContactPage.tsx">
+                    Pep Me Up Treats
+                  </h3>
+                  <p className="text-sm opacity-70" data-magicpath-id="64" data-magicpath-path="ContactPage.tsx">
+                    Weekly treats menu
+                  </p>
+                </SortableContainer>
 
-              <SortableContainer dndKitId="09b89104-fd68-4210-bd49-36561967527a" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="41" data-magicpath-path="ContactPage.tsx">
-                <SortableContainer dndKitId="2aad5642-4421-4cf5-8f82-522d376f9bcb" containerType="regular" prevTag="div" className="bg-[#5e7155]/10 p-3 rounded-full flex-shrink-0" data-magicpath-id="42" data-magicpath-path="ContactPage.tsx">
-                  <MapPin className="w-6 h-6 text-[#5e7155]" data-magicpath-id="43" data-magicpath-path="ContactPage.tsx" />
-                </SortableContainer>
-                <SortableContainer dndKitId="c996822a-76ad-400b-a2de-d4a45aabce4a" containerType="regular" prevTag="div" data-magicpath-id="44" data-magicpath-path="ContactPage.tsx">
-                  <p className="text-sm text-[#5e7155] font-semibold mb-1" data-magicpath-id="45" data-magicpath-path="ContactPage.tsx">
-                    Location
-                  </p>
-                  <p className="text-[#2D2D2D]" data-magicpath-id="46" data-magicpath-path="ContactPage.tsx">
-                    Dun Laoghaire<br data-magicpath-id="47" data-magicpath-path="ContactPage.tsx" />
-                    County Dublin, Ireland
-                  </p>
-                </SortableContainer>
-              </SortableContainer>
-
-              <SortableContainer dndKitId="1660ace0-6428-457a-bb22-535d41d83c72" containerType="regular" prevTag="div" className="flex items-start gap-4" data-magicpath-id="48" data-magicpath-path="ContactPage.tsx">
-                <SortableContainer dndKitId="fa6002ec-1605-4d85-bf26-baeaa485e33d" containerType="regular" prevTag="div" className="bg-[#5e7155]/10 p-3 rounded-full flex-shrink-0" data-magicpath-id="49" data-magicpath-path="ContactPage.tsx">
-                  <Clock className="w-6 h-6 text-[#5e7155]" data-magicpath-id="50" data-magicpath-path="ContactPage.tsx" />
-                </SortableContainer>
-                <SortableContainer dndKitId="23ed4983-5346-41a9-87bb-14157816a4be" containerType="regular" prevTag="div" data-magicpath-id="51" data-magicpath-path="ContactPage.tsx">
-                  <p className="text-sm text-[#5e7155] font-semibold mb-1" data-magicpath-id="52" data-magicpath-path="ContactPage.tsx">
-                    Response Time
-                  </p>
-                  <p className="text-[#2D2D2D]" data-magicpath-id="53" data-magicpath-path="ContactPage.tsx">
-                    Within 24-48 hours<br data-magicpath-id="54" data-magicpath-path="ContactPage.tsx" />
-                    <span className="text-sm text-[#5e7155]" data-magicpath-id="55" data-magicpath-path="ContactPage.tsx">Monday–Friday</span>
+                <SortableContainer dndKitId="c2247624-38a4-40e2-8513-953a87667ca5" containerType="regular" prevTag="button" onClick={() => onNavigate?.('#about')} className="bg-[#F5F1E8] hover:bg-[#5e7155] text-[#2D2D2D] hover:text-white p-6 rounded-xl transition-all" data-magicpath-id="65" data-magicpath-path="ContactPage.tsx">
+                  <h3 className="font-semibold text-lg mb-1" data-magicpath-id="66" data-magicpath-path="ContactPage.tsx">
+                    About Juliana
+                  </h3>
+                  <p className="text-sm opacity-70" data-magicpath-id="67" data-magicpath-path="ContactPage.tsx">
+                    My story
                   </p>
                 </SortableContainer>
               </SortableContainer>
             </SortableContainer>
           </SortableContainer>
-
-          {/* Order Times for Treats */}
-          <SortableContainer dndKitId="14c4c56e-254c-43b9-8f25-badf9ba94422" containerType="regular" prevTag="motion.div" initial={{
-            opacity: 0,
-            y: 30
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} className="bg-[#c76942] text-white rounded-2xl p-8 sm:p-10 shadow-lg mt-8 text-center" data-magicpath-id="56" data-magicpath-path="ContactPage.tsx">
-            <h3 className="font-serif text-2xl sm:text-3xl mb-4" data-magicpath-id="57" data-magicpath-path="ContactPage.tsx">
-              Pep Me Up Orders
-            </h3>
-            <p className="text-white/90 mb-4 text-lg" data-magicpath-id="58" data-magicpath-path="ContactPage.tsx">
-              Order Window:<br data-magicpath-id="59" data-magicpath-path="ContactPage.tsx" />
-              <strong className="text-white text-xl" data-magicpath-id="60" data-magicpath-path="ContactPage.tsx">Every Friday, 5am–9am</strong>
-            </p>
-            <p className="text-white/90" data-magicpath-id="61" data-magicpath-path="ContactPage.tsx">
-              Collection: Dun Laoghaire<br data-magicpath-id="62" data-magicpath-path="ContactPage.tsx" />
-              Saturday Delivery: Dublin City Centre
-            </p>
-          </SortableContainer>
         </SortableContainer>
-      </SortableContainer>
-
-      {/* Closing Message */}
-      <SortableContainer dndKitId="d6a7d41f-8b0b-469c-b667-94b02f4b146a" containerType="regular" prevTag="section" className="py-16 sm:py-20 px-4 sm:px-6 bg-white" aria-label="Closing message" data-magicpath-id="63" data-magicpath-path="ContactPage.tsx">
-        <SortableContainer dndKitId="642d8da7-e13c-47c5-a452-9362aeaa75f0" containerType="regular" prevTag="div" className="max-w-3xl mx-auto text-center" data-magicpath-id="64" data-magicpath-path="ContactPage.tsx">
-          <SortableContainer dndKitId="f44df83c-3813-4cd1-a794-a61197e3cf3d" containerType="regular" prevTag="motion.div" initial={{
-            opacity: 0,
-            y: 30
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} data-magicpath-id="65" data-magicpath-path="ContactPage.tsx">
-            <p className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#2D2D2D] mb-6 leading-relaxed italic" data-magicpath-id="66" data-magicpath-path="ContactPage.tsx">
-              "Looking forward to connecting."
-            </p>
-            <p className="text-[#5e7155] text-lg sm:text-xl" data-magicpath-id="67" data-magicpath-path="ContactPage.tsx">
-              — Juliana
-            </p>
-          </SortableContainer>
-        </SortableContainer>
-      </SortableContainer>
-
-      {/* Quick Links to Other Sections */}
-      <SortableContainer dndKitId="7339cd12-e4db-4fcd-a909-9891287b22aa" containerType="regular" prevTag="section" className="py-16 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="explore-heading" data-magicpath-id="68" data-magicpath-path="ContactPage.tsx">
-        <SortableContainer dndKitId="40542f3d-1921-423a-a15e-8ef8c8e98ed6" containerType="regular" prevTag="div" className="max-w-5xl mx-auto" data-magicpath-id="69" data-magicpath-path="ContactPage.tsx">
-          <SortableContainer dndKitId="e5cff6d7-eb07-4bca-bc4a-4175f1d7c274" containerType="regular" prevTag="motion.div" initial={{
-            opacity: 0,
-            y: 30
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} data-magicpath-id="70" data-magicpath-path="ContactPage.tsx">
-            <h2 id="explore-heading" className="font-serif text-2xl sm:text-3xl text-center text-[#2D2D2D] mb-8" data-magicpath-id="71" data-magicpath-path="ContactPage.tsx">
-              Or Explore More
-            </h2>
-            <SortableContainer dndKitId="90e04f62-a796-4a60-b8a7-7833d88fe84c" containerType="regular" prevTag="div" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6" data-magicpath-id="72" data-magicpath-path="ContactPage.tsx">
-              <SortableContainer dndKitId="70aaa150-aed4-43f4-8d32-aab8537e35ff" containerType="regular" prevTag="button" onClick={() => onNavigate?.('#offerings')} className="bg-white hover:bg-[#5e7155] hover:text-white text-[#2D2D2D] p-6 rounded-xl shadow-md transition-all group" data-magicpath-id="73" data-magicpath-path="ContactPage.tsx">
-                <h3 className="font-semibold text-lg mb-2 group-hover:text-white" data-magicpath-id="74" data-magicpath-path="ContactPage.tsx">
-                  Retreat Catering
-                </h3>
-                <p className="text-sm text-[#4A4A4A] group-hover:text-white/90" data-magicpath-id="75" data-magicpath-path="ContactPage.tsx">
-                  Learn about catering services
-                </p>
-              </SortableContainer>
-
-              <SortableContainer dndKitId="a36ac809-5ffb-4ab7-b40d-3fdadc7015d5" containerType="regular" prevTag="button" onClick={() => onNavigate?.('#treats')} className="bg-white hover:bg-[#c76942] hover:text-white text-[#2D2D2D] p-6 rounded-xl shadow-md transition-all group" data-magicpath-id="76" data-magicpath-path="ContactPage.tsx">
-                <h3 className="font-semibold text-lg mb-2 group-hover:text-white" data-magicpath-id="77" data-magicpath-path="ContactPage.tsx">
-                  Pep Me Up Treats
-                </h3>
-                <p className="text-sm text-[#4A4A4A] group-hover:text-white/90" data-magicpath-id="78" data-magicpath-path="ContactPage.tsx">
-                  Browse weekly treats menu
-                </p>
-              </SortableContainer>
-
-              <SortableContainer dndKitId="15a64351-4bb6-4408-b4a9-b6f7c0c7030c" containerType="regular" prevTag="button" onClick={() => onNavigate?.('#about')} className="bg-white hover:bg-[#5e7155] hover:text-white text-[#2D2D2D] p-6 rounded-xl shadow-md transition-all group" data-magicpath-id="79" data-magicpath-path="ContactPage.tsx">
-                <h3 className="font-semibold text-lg mb-2 group-hover:text-white" data-magicpath-id="80" data-magicpath-path="ContactPage.tsx">
-                  About Juliana
-                </h3>
-                <p className="text-sm text-[#4A4A4A] group-hover:text-white/90" data-magicpath-id="81" data-magicpath-path="ContactPage.tsx">
-                  Read my full story
-                </p>
-              </SortableContainer>
-            </SortableContainer>
-          </SortableContainer>
-        </SortableContainer>
-      </SortableContainer>
       </SortableContainer>
     </SortableContainer>;
 }
