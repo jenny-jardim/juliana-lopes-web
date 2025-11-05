@@ -1043,13 +1043,17 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             }} data-magicpath-id="208" data-magicpath-path="JulianaChefWebsite.tsx">Hi, I'm Juliana!</h3>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="209" data-magicpath-path="JulianaChefWebsite.tsx" style={{
               fontFamily: "Montserrat",
-              fontSize: "18px"
+              fontSize: "18px",
+              textAlign: "center",
+              justifyContent: "center"
             }}>
                 I'm a passionate plant-based chef with over 8 years of culinary experience. I built my business and brand on creating nourishing, delicious plant-based meals for wellness retreats around the world.
               </p>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" data-magicpath-id="210" data-magicpath-path="JulianaChefWebsite.tsx" style={{
               fontFamily: "Montserrat",
-              fontSize: "18px"
+              fontSize: "18px",
+              textAlign: "center",
+              justifyContent: "center"
             }}>
                 What truly fuels my culinary passion is not just food itself but the transformative power it has to bring people together and foster genuine connections. I believe food has the unique ability to create shared experiences that inspire, heal, and unite us.
               </p>
@@ -1091,12 +1095,18 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               fontFamily: "Montserrat"
             }} data-magicpath-id="217" data-magicpath-path="JulianaChefWebsite.tsx">Retreat & Event Catering</h3>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              textAlign: "center",
+              justifyContent: "center",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="218" data-magicpath-path="JulianaChefWebsite.tsx">
                 Custom plant-based menus for retreats, and events across Ireland and the UK.
               </p>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              textAlign: "center",
+              justifyContent: "center",
+              fontFamily: "Montserrat"
             }} data-magicpath-id="219" data-magicpath-path="JulianaChefWebsite.tsx">
                 Every dish is made with stunning presentation and extraordinary ingredients.
               </p>
@@ -1125,12 +1135,12 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             duration: 0.6,
             delay: 0.2
           }} className="flex justify-center" data-magicpath-id="221" data-magicpath-path="JulianaChefWebsite.tsx">
-              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/f7d14c4e-9317-48a6-b706-edc843541fea.png" alt="Beautifully plated gourmet plant-based dish with colorful vegetables" className="w-full rounded-lg shadow-lg" style={{
-              objectFit: "cover",
-              objectPosition: "bottom",
-              opacity: "1",
+              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/57e9f442-497a-4c95-baa9-b4df09cab964.png" alt="Beautifully plated gourmet plant-based dish with colorful vegetables" className="w-full rounded-lg shadow-lg" style={{
               minHeight: "500px",
-              maxWidth: "450px"
+              maxWidth: "450px",
+              objectFit: "cover",
+              objectPosition: "50% 100%",
+              opacity: "1"
             }} data-magicpath-id="222" data-magicpath-path="JulianaChefWebsite.tsx" />
             </SortableContainer>
           </SortableContainer>
@@ -1153,12 +1163,18 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               fontFamily: "Montserrat"
             }} data-magicpath-id="225" data-magicpath-path="JulianaChefWebsite.tsx">Plant-Based Treats</h3>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              fontFamily: "Montserrat",
+              textAlign: "center",
+              justifyContent: "center"
             }} data-magicpath-id="226" data-magicpath-path="JulianaChefWebsite.tsx">
                 Fresh-baked, gluten-friendly, plant-based treats made to order just for you.
               </p>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a"
+              color: "#404d3a",
+              fontFamily: "Montserrat",
+              textAlign: "center",
+              justifyContent: "center"
             }} data-magicpath-id="227" data-magicpath-path="JulianaChefWebsite.tsx">
                 Order Weekly Fridays 5am-9am. Collection in Dun Laoghaire or Weekly Pop-up Cake Stall.
               </p>
