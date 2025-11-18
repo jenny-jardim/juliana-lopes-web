@@ -5,9 +5,10 @@ import AboutPage from './AboutPage';
 import RetreatCateringPage from './RetreatCateringPage';
 import TreatsBakesPage from './TreatsBakesPage';
 import ContactPage from './ContactPage';
+import { Layout } from '../Layout';
 type JulianaChefWebsiteProps = {};
 const navigation = [{
-  name: 'About Juliana',
+  name: 'About Me',
   href: '#about'
 }, {
   name: 'Retreat Catering',
@@ -166,689 +167,68 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
     }, 100);
   };
 
+  const renderPage = () => {
+    const pageProps = {
+      navigation,
+      handleNavClick,
+      mobileMenuOpen,
+      setMobileMenuOpen,
+      headerOpacity,
+    };
+
+    if (showContactPage) {
+      return <Layout {...pageProps} onLogoClick={() => setShowContactPage(false)}><ContactPage onNavigate={handleContactNavigate} /></Layout>;
+    }
+    if (showTreatsBakesPage) {
+      return <Layout {...pageProps} onLogoClick={() => setShowTreatsBakesPage(false)}><TreatsBakesPage onNavigate={handleTreatsNavigate} /></Layout>;
+    }
+    if (showRetreatCateringPage) {
+      return <Layout {...pageProps} onLogoClick={() => setShowRetreatCateringPage(false)}><RetreatCateringPage onNavigate={handleRetreatNavigate} /></Layout>;
+    }
+    if (showAboutPage) {
+      return <Layout {...pageProps} onLogoClick={() => setShowAboutPage(false)}><AboutPage onNavigate={handleAboutNavigate} /></Layout>;
+    }
+    return null;
+  }
+
+  const pageToRender = renderPage();
+  if (pageToRender) {
+    return pageToRender;
+  }
+
   // If showing Contact page, render it with header and footer
   if (showContactPage) {
-    return <div className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]">
-        {/* Header */}
-        <motion.header style={{
-        opacity: headerOpacity
-      }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16 sm:h-20">
-              <button onClick={() => {
-              setShowContactPage(false);
-              window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-              });
-            }} className="flex items-center hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home">
-                <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/0d9d49d2-8c2e-4b14-b09a-5b31e903e01f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" />
-              </button>
-
-              <nav className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-                e.preventDefault();
-                handleNavClick(item.href);
-              }} className="text-white hover:text-white/80 transition-colors font-medium text-sm" style={{
-                color: "#fcf2e3"
-              }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-
-              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu">
-                {mobileMenuOpen ? <X className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} /> : <Menu className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} />}
-              </button>
-            </div>
-          </div>
-
-          {mobileMenuOpen && <motion.div initial={{
-          opacity: 0,
-          height: 0
-        }} animate={{
-          opacity: 1,
-          height: 'auto'
-        }} exit={{
-          opacity: 0,
-          height: 0
-        }} className="md:hidden bg-[#5e7155] border-t border-white/10">
-              <nav className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-              e.preventDefault();
-              handleNavClick(item.href);
-            }} className="block text-white hover:bg-white/10 px-4 py-3 rounded-lg transition-colors font-medium" style={{
-              color: "#fcf2e3"
-            }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-            </motion.div>}
-        </motion.header>
-
-        {/* Contact Page Content */}
-        <div className="pt-16 sm:pt-20">
-          <ContactPage onNavigate={handleContactNavigate} />
-        </div>
-
-        {/* Footer */}
-        <footer className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
-              <div className="text-center sm:text-left">
-                <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" style={{
-                color: "#fcf2e3"
-              }}>Juliana</h3>
-                <p className="text-white/80 text-xs sm:text-sm" style={{
-                color: "#fcf2e3"
-              }}>Plant-Based Retreat Chef</p>
-              </div>
-              <div className="text-center sm:text-left">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Quick Links</h4>
-                <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
-                  <li>
-                    <a href="#home" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#home');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#about" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#about');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      About Juliana
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#offerings" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#offerings');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Retreat Catering
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#treats" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#treats');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Treats & Bakes
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#contact" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#contact');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text-center sm:text-left sm:col-span-2 md:col-span-1">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Connect</h4>
-                <div className="flex space-x-4 justify-center sm:justify-start">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram">
-                    <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Facebook">
-                    <Facebook className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60">
-              <p style={{
-              color: "#fcf2e3"
-            }}>© 2024 Juliana the Vegan Chef. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
-      </div>;
+    return <Layout onLogoClick={() => setShowContactPage(false)} navigation={navigation} handleNavClick={handleNavClick} mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} headerOpacity={headerOpacity}><ContactPage onNavigate={handleContactNavigate} /></Layout>
   }
 
   // If showing Treats & Bakes page, render it with header and footer
   if (showTreatsBakesPage) {
-    return <div className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]">
-        {/* Header */}
-        <motion.header style={{
-        opacity: headerOpacity
-      }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16 sm:h-20">
-              <button onClick={() => {
-              setShowTreatsBakesPage(false);
-              window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-              });
-            }} className="flex items-center hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home">
-                <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/0d9d49d2-8c2e-4b14-b09a-5b31e903e01f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" />
-              </button>
-
-              <nav className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-                e.preventDefault();
-                handleNavClick(item.href);
-              }} className="text-white hover:text-white/80 transition-colors font-medium text-sm" style={{
-                color: "#fcf2e3"
-              }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-
-              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu">
-                {mobileMenuOpen ? <X className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} /> : <Menu className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} />}
-              </button>
-            </div>
-          </div>
-
-          {mobileMenuOpen && <motion.div initial={{
-          opacity: 0,
-          height: 0
-        }} animate={{
-          opacity: 1,
-          height: 'auto'
-        }} exit={{
-          opacity: 0,
-          height: 0
-        }} className="md:hidden bg-[#5e7155] border-t border-white/10">
-              <nav className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-              e.preventDefault();
-              handleNavClick(item.href);
-            }} className="block text-white hover:bg-white/10 px-4 py-3 rounded-lg transition-colors font-medium" style={{
-              color: "#fcf2e3"
-            }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-            </motion.div>}
-        </motion.header>
-
-        {/* Treats & Bakes Page Content */}
-        <div className="pt-16 sm:pt-20">
-          <TreatsBakesPage onNavigate={handleTreatsNavigate} />
-        </div>
-
-        {/* Footer */}
-        <footer className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
-              <div className="text-center sm:text-left">
-                <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" style={{
-                color: "#fcf2e3"
-              }}>Juliana</h3>
-                <p className="text-white/80 text-xs sm:text-sm" style={{
-                color: "#fcf2e3"
-              }}>Plant-Based Retreat Chef</p>
-              </div>
-              <div className="text-center sm:text-left">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Quick Links</h4>
-                <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
-                  <li>
-                    <a href="#home" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#home');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#about" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#about');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      About Juliana
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#offerings" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#offerings');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Retreat Catering
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#treats" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#treats');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Treats & Bakes
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#contact" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#contact');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text-center sm:text-left sm:col-span-2 md:col-span-1">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Connect</h4>
-                <div className="flex space-x-4 justify-center sm:justify-start">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram">
-                    <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Facebook">
-                    <Facebook className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60">
-              <p style={{
-              color: "#fcf2e3"
-            }}>© 2024 Juliana the Vegan Chef. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
-      </div>;
+    return <Layout onLogoClick={() => setShowTreatsBakesPage(false)} navigation={navigation} handleNavClick={handleNavClick} mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} headerOpacity={headerOpacity}><TreatsBakesPage onNavigate={handleTreatsNavigate} /></Layout>
   }
 
   // If showing Retreat Catering page, render it with header and footer
   if (showRetreatCateringPage) {
-    return <div className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]">
-        {/* Header */}
-        <motion.header style={{
-        opacity: headerOpacity
-      }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16 sm:h-20">
-              <button onClick={() => {
-              setShowRetreatCateringPage(false);
-              window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-              });
-            }} className="flex items-center hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home">
-                <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/0d9d49d2-8c2e-4b14-b09a-5b31e903e01f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" />
-              </button>
-
-              <nav className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-                e.preventDefault();
-                handleNavClick(item.href);
-              }} className="text-white hover:text-white/80 transition-colors font-medium text-sm" style={{
-                color: "#fcf2e3"
-              }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-
-              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu">
-                {mobileMenuOpen ? <X className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} /> : <Menu className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} />}
-              </button>
-            </div>
-          </div>
-
-          {mobileMenuOpen && <motion.div initial={{
-          opacity: 0,
-          height: 0
-        }} animate={{
-          opacity: 1,
-          height: 'auto'
-        }} exit={{
-          opacity: 0,
-          height: 0
-        }} className="md:hidden bg-[#5e7155] border-t border-white/10">
-              <nav className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-              e.preventDefault();
-              handleNavClick(item.href);
-            }} className="block text-white hover:bg-white/10 px-4 py-3 rounded-lg transition-colors font-medium" style={{
-              color: "#fcf2e3"
-            }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-            </motion.div>}
-        </motion.header>
-
-        {/* Retreat Catering Page Content */}
-        <div className="pt-16 sm:pt-20">
-          <RetreatCateringPage onNavigate={handleRetreatNavigate} />
-        </div>
-
-        {/* Footer */}
-        <footer className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
-              <div className="text-center sm:text-left">
-                <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" style={{
-                color: "#fcf2e3"
-              }}>Juliana</h3>
-                <p className="text-white/80 text-xs sm:text-sm" style={{
-                color: "#fcf2e3"
-              }}>Plant-Based Retreat Chef</p>
-              </div>
-              <div className="text-center sm:text-left">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Quick Links</h4>
-                <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
-                  <li>
-                    <a href="#home" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#home');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#about" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#about');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      About Juliana
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#offerings" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#offerings');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Retreat Catering
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#treats" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#treats');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Treats & Bakes
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#contact" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#contact');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text-center sm:text-left sm:col-span-2 md:col-span-1">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Connect</h4>
-                <div className="flex space-x-4 justify-center sm:justify-start">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram">
-                    <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Facebook">
-                    <Facebook className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60">
-              <p style={{
-              color: "#fcf2e3"
-            }}>© 2024 Juliana the Vegan Chef. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
-      </div>;
+    return <Layout onLogoClick={() => setShowRetreatCateringPage(false)} navigation={navigation} handleNavClick={handleNavClick} mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} headerOpacity={headerOpacity}><RetreatCateringPage onNavigate={handleRetreatNavigate} /></Layout>
   }
 
   // If showing About page, render it with header and footer
   if (showAboutPage) {
-    return <div className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]">
-        {/* Header */}
-        <motion.header style={{
-        opacity: headerOpacity
-      }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16 sm:h-20">
-              <button onClick={() => {
-              setShowAboutPage(false);
-              window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-              });
-            }} className="flex items-center hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home">
-                <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/0d9d49d2-8c2e-4b14-b09a-5b31e903e01f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" />
-              </button>
-
-              <nav className="hidden md:flex space-x-6 lg:space-x-8" role="navigation" aria-label="Main navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-                e.preventDefault();
-                handleNavClick(item.href);
-              }} className="text-white hover:text-white/80 transition-colors font-medium text-sm" style={{
-                color: "#fcf2e3"
-              }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-
-              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors" aria-label="Toggle menu">
-                {mobileMenuOpen ? <X className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} /> : <Menu className="w-6 h-6" style={{
-                color: "#fcf2e3"
-              }} />}
-              </button>
-            </div>
-          </div>
-
-          {mobileMenuOpen && <motion.div initial={{
-          opacity: 0,
-          height: 0
-        }} animate={{
-          opacity: 1,
-          height: 'auto'
-        }} exit={{
-          opacity: 0,
-          height: 0
-        }} className="md:hidden bg-[#5e7155] border-t border-white/10">
-              <nav className="px-4 py-4 space-y-2" role="navigation" aria-label="Mobile navigation">
-                {navigation.map(item => <a key={item.name} href={item.href} onClick={e => {
-              e.preventDefault();
-              handleNavClick(item.href);
-            }} className="block text-white hover:bg-white/10 px-4 py-3 rounded-lg transition-colors font-medium" style={{
-              color: "#fcf2e3"
-            }}>
-                    {item.name}
-                  </a>)}
-              </nav>
-            </motion.div>}
-        </motion.header>
-
-        {/* About Page Content */}
-        <div className="pt-16 sm:pt-20">
-          <AboutPage onNavigate={handleAboutNavigate} />
-        </div>
-
-        {/* Footer */}
-        <footer className="bg-[#5e7155] text-white py-8 sm:py-10 md:py-12 px-4 sm:px-6" role="contentinfo">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
-              <div className="text-center sm:text-left">
-                <h3 className="font-serif text-lg sm:text-xl mb-3 sm:mb-4" style={{
-                color: "#fcf2e3"
-              }}>Juliana</h3>
-                <p className="text-white/80 text-xs sm:text-sm" style={{
-                color: "#fcf2e3"
-              }}>Plant-Based Retreat Chef</p>
-              </div>
-              <div className="text-center sm:text-left">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Quick Links</h4>
-                <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm">
-                  <li>
-                    <a href="#home" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#home');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#about" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#about');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      About Juliana
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#offerings" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#offerings');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Retreat Catering
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#treats" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#treats');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Treats & Bakes
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#contact" onClick={e => {
-                    e.preventDefault();
-                    handleNavClick('#contact');
-                  }} className="text-white/80 hover:text-white transition-colors" style={{
-                    color: "#fcf2e3"
-                  }}>
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="text-center sm:text-left sm:col-span-2 md:col-span-1">
-                <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base" style={{
-                color: "#fcf2e3"
-              }}>Connect</h4>
-                <div className="flex space-x-4 justify-center sm:justify-start">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram">
-                    <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Facebook">
-                    <Facebook className="w-5 h-5 sm:w-6 sm:h-6" style={{
-                    color: "#fcf2e3"
-                  }} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="border-t border-white/20 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white/60">
-              <p style={{
-              color: "#fcf2e3"
-            }}>© 2024 Juliana the Vegan Chef. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
-      </div>;
+    return <Layout onLogoClick={() => setShowAboutPage(false)} navigation={navigation} handleNavClick={handleNavClick} mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} headerOpacity={headerOpacity}><AboutPage onNavigate={handleAboutNavigate} /></Layout>
   }
 
   // @return
-  return <div className="min-h-screen bg-[#F5F1E8] text-[#2D2D2D]">
+  return <div className="min-h-screen bg-[#F5F1E8] text-[#404d3a]" style={{ fontFamily: 'Montserrat' }}>
       {/* Mobile-First Header */}
       <motion.header style={{
-      opacity: headerOpacity
-    }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]/95 backdrop-blur-sm" role="banner">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{
-        background: "#5e7155"
-      }}>
-          <div className="flex items-center justify-between h-16 sm:h-20" style={{
-          background: "#5e7155",
-          outline: "0.8px solid rgb(94 113 85 / 0)",
-          outlineStyle: "solid",
-          outlineWidth: "0.8px",
-          outlineColor: "rgb(94 113 85 / 0)",
-          outlineOffset: "0px",
-          color: "rgb(94 113 85 / 0)"
-        }}>
+      opacity: headerOpacity,
+    }} className="fixed top-0 left-0 right-0 z-50 bg-[#5e7155]" role="banner">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <button onClick={() => document.getElementById('home')?.scrollIntoView({
             behavior: 'smooth'
           })} className="flex items-center hover:opacity-80 transition-opacity cursor-pointer" aria-label="Return to home">
-              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/deff7a85-6f9d-44a9-a015-f831a5396e4f.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" style={{
+              <img src="/images/logo.png" alt="Juliana Lopes - The Vegan Chef" className="h-12 sm:h-14 w-auto object-contain" style={{
               objectFit: "contain",
               objectPosition: "50% 50%",
               opacity: "1",
@@ -911,16 +291,12 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
       </motion.header>
 
       {/* Hero Section - Mobile First */}
-      <section id="home" className="relative min-h-screen h-screen flex items-center justify-center overflow-hidden" role="main" aria-label="Hero section featuring plant-based retreat chef services">
+      <section id="home" className="relative h-[85vh] sm:h-screen flex items-center justify-center overflow-hidden" role="main" aria-label="Hero section featuring plant-based retreat chef services">
         <div className="absolute inset-0 bg-cover bg-center" style={{
-        filter: 'brightness(0.7)',
-        backgroundImage: "url(https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/665cd21b-9e06-4fcc-8e44-61ef845fae0e.png)",
-        backgroundSize: "cover",
-        backgroundPosition: "50% 50%",
-        backgroundRepeat: "repeat",
-        opacity: "1"
+        backgroundImage: "url(/images/hero-home.jpg)", filter: 'brightness(0.7)'
       }} />
-        <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl">
+        <div className="absolute inset-0 bg-gradient-to-t from-[#404d3a]/40 to-transparent" />
+        <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl ">
           <motion.h1 initial={{
           opacity: 0,
           y: 30
@@ -943,11 +319,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         }} transition={{
           duration: 0.8,
           delay: 0.2
-        }} className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4" style={{
+        }} className="text-xl sm:text-2xl md:text-3xl mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed px-4" style={{
           color: "#fcf2e3",
           fontFamily: "Montserrat",
           fontWeight: "600"
-        }}>Specialising in Transformational Food Experiences For Wellness Retreats Worldwide</motion.p>
+        }}>Specialising in Transformational Food Experiences For Wellness Retreats across Europe and the UK</motion.p>
           <motion.button initial={{
           opacity: 0,
           y: 30
@@ -998,12 +374,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             once: true
           }} transition={{
             duration: 0.6
-          }}>
-              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/ba3e07e1-150a-4e48-b1c9-9383828fc6ce.png" alt="Chef Juliana smiling in her kitchen, preparing plant-based dishes" className="w-full rounded-lg shadow-lg" style={{
-              objectFit: "fill",
-              objectPosition: "50% 50%",
-              opacity: "1"
-            }} />
+          }} className="overflow-hidden rounded-lg shadow-lg">
+              <picture>
+                <source srcSet="/images/chef-juliana.webp" type="image/webp" />
+                <img src="/images/chef-juliana.jpg" alt="Chef Juliana smiling in her kitchen, preparing plant-based dishes" className="w-full rounded-lg shadow-lg object-fill" />
+              </picture>
             </motion.div>
             <motion.div initial={{
             opacity: 0,
@@ -1033,7 +408,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               </p>
               <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
               fontFamily: "Montserrat",
-              fontSize: "18px",
+              fontSize: "18px", //
               textAlign: "center",
               justifyContent: "center"
             }}>
@@ -1073,28 +448,22 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             once: true
           }} transition={{
             duration: 0.6
-          }} className="space-y-4 sm:space-y-6">
-              <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" style={{
+          }} className="space-y-4 sm:space-y-6 text-center md:text-left">
+              <h3 className="text-2xl sm:text-3xl font-semibold text-[#2D2D2D]" style={{
               color: "#404d3a",
               fontFamily: "Montserrat"
             }}>Retreat & Event Catering</h3>
-              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a",
-              textAlign: "center",
-              justifyContent: "center",
+              <p className="text-base sm:text-lg leading-relaxed" style={{
               fontFamily: "Montserrat"
             }}>
                 Custom plant-based menus for retreats, and events across Ireland and the UK.
               </p>
-              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a",
-              textAlign: "center",
-              justifyContent: "center",
+              <p className="text-base sm:text-lg leading-relaxed" style={{
               fontFamily: "Montserrat"
             }}>
                 Every dish is made with stunning presentation and extraordinary ingredients.
               </p>
-              <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base flex mx-auto" onClick={() => {
+              <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base flex mx-auto md:mx-0" onClick={() => {
               setShowRetreatCateringPage(true);
               setShowAboutPage(false);
               window.scrollTo({
@@ -1120,14 +489,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           }} transition={{
             duration: 0.6,
             delay: 0.2
-          }} className="flex justify-center">
-              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/57e9f442-497a-4c95-baa9-b4df09cab964.png" alt="Beautifully plated gourmet plant-based dish with colorful vegetables" className="w-full rounded-lg shadow-lg" style={{
-              minHeight: "500px",
-              maxWidth: "450px",
-              objectFit: "cover",
-              objectPosition: "50% 100%",
-              opacity: "1"
-            }} />
+          }} className="flex justify-center overflow-hidden rounded-lg shadow-lg aspect-square">
+              <picture>
+                <source srcSet="/images/offering-catering.webp" type="image/webp" />
+                <img src="/images/offering-catering.jpg" alt="Beautifully plated gourmet plant-based dish with colorful vegetables" className="w-full h-full object-cover object-center" style={{}} />
+              </picture>
             </motion.div>
           </div>
 
@@ -1143,28 +509,22 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             once: true
           }} transition={{
             duration: 0.6
-          }} className="space-y-4 sm:space-y-6 order-1 md:order-2">
-              <h3 className="text-xl sm:text-2xl font-semibold text-[#2D2D2D]" style={{
+          }} className="space-y-4 sm:space-y-6 order-1 md:order-2 text-center md:text-left">
+              <h3 className="text-2xl sm:text-3xl font-semibold text-[#2D2D2D]" style={{
               color: "#404d3a",
               fontFamily: "Montserrat"
             }}>Plant-Based Treats</h3>
-              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a",
-              fontFamily: "Montserrat",
-              textAlign: "center",
-              justifyContent: "center"
+              <p className="text-base sm:text-lg leading-relaxed" style={{
+              fontFamily: "Montserrat"
             }}>
                 Fresh-baked, gluten-friendly, plant-based treats made to order just for you.
               </p>
-              <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
-              color: "#404d3a",
-              fontFamily: "Montserrat",
-              textAlign: "center",
-              justifyContent: "center"
+              <p className="text-base sm:text-lg leading-relaxed" style={{
+              fontFamily: "Montserrat"
             }}>
                 Order Weekly Fridays 5am-9am. Collection in Dun Laoghaire or Weekly Pop-up Cake Stall.
               </p>
-              <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base flex mx-auto" onClick={() => {
+              <button className="bg-[#5e7155] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-sm sm:text-base flex mx-auto md:mx-0" onClick={() => {
               setShowTreatsBakesPage(true);
               setShowAboutPage(false);
               setShowRetreatCateringPage(false);
@@ -1191,14 +551,11 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
           }} transition={{
             duration: 0.6,
             delay: 0.2
-          }} className="flex justify-center order-2 md:order-1">
-              <img src="https://storage.googleapis.com/storage.magicpath.ai/user/300600264317087744/assets/29367085-1af0-41c6-a000-7e7ffe3ff643.jpg" alt="Decadent plant-based dessert with rich chocolate layers" className="w-full rounded-lg shadow-lg" style={{
-              objectFit: "cover",
-              objectPosition: "50% 50%",
-              opacity: "1",
-              minHeight: "500px",
-              maxWidth: "450px"
-            }} />
+          }} className="flex justify-center order-2 md:order-1 overflow-hidden rounded-lg shadow-lg aspect-square">
+              <picture>
+                <source srcSet="/images/offering-treats.webp" type="image/webp" />
+                <img src="/images/offering-treats.jpg" alt="Decadent plant-based dessert with rich chocolate layers" className="w-full h-full object-cover" style={{}} />
+              </picture>
             </motion.div>
           </div>
         </div>
@@ -1309,14 +666,14 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             background: "#fcf2e3"
           }}>
               <p className="text-[#4A4A4A] text-base sm:text-lg md:text-xl leading-relaxed mb-6 italic" style={{
-              color: "#404d3a",
+              color: "#404d3a", //
               fontFamily: "Montserrat"
             }}>
                 "{testimonials[currentTestimonial].quote}"
               </p>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-semibold text-[#2D2D2D] text-sm sm:text-base" style={{
+                  <p className="font-semibold text-sm sm:text-base" style={{
                   color: "#404d3a",
                   fontFamily: "Montserrat"
                 }}>
@@ -1380,7 +737,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               color: "#404d3a"
             }}>
                   <span className="font-semibold text-[#2D2D2D] pr-4 text-sm sm:text-base" style={{
-                color: "#404d3a",
+                color: "#404d3a", //
                 fontFamily: "Montserrat"
               }}>
                     {faq.question}
@@ -1396,7 +753,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
             }} transition={{
               duration: 0.3
             }} className="px-4 sm:px-6 pb-4 sm:pb-6">
-                    <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base">{faq.answer}</p>
+                    <p className="leading-relaxed text-sm sm:text-base">{faq.answer}</p>
                   </motion.div>}
               </motion.div>)}
           </div>
@@ -1408,7 +765,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 id="contact-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-6 text-[#2D2D2D]" style={{
           color: "#c76942"
-        }}>
+        }}> 
             Let's Work Together!
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-[#5e7155] mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed px-4" style={{
@@ -1523,7 +880,7 @@ export const JulianaChefWebsite = (props: JulianaChefWebsiteProps) => {
               fontFamily: "Montserrat"
             }}>Connect</h4>
               <div className="flex space-x-4 justify-center sm:justify-start">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram">
+                <a href="https://instagram.com/pepme.up" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors" aria-label="Instagram">
                   <Instagram className="w-5 h-5 sm:w-6 sm:h-6" style={{
                   color: "#fcf2e3"
                 }} />

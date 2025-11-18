@@ -116,11 +116,11 @@ export default function RetreatCateringPage({
   const toggleFaq = (index: number) => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
-  return <div className="min-h-screen bg-[#F5F1E8]">
+  return <div className="min-h-screen bg-[#FCF2E3]" style={{ fontFamily: 'Montserrat' }}>
       {/* Hero Section */}
       <section className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden" role="banner" aria-label="Retreat catering services hero section">
         <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=80)',
+        backgroundImage: 'url(/images/hero-retreat.jpg)',
         filter: 'brightness(0.6)'
       }} />
         <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-5xl">
@@ -131,7 +131,7 @@ export default function RetreatCateringPage({
           opacity: 1,
           y: 0
         }} transition={{
-          duration: 0.8
+          duration: 0.8,
         }} className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 leading-tight">
             Catering Your Retreat with Care
           </motion.h1>
@@ -177,10 +177,10 @@ export default function RetreatCateringPage({
           }} transition={{
             duration: 0.6
           }}>
-            <h2 id="intro-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-6">
+            <h2 id="intro-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#404d3a] mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
               That's exactly how I approach every retreat I cater.
             </h2>
-            <p className="text-[#4A4A4A] text-base sm:text-lg md:text-xl leading-relaxed mb-6">
+            <p className="text-[#404d3a] text-base sm:text-lg md:text-xl leading-relaxed mb-6">
               I create custom menus that feel aligned with your retreat's energy and values. Every dish is made with intention, using wholesome ingredients sourced thoughtfully.
             </p>
             <p className="text-[#5e7155] text-lg sm:text-xl md:text-2xl font-semibold italic">
@@ -191,7 +191,7 @@ export default function RetreatCateringPage({
       </section>
 
       {/* Previous Retreats Images */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="previous-retreats-heading">
+      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#FCF2E3]" aria-labelledby="previous-retreats-heading">
         <div className="max-w-6xl mx-auto">
           <motion.div initial={{
             opacity: 0,
@@ -203,8 +203,8 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12">
-            <h2 id="previous-retreats-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-4">
+          }} className="text-center mb-12" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 id="previous-retreats-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#404d3a] mb-4">
               Previous Retreats
             </h2>
             <p className="text-[#5e7155] text-lg sm:text-xl">
@@ -224,7 +224,10 @@ export default function RetreatCateringPage({
             }} transition={{
               duration: 0.6
             }} className="relative overflow-hidden rounded-lg shadow-lg group">
-              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80" alt="Group of retreat participants enjoying a healthy plant-based meal together at a wellness retreat" className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
+              <picture>
+                <source srcSet="/images/retreat-1.webp" type="image/webp" />
+                <img src="/images/retreat-1.jpg" alt="Group of retreat participants enjoying a healthy plant-based meal together at a wellness retreat" className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              </picture>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                 <p className="text-white text-lg font-semibold">Wicklow Wellness Retreat 2024</p>
                 <p className="text-white/80 text-sm">3-day transformational experience</p>
@@ -243,7 +246,10 @@ export default function RetreatCateringPage({
               duration: 0.6,
               delay: 0.1
             }} className="relative overflow-hidden rounded-lg shadow-lg group">
-              <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80" alt="Outdoor yoga retreat setting with nourishing plant-based meals served in natural surroundings" className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
+              <picture>
+                <source srcSet="/images/retreat-2.webp" type="image/webp" />
+                <img src="/images/retreat-2.jpg" alt="Outdoor yoga retreat setting with nourishing plant-based meals served in natural surroundings" className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              </picture>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                 <p className="text-white text-lg font-semibold">Cork Yoga Retreat 2024</p>
                 <p className="text-white/80 text-sm">5-day mindful nourishment</p>
@@ -266,7 +272,7 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12 sm:mb-16">
+          }} className="text-center mb-12 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
             <h2 id="why-choose-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#5e7155] mb-4">
               Why Choose Me for Your Retreat
             </h2>
@@ -286,16 +292,16 @@ export default function RetreatCateringPage({
               }} transition={{
                 duration: 0.6,
                 delay: index * 0.1
-              }} className="bg-[#F5F1E8] rounded-lg p-6 sm:p-8 hover:shadow-lg transition-shadow">
+              }} className="bg-[#FCF2E3] rounded-lg p-6 sm:p-8 hover:shadow-lg transition-shadow">
                   <div className="flex items-start gap-4 mb-4">
                     <div className="bg-[#5e7155] text-white p-3 rounded-full flex-shrink-0">
                       <IconComponent className="w-6 h-6" />
                     </div>
-                    <h3 className="font-serif text-xl sm:text-2xl text-[#2D2D2D] mt-1">
+                    <h3 className="font-serif text-xl sm:text-2xl text-[#404d3a] mt-1" style={{ fontFamily: 'Playfair Display, serif' }}>
                       {item.title}
                     </h3>
                   </div>
-                  <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base">
+                  <p className="text-[#404d3a] leading-relaxed text-sm sm:text-base">
                     {item.description}
                   </p>
                 </motion.div>;
@@ -360,8 +366,8 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12 sm:mb-16">
-            <h2 id="how-it-works-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-4">
+          }} className="text-center mb-12 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}> 
+            <h2 id="how-it-works-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#5E7155] mb-4">
               How It Works
             </h2>
             <p className="text-[#5e7155] text-lg sm:text-xl">
@@ -390,10 +396,10 @@ export default function RetreatCateringPage({
                     <span className="text-white font-serif text-3xl">{step.step}</span>
                   </div>
                   <div className="flex-1 pt-4">
-                    <h3 className="font-serif text-xl sm:text-2xl text-[#2D2D2D] mb-3">
+                    <h3 className="font-serif text-xl sm:text-2xl text-[#404d3a] mb-3" style={{ fontFamily: 'Playfair Display, serif' }}>
                       {step.title}
                     </h3>
-                    <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base">
+                    <p className="text-[#404d3a] leading-relaxed text-sm sm:text-base">
                       {step.description}
                     </p>
                   </div>
@@ -416,7 +422,7 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12">
+          }} className="text-center mb-12" style={{ fontFamily: 'Playfair Display, serif' }}>
             <h2 id="testimonial-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#5e7155] mb-4">
               Real Retreat Experience
             </h2>
@@ -432,13 +438,13 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="bg-white rounded-lg p-8 sm:p-10 md:p-12 shadow-xl">
-            <p className="text-[#4A4A4A] text-lg sm:text-xl md:text-2xl leading-relaxed mb-6 italic">
+          }} className="bg-white rounded-lg p-8 sm:p-10 md:p-12 shadow-xl" style={{ fontFamily: 'Montserrat' }}>
+            <p className="text-[#404d3a] text-lg sm:text-xl md:text-2xl leading-relaxed mb-6 italic">
               "Juliana catered our yoga retreat in Wicklow, and it was transformative in ways I didn't expect. The food wasn't just plant-based; it felt like an extension of our retreat's healing mission. My participants felt genuinely nourished. Several of them told me the meals were the most memorable part of their three days with us."
             </p>
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <p className="font-semibold text-[#2D2D2D] text-base sm:text-lg">
+                <p className="font-semibold text-[#404d3a] text-base sm:text-lg">
                   Sarah
                 </p>
                 <p className="text-[#5e7155] text-sm sm:text-base">
@@ -463,8 +469,8 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12 sm:mb-16">
-            <h2 id="sample-menu-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-4">
+          }} className="text-center mb-12 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 id="sample-menu-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#404d3a] mb-4">
               Sample Menu
             </h2>
             <p className="text-[#5e7155] text-lg sm:text-xl">
@@ -479,7 +485,7 @@ export default function RetreatCateringPage({
             }} whileInView={{
               opacity: 1,
               y: 0
-            }} viewport={{
+            }} viewport={{ //
               once: true
             }} transition={{
               duration: 0.6,
@@ -490,28 +496,28 @@ export default function RetreatCateringPage({
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-semibold text-[#2D2D2D] mb-2 text-sm uppercase tracking-wide">
+                    <h4 className="font-semibold text-[#404d3a] mb-2 text-sm uppercase tracking-wide">
                       Breakfast
                     </h4>
-                    <p className="text-[#4A4A4A] text-sm sm:text-base">{meals.breakfast}</p>
+                    <p className="text-[#404d3a] text-sm sm:text-base">{meals.breakfast}</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#2D2D2D] mb-2 text-sm uppercase tracking-wide">
+                    <h4 className="font-semibold text-[#404d3a] mb-2 text-sm uppercase tracking-wide">
                       Lunch
                     </h4>
-                    <p className="text-[#4A4A4A] text-sm sm:text-base">{meals.lunch}</p>
+                    <p className="text-[#404d3a] text-sm sm:text-base">{meals.lunch}</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#2D2D2D] mb-2 text-sm uppercase tracking-wide">
+                    <h4 className="font-semibold text-[#404d3a] mb-2 text-sm uppercase tracking-wide">
                       Dinner
                     </h4>
-                    <p className="text-[#4A4A4A] text-sm sm:text-base">{meals.dinner}</p>
+                    <p className="text-[#404d3a] text-sm sm:text-base">{meals.dinner}</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#2D2D2D] mb-2 text-sm uppercase tracking-wide">
+                    <h4 className="font-semibold text-[#404d3a] mb-2 text-sm uppercase tracking-wide">
                       Snack
                     </h4>
-                    <p className="text-[#4A4A4A] text-sm sm:text-base">{meals.snack}</p>
+                    <p className="text-[#404d3a] text-sm sm:text-base">{meals.snack}</p>
                   </div>
                 </div>
               </motion.div>)}
@@ -520,7 +526,7 @@ export default function RetreatCateringPage({
       </section>
 
       {/* FAQs */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="faqs-heading">
+      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#FCF2E3]" aria-labelledby="faqs-heading">
         <div className="max-w-4xl mx-auto">
           <motion.div initial={{
             opacity: 0,
@@ -532,8 +538,8 @@ export default function RetreatCateringPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12 sm:mb-16">
-            <h2 id="faqs-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-4">
+          }} className="text-center mb-12 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
+            <h2 id="faqs-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#404d3a] mb-4">
               Frequently Asked Questions
             </h2>
           </motion.div>
@@ -550,9 +556,9 @@ export default function RetreatCateringPage({
             }} transition={{
               duration: 0.4,
               delay: index * 0.05
-            }} className="bg-white rounded-lg shadow-sm overflow-hidden">
+            }} className="bg-white rounded-lg shadow-sm overflow-hidden"> 
                 <button onClick={() => toggleFaq(index)} className="w-full flex items-center justify-between p-6 text-left hover:bg-[#F5F1E8] transition-colors">
-                  <span className="font-semibold text-[#2D2D2D] pr-4 text-sm sm:text-base">
+                  <span className="font-semibold text-[#404d3a] pr-4 text-sm sm:text-base">
                     {faq.question}
                   </span>
                   <ChevronDown className={`w-5 h-5 text-[#5e7155] transition-transform flex-shrink-0 ${expandedFaq === index ? 'transform rotate-180' : ''}`} />
@@ -566,31 +572,12 @@ export default function RetreatCateringPage({
               }} transition={{
                 duration: 0.3
               }} className="px-6 pb-6">
-                    <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base">
+                    <p className="text-[#404d3a] leading-relaxed text-sm sm:text-base">
                       {faq.answer}
                     </p>
                   </motion.div>}
               </motion.div>)}
           </div>
-
-          <motion.div initial={{
-            opacity: 0,
-            y: 30
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} className="text-center mt-12">
-            <p className="text-[#4A4A4A] text-base sm:text-lg mb-6">
-              Have other questions? I'm here to help.
-            </p>
-            <button onClick={() => onNavigate?.('#contact')} className="bg-[#5e7155] text-white px-8 py-3 rounded-full hover:bg-[#7A8A6E] transition-colors font-medium text-base">
-              Contact Me
-            </button>
-          </motion.div>
         </div>
       </section>
 
@@ -615,11 +602,8 @@ export default function RetreatCateringPage({
               Your guests deserve food that's as thoughtful as your retreat experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button onClick={() => onNavigate?.('#contact')} className="bg-white text-[#5e7155] px-8 py-4 rounded-full hover:bg-[#F5F1E8] transition-colors font-medium text-base sm:text-lg">
+              <button onClick={() => onNavigate?.('#contact')} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white/10 transition-colors font-medium text-base sm:text-lg">
                 Get in Touch
-              </button>
-              <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white/10 transition-colors font-medium text-base sm:text-lg">
-                See Sample Menus
               </button>
             </div>
           </motion.div>

@@ -13,40 +13,27 @@ export default function TreatsBakesPage({
   const menuItems = [{
     name: "Cheese Cakes",
     description: "Dates, nuts, natural ingredients. Perfect for celebrations",
-    image: "https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=600&q=80"
+    image: "/images/menu/cheese-cakes.jpg"
   }, {
     name: "Brownies",
     description: "Rich, satisfying, completely plant-based",
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80"
+    image: "/images/menu/brownies.jpg"
   }, {
     name: "Cookies",
     description: "Crispy edges, chewy centers, pure comfort",
-    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80"
+    image: "/images/menu/cookies.jpg"
   }, {
     name: "Blondies",
     description: "Golden, buttery, irresistibly sweet",
-    image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=600&q=80"
+    image: "/images/menu/blondies.jpg"
   }, {
     name: "Seasonal Treats",
     description: "Panettones (December) and seasonal specialties",
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80"
+    image: "/images/menu/seasonal-treats.jpg"
   }, {
     name: "Custom Orders",
     description: "Corporate gifts, event platters, dietary needs—just ask",
-    image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600&q=80"
-  }] as any[];
-  const testimonials = [{
-    quote: "I'm vegan and gluten-free. Juliana's treats make me feel genuinely cared for.",
-    author: "Róisín",
-    location: "Dublin"
-  }, {
-    quote: "I order every two weeks for my team. Everyone fights over what they get.",
-    author: "Priya",
-    location: "Dublin"
-  }, {
-    quote: "I'll spend more on Pep Me Up because I trust the quality and intention behind it.",
-    author: "Michael",
-    location: "Dublin"
+    image: "/images/menu/custom-orders.jpg"
   }] as any[];
   const faqs = [{
     question: "How long do treats stay fresh?",
@@ -84,11 +71,11 @@ export default function TreatsBakesPage({
     const message = encodeURIComponent("Hi Juliana! I'd like to place an order for Pep Me Up treats.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
-  return <div className="min-h-screen bg-[#F5F1E8]">
+  return <div className="min-h-screen bg-[#FCF2E3]" style={{ fontFamily: 'Montserrat' }}>
       {/* Hero Section with Pep Me Up Logo - Redesigned */}
-      <section className="relative py-12 sm:py-16 px-4 sm:px-6 bg-[#FCF2E3]" role="banner" aria-label="Pep Me Up treats and bakes hero section">
+      <section className="relative py-8 sm:py-12 px-4 sm:px-6 bg-[#FCF2E3]" role="banner" aria-label="Pep Me Up treats and bakes hero section">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="grid grid-cols-1 gap-8 items-center">
             {/* Left: Logo */}
             <motion.div initial={{
             opacity: 0,
@@ -98,9 +85,9 @@ export default function TreatsBakesPage({
             x: 0
           }} transition={{
             duration: 0.8
-          }} className="flex justify-center md:justify-start">
+          }} className="flex justify-center">
               <div className="relative w-56 h-56 sm:w-64 sm:h-64">
-                <img src="https://storage.googleapis.com/magicpoint-public-assets/user/300600264317087744/assets/41c65110-9aa0-4c4f-9281-d9eb3017d4d8.png" alt="Pep Me Up logo - plant-based gluten-free treats" className="w-full h-full object-contain filter drop-shadow-2xl" />
+                <img src="/images/pep-me-up-logo.png" alt="Pep Me Up logo - plant-based gluten-free treats" className="w-full h-full object-contain filter drop-shadow-2xl" />
               </div>
             </motion.div>
 
@@ -114,11 +101,11 @@ export default function TreatsBakesPage({
           }} transition={{
             duration: 0.8,
             delay: 0.2
-          }} className="text-center md:text-left">
-              <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#2D2D2D] mb-4 leading-tight">
+          }} className="text-center">
+              <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#C76942] mb-4 leading-tight">
                 Treat Yourself Better!
               </h1>
-              <p className="text-lg sm:text-xl text-[#4A4A4A] leading-relaxed">
+              <p className="text-lg sm:text-xl text-[#404d3a] leading-relaxed">
                 My treats are baked fresh to order, made from wholesome ingredients, and created with the intention that you feel cared for and included.
               </p>
             </motion.div>
@@ -126,101 +113,29 @@ export default function TreatsBakesPage({
         </div>
       </section>
 
-      {/* Why Pep Me Up Section */}
-      <main>
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white" aria-labelledby="why-pep-me-up-heading">
-        <div className="max-w-4xl mx-auto">
-          <motion.div initial={{
-            opacity: 0,
-            y: 30
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} className="text-center mb-12">
-            <h2 id="why-pep-me-up-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-8">
-              Why Pep Me Up
-            </h2>
-          </motion.div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {["Baked fresh, never mass-produced", "Whole ingredients, real nutrition", "Plant-based & gluten-friendly always", "Homemade feeling, professional quality", "A reminder that you're worth the care"].map((benefit, index) => <motion.div key={index} initial={{
-              opacity: 0,
-              x: -30
-            }} whileInView={{
-              opacity: 1,
-              x: 0
-            }} viewport={{
-              once: true
-            }} transition={{
-              duration: 0.5,
-              delay: index * 0.1
-            }} className="flex items-start gap-3 bg-[#F5F1E8] p-4 rounded-lg">
-                <Check className="w-6 h-6 text-[#C17857] flex-shrink-0 mt-1" />
-                <p className="text-[#2D2D2D] text-base sm:text-lg">{benefit}</p>
-              </motion.div>)}
-          </div>
-        </div>
-      </section>
-
-      {/* Safety & Allergy Notice - Compact Version */}
-      <section className="py-10 px-4 sm:px-6 bg-[#FFF4ED]" aria-labelledby="safety-heading">
-        <div className="max-w-3xl mx-auto">
-          <motion.div initial={{
-            opacity: 0,
-            y: 20
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} className="bg-white border-2 border-[#C17857] rounded-lg p-5">
-            <div className="flex items-start gap-3">
-              <AlertCircle className="w-5 h-5 text-[#C17857] flex-shrink-0 mt-0.5" aria-hidden="true" />
-              <div>
-                <h3 id="safety-heading" className="text-lg font-semibold text-[#2D2D2D] mb-1">
-                  Safety Comes First
-                </h3>
-                <p className="text-[#4A4A4A] text-sm mb-2">
-                  Check with your GP doctor about being okay with gluten traces.
-                </p>
-                <p className="text-[#4A4A4A] text-sm">
-                  <span className="font-semibold">Allergies:</span> Nuts (cashew, pecan, walnuts, almonds, hazelnuts, Brazil nuts, pistachio nuts, macadamia nuts), peanuts and soya.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Menu Carousel Section */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="menu-heading">
-        <div className="max-w-6xl mx-auto">
-          <motion.div initial={{
-            opacity: 0,
-            y: 30
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6
-          }} className="text-center mb-12">
-            <h2 id="menu-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#C17857] mb-4">
-              Menu
-            </h2>
-            <p className="text-[#4A4A4A] text-lg">Explore our delicious treats</p>
-          </motion.div>
-
-          {/* Carousel Card */}
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#FCF2E3]" aria-labelledby="menu-heading">
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+            <div className="p-6 sm:p-8">
+              <motion.div initial={{
+                opacity: 0,
+                y: 30
+              }} whileInView={{
+                opacity: 1,
+                y: 0
+              }} viewport={{
+                once: true
+              }} transition={{
+                duration: 0.6
+              }} className="text-center mb-8" style={{ color: "#c76942" }}>
+                <h2 id="menu-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#C76942] mb-4">
+                  Menu
+                </h2>
+                <p className="text-[#404d3a] text-lg">Explore our delicious treats</p>
+              </motion.div>
+            </div>
+            <div className="relative">
               <div className="relative h-80 sm:h-96 overflow-hidden">
                 <AnimatePresence mode="wait">
                   <motion.div key={currentMenuIndex} initial={{
@@ -250,7 +165,7 @@ export default function TreatsBakesPage({
               </div>
 
               {/* Card Content */}
-              <div className="p-6 sm:p-8">
+              <div className="p-6 sm:p-8 bg-white">
                 <AnimatePresence mode="wait">
                   <motion.div key={currentMenuIndex} initial={{
                     opacity: 0,
@@ -267,7 +182,7 @@ export default function TreatsBakesPage({
                     <h3 className="font-serif text-2xl sm:text-3xl text-[#2D2D2D] mb-3">
                       {menuItems[currentMenuIndex].name}
                     </h3>
-                    <p className="text-[#4A4A4A] text-base sm:text-lg leading-relaxed">
+                    <p className="text-[#404d3a] text-base sm:text-lg leading-relaxed">
                       {menuItems[currentMenuIndex].description}
                     </p>
                   </motion.div>
@@ -297,7 +212,7 @@ export default function TreatsBakesPage({
           }} transition={{
             duration: 0.6
           }}>
-            <h2 id="how-to-order-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-12 text-center">
+            <h2 id="how-to-order-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#C76942] mb-12 text-center">
               How to Order
             </h2>
             
@@ -308,7 +223,7 @@ export default function TreatsBakesPage({
               </h3>
               
               {/* Step 1 */}
-              <div className="bg-[#F5F1E8] rounded-xl p-6">
+              <div className="bg-[#FCF2E3] rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-[#C17857] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
                     1
@@ -317,13 +232,13 @@ export default function TreatsBakesPage({
                     <h4 className="text-xl font-semibold text-[#2D2D2D] mb-2">
                       Choose the base for your pie
                     </h4>
-                    <p className="text-[#4A4A4A]">Raw or Biscuit</p>
+                    <p className="text-[#404d3a]">Raw or Biscuit</p>
                   </div>
                 </div>
               </div>
               
               {/* Step 2 */}
-              <div className="bg-[#F5F1E8] rounded-xl p-6">
+              <div className="bg-[#FCF2E3] rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-[#C17857] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
                     2
@@ -337,7 +252,7 @@ export default function TreatsBakesPage({
               </div>
               
               {/* Step 3 - Sizes & Pricing */}
-              <div className="bg-[#F5F1E8] rounded-xl p-6">
+              <div className="bg-[#FCF2E3] rounded-xl p-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-[#C17857] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
                     3
@@ -368,7 +283,7 @@ export default function TreatsBakesPage({
                         <span className="text-[#C17857] font-bold text-lg">€45</span>
                       </div>
                     </div>
-                    <p className="text-[#4A4A4A] mt-4 text-center italic">
+                    <p className="text-[#404d3a] mt-4 text-center italic">
                       Get in touch for info on slices gift boxes!
                     </p>
                   </div>
@@ -383,9 +298,9 @@ export default function TreatsBakesPage({
               </p>
               <p className="text-lg sm:text-xl mb-6">Monday–Friday, 10am–5pm</p>
               
-              {/* WhatsApp Order Button */}
-              <button onClick={handleWhatsAppOrder} className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-3 mx-auto mb-6 transition-colors shadow-lg">
-                <MessageCircle className="w-6 h-6" />
+              {/* WhatsApp Order Button - Styled to match CTA */}
+              <button onClick={handleWhatsAppOrder} className="bg-white text-[#C17857] px-8 sm:px-10 py-4 rounded-full hover:bg-[#F5F1E8] transition-colors font-semibold text-base sm:text-lg shadow-xl flex items-center justify-center gap-3 mx-auto mb-6">
+                <MessageCircle className="w-5 h-5" />
                 Order via WhatsApp
               </button>
               
@@ -404,9 +319,10 @@ export default function TreatsBakesPage({
         </div>
       </section>
 
-      {/* Customer Testimonials */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-[#5e7155]" aria-labelledby="testimonials-heading">
-        <div className="max-w-5xl mx-auto">
+      {/* Why Pep Me Up Section */}
+      <main>
+      <section className="py-12 sm:py-16 px-4 sm:px-6 bg-white" aria-labelledby="why-pep-me-up-heading">
+        <div className="max-w-4xl mx-auto">
           <motion.div initial={{
             opacity: 0,
             y: 30
@@ -417,39 +333,66 @@ export default function TreatsBakesPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12">
-            <h2 id="testimonials-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-white mb-4">
-              What Customers Say
+          }} className="text-center mb-12" style={{ color: "#c76942" }}>
+            <h2 id="why-pep-me-up-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#C76942] mb-6">
+              Why Pep Me Up
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            {testimonials.map((testimonial, index) => <motion.div key={index} initial={{
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {["Baked fresh, never mass-produced", "Whole ingredients, real nutrition", "Plant-based & gluten-friendly always", "Homemade feeling, professional quality", "A reminder that you're worth the care"].map((benefit, index) => <motion.div key={index} initial={{
               opacity: 0,
-              y: 30
+              x: -30
             }} whileInView={{
               opacity: 1,
-              y: 0
+              x: 0
             }} viewport={{
               once: true
             }} transition={{
-              duration: 0.6,
+              duration: 0.5,
               delay: index * 0.1
-            }} className="bg-white rounded-lg p-6 shadow-lg">
-                <p className="text-[#4A4A4A] italic mb-4 leading-relaxed">
-                  "{testimonial.quote}"
-                </p>
-                <div className="border-t border-gray-200 pt-4">
-                  <p className="font-semibold text-[#2D2D2D]">{testimonial.author}</p>
-                  <p className="text-[#5e7155] text-sm">{testimonial.location}</p>
-                </div>
+            }} className="flex items-start gap-3 bg-[#F5F1E8] p-4 rounded-lg">
+                <Check className="w-6 h-6 text-[#C17857] flex-shrink-0 mt-1" />
+                <p className="text-[#404d3a] text-base sm:text-lg">{benefit}</p>
               </motion.div>)}
           </div>
         </div>
       </section>
 
+      {/* Safety & Allergy Notice - Compact Version */}
+      <section className="pb-16 pt-4 sm:pt-6 px-4 sm:px-6 bg-white" aria-labelledby="safety-heading">
+        <div className="max-w-3xl mx-auto">
+          <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            duration: 0.6
+          }} className="bg-white border-2 border-[#C17857] rounded-lg p-5">
+            <div className="flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 text-[#C17857] flex-shrink-0 mt-0.5" aria-hidden="true" />
+              <div>
+                <h3 id="safety-heading" className="text-lg font-semibold text-[#2D2D2D] mb-1">
+                  Safety Comes First
+                </h3>
+                <p className="text-[#404d3a] text-sm mb-2">
+                  Check with your GP doctor about being okay with gluten traces.
+                </p>
+                <p className="text-[#404d3a] text-sm">
+                  <span className="font-semibold">Allergies:</span> Nuts (cashew, pecan, walnuts, almonds, hazelnuts, Brazil nuts, pistachio nuts, macadamia nuts), peanuts and soya.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* FAQs Section */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="faqs-heading">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-[#FCF2E3]" aria-labelledby="faqs-heading">
         <div className="max-w-3xl mx-auto">
           <motion.div initial={{
             opacity: 0,
@@ -461,8 +404,8 @@ export default function TreatsBakesPage({
             once: true
           }} transition={{
             duration: 0.6
-          }} className="text-center mb-12">
-            <h2 id="faqs-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2D2D2D] mb-4">
+          }} className="text-center mb-12" style={{ color: "#c76942" }}>
+            <h2 id="faqs-heading" className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#C76942] mb-4">
               Questions
             </h2>
           </motion.div>
@@ -481,7 +424,7 @@ export default function TreatsBakesPage({
               delay: index * 0.05
             }} className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <button onClick={() => toggleFaq(index)} className="w-full flex items-center justify-between p-5 sm:p-6 text-left hover:bg-[#FFF4ED] transition-colors">
-                  <span className="font-semibold text-[#2D2D2D] pr-4 text-base sm:text-lg">
+                  <span className="font-semibold text-[#404d3a] pr-4 text-base sm:text-lg">
                     {faq.question}
                   </span>
                   <ChevronRight className={`w-5 h-5 text-[#C17857] transition-transform flex-shrink-0 ${expandedFaq === index ? 'rotate-90' : ''}`} />
@@ -500,7 +443,7 @@ export default function TreatsBakesPage({
                   duration: 0.3
                 }} className="overflow-hidden">
                       <div className="px-5 sm:px-6 pb-5 sm:pb-6">
-                        <p className="text-[#4A4A4A] leading-relaxed">{faq.answer}</p>
+                        <p className="text-[#404d3a] leading-relaxed">{faq.answer}</p>
                       </div>
                     </motion.div>}
                 </AnimatePresence>
@@ -516,7 +459,7 @@ export default function TreatsBakesPage({
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-br from-[#C17857] to-[#5e7155]" aria-labelledby="cta-heading">
+      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-gradient-to-b from-[#C17857] to-[#5e7155]" aria-labelledby="cta-heading">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div initial={{
             opacity: 0,

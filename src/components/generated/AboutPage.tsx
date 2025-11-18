@@ -46,12 +46,12 @@ export default function AboutPage({
     year: "2025",
     title: "Building Something Real",
     text: "I've been growing Pep Me Up, taking orders, working as a chef in a vegan kitchen, and catering retreats. I've learned that food is never just food—it's connection, care, and nourishment."
-  }] as any[];
-  return <div className="min-h-screen bg-[#F5F1E8]">
+  }] as any[]; //
+  return <div className="min-h-screen bg-[#FCF2E3]" style={{ fontFamily: 'Montserrat' }}>
       {/* Hero Section */}
       <section className="relative h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden" role="banner" aria-label="About Juliana hero section">
         <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1200&q=80)',
+        backgroundImage: 'url(/images/hero-about.jpg)',
         filter: 'brightness(0.6)'
       }} />
         <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl">
@@ -66,7 +66,7 @@ export default function AboutPage({
         }} className="font-serif text-4xl sm:text-5xl md:text-6xl mb-4 leading-tight" style={{
           fontFamily: "Playfair Display, serif"
         }}>
-            Juliana's Story
+            About Me
           </motion.h1>
           <motion.p initial={{
           opacity: 0,
@@ -100,7 +100,7 @@ export default function AboutPage({
           }} transition={{
             duration: 0.6
           }} className="text-center mb-8 sm:mb-12">
-            <h2 id="journey-heading" className="font-serif text-3xl sm:text-4xl text-[#2D2D2D] mb-3" style={{
+            <h2 id="journey-heading" className="font-serif text-3xl sm:text-4xl text-[#404d3a] mb-3" style={{
               fontFamily: "Playfair Display, serif"
             }}>
               My Journey
@@ -135,13 +135,13 @@ export default function AboutPage({
                     }}>
                         {milestone.year}
                       </span>
-                      <h3 className="font-serif text-lg sm:text-xl text-[#2D2D2D] font-semibold" style={{
+                      <h3 className="font-serif text-lg sm:text-xl text-[#404d3a] font-semibold" style={{
                       fontFamily: "Playfair Display, serif"
                     }}>
                         {milestone.title}
                       </h3>
                     </div>
-                    <p className="text-[#4A4A4A] text-sm sm:text-base leading-relaxed" style={{
+                    <p className="text-[#404d3a] text-sm sm:text-base leading-relaxed" style={{
                     fontFamily: "Montserrat"
                   }}>
                       {milestone.text}
@@ -153,7 +153,7 @@ export default function AboutPage({
         </div>
       </section>
 
-      {/* Brand Values Section */}
+      {/* Brand Values Section - Updated */}
       <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-white" aria-labelledby="values-heading">
         <div className="max-w-6xl mx-auto">
           <motion.div initial={{
@@ -172,7 +172,7 @@ export default function AboutPage({
             }}>
               My Brand Values
             </h2>
-            <p className="text-[#4A4A4A] text-base sm:text-lg max-w-3xl mx-auto" style={{
+            <p className="text-[#404d3a] text-base sm:text-lg max-w-3xl mx-auto" style={{
               fontFamily: "Montserrat"
             }}>
               Everything I do flows from these four commitments
@@ -193,18 +193,18 @@ export default function AboutPage({
               }} transition={{
                 duration: 0.6,
                 delay: index * 0.1
-              }} className="bg-[#F5F1E8] rounded-lg p-6 sm:p-7 hover:shadow-lg transition-shadow">
+              }} className="bg-[#FCF2E3] rounded-lg p-6 sm:p-7 hover:shadow-lg transition-shadow">
                   <div className="flex items-start gap-3 sm:gap-4 mb-3">
                     <div className="bg-[#5e7155] text-white p-2.5 rounded-full flex-shrink-0">
                       <IconComponent className="w-5 h-5" />
                     </div>
-                    <h3 className="font-serif text-xl sm:text-2xl text-[#2D2D2D] mt-0.5" style={{
+                    <h3 className="font-serif text-xl sm:text-2xl text-[#404d3a] mt-0.5" style={{
                     fontFamily: "Playfair Display, serif"
                   }}>
                       {value.title}
                     </h3>
                   </div>
-                  <p className="text-[#4A4A4A] leading-relaxed text-sm sm:text-base" style={{
+                  <p className="text-[#404d3a] leading-relaxed text-sm sm:text-base" style={{
                   fontFamily: "Montserrat"
                 }}>
                     {value.description}
@@ -251,7 +251,7 @@ export default function AboutPage({
       </section>
 
       {/* Image Gallery Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F5F1E8]" aria-labelledby="gallery-heading">
+      <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#FCF2E3]" aria-labelledby="gallery-heading">
         <div className="max-w-6xl mx-auto">
           <motion.div initial={{
             opacity: 0,
@@ -264,7 +264,7 @@ export default function AboutPage({
           }} transition={{
             duration: 0.6
           }} className="text-center mb-8 sm:mb-12">
-            <h2 id="gallery-heading" className="font-serif text-3xl sm:text-4xl text-[#2D2D2D]" style={{
+            <h2 id="gallery-heading" className="font-serif text-3xl sm:text-4xl text-[#404d3a]" style={{
               fontFamily: "Montserrat"
             }}>
               A Glimpse Into My Kitchen
@@ -272,8 +272,15 @@ export default function AboutPage({
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {['https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80', 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=600&q=80', 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80', 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80', 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80', 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80'].map((image, index) => {
-              const altTexts = ['Chef preparing fresh ingredients in a bright kitchen', 'Colorful array of fresh vegetables and plant-based ingredients', 'Beautifully plated vegan dish with artistic presentation', 'Fresh seasonal produce and wholesome cooking ingredients', 'Homemade plant-based baked treats cooling on a rack', 'Fresh cinnamon rolls with glaze, ready to serve'];
+            {[
+              { webp: '/images/gallery/chef-preparing-food.webp', fallback: '/images/gallery/chef-preparing-food.jpg' },
+              { webp: '/images/gallery/fresh-vegetables.webp', fallback: '/images/gallery/fresh-vegetables.jpg' },
+              { webp: '/images/gallery/plated-vegan-dish.webp', fallback: '/images/gallery/plated-vegan-dish.jpg' },
+              { webp: '/images/gallery/seasonal-produce.webp', fallback: '/images/gallery/seasonal-produce.jpg' },
+              { webp: '/images/gallery/cakes.webp', fallback: '/images/gallery/cakes.jpg' },
+              { webp: '/images/gallery/pastries.webp', fallback: '/images/gallery/pastries.jpg' },
+            ].map((image, index) => {
+              const altTexts = ['Chef preparing fresh ingredients in a bright kitchen', 'Colorful array of fresh vegetables and plant-based ingredients', 'Beautifully plated vegan dish with artistic presentation', 'Fresh seasonal produce and wholesome cooking ingredients', 'Assortment of delicious vegan cakes on display', 'Freshly baked vegan pastries ready to be served'];
               return <motion.div key={index} initial={{
                 opacity: 0,
                 scale: 0.9
@@ -286,7 +293,11 @@ export default function AboutPage({
                 duration: 0.5,
                 delay: index * 0.1
               }} className="aspect-square overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                <img src={image} alt={altTexts[index]} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <picture>
+                  <source srcSet={image.webp} type="image/webp" />
+                  <source srcSet={image.fallback} type="image/jpeg" />
+                  <img src={image.fallback} alt={altTexts[index]} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+                </picture>
               </motion.div>;
             })}
           </div>
@@ -307,12 +318,12 @@ export default function AboutPage({
           }} transition={{
             duration: 0.6
           }}>
-            <h2 id="cta-heading" className="font-serif text-3xl sm:text-4xl text-[#2D2D2D] mb-5" style={{
+            <h2 id="cta-heading" className="font-serif text-3xl sm:text-4xl text-[#404d3a] mb-5" style={{
               fontFamily: "Montserrat"
             }}>
               Let's Create Something Beautiful Together
             </h2>
-            <p className="text-[#4A4A4A] text-base sm:text-lg mb-8 leading-relaxed max-w-2xl mx-auto" style={{
+            <p className="text-[#404d3a] text-base sm:text-lg mb-8 leading-relaxed max-w-2xl mx-auto" style={{
               fontFamily: "Montserrat"
             }}>
               Whether it's catering your retreat or baking treats for your week, I'd love to nourish you with food made from the heart.
