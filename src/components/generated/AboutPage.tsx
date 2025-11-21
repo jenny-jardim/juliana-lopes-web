@@ -49,11 +49,11 @@ export default function AboutPage({
   }] as any[]; //
   return <div className="min-h-screen bg-[#FCF2E3]" style={{ fontFamily: 'Montserrat' }}>
       {/* Hero Section */}
-      <section className="relative h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden" role="banner" aria-label="About Juliana hero section">
+      <section className="relative h-[50vh] md:h-[60vh] flex items-end sm:items-center justify-center pb-12 sm:pb-0 overflow-hidden" role="banner" aria-label="About Juliana hero section">
         <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: 'url(/images/hero-about.jpg)',
-        filter: 'brightness(0.6)'
+        backgroundImage: 'url(/images/hero-about.jpg)'
       }} />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl">
           <motion.h1 initial={{
           opacity: 0,
